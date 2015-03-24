@@ -1,0 +1,3 @@
+{!User.FirstName} {!User.LastName} has an opportunity that requires Manager Review. Please click the following link to view and approve:
+
+{!Opportunity.Link}

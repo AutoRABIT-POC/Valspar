@@ -1,0 +1,10 @@
+*** NEW LEAD ASSIGNMENT NOTIFICATION ***  
+
+The following {!CampaignMember.Campaign} lead has been assigned to you.  
+
+Company:  {!CampaignMember.CompanyOrAccount}
+Name: {!CampaignMember.FirstName} {!CampaignMember.LastName}
+Phone: {!CampaignMember.Phone}
+
+To view this lead, click the link below:
+{!CampaignMember.Link}

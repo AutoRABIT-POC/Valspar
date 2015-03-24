@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>BlankLetterhead</letterhead>
+    <name>EPS Pricing Notification Email</name>
+    <style>freeForm</style>
+    <subject>Paperless Price Communications</subject>
+    <textOnly>Date: July 31, 2014
+
+
+RE: Paperless Price Communications
+
+
+Dear {!Contact.FirstName} {!Contact.LastName}
+
+
+Effective immediately EPS will communicate pricing notifications via Email. This will improve the timeliness as well as the accuracy of information. We are committed to improving our communications as well as the environment. Please contact your sales representative {!Contact.OwnerFullName} at {!Contact.OwnerEmail}, {!Contact.OwnerPhone} to continue to receive paper notifications.
+
+
+Thank you for your cooperation,
+
+Henry Bunch
+
+Division Vice President
+
+p) 815.568.4140 | m) 630.240.4618 | voip) 211.4140
+
+hbunch@eps-materials.com
+
+
+
+
+
+
+
+
+
+
+
+CC: {!Contact.OwnerFullName}</textOnly>
+    <type>html</type>
+</EmailTemplate>

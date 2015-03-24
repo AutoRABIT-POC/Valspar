@@ -1,0 +1,2067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ActivityDate</fullName>
+    </fields>
+    <fields>
+        <fullName>ActivityDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>ClientGuid</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DurationInMinutes</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>EndDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>IsAllDayEvent</fullName>
+    </fields>
+    <fields>
+        <fullName>IsException</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+    </fields>
+    <fields>
+        <fullName>Location</fullName>
+    </fields>
+    <fields>
+        <fullName>OriginalInstanceDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ShowAs</fullName>
+    </fields>
+    <fields>
+        <fullName>StartDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Admin Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>B &amp; Q Div/Reg Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Visit</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Day Off</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Send Letter/Quote</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store Audit (for managers only)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Work*With (for managers only)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Admin Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>B &amp; Q Div/Reg Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Day Off</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>In-Store Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Job Site Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store Audit (for managers only)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Work*With (for managers only)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <recordTypes>
+        <fullName>ConsB_Q</fullName>
+        <active>true</active>
+        <description>Consumer B&amp;Q</description>
+        <label>ConsB&amp;Q</label>
+        <picklistValues>
+            <picklist>Activity_Type__c</picklist>
+            <values>
+                <fullName>Admin Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B %26 Q Div%2FReg Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Day Off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Audit %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work*With %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Call_Type__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Distributor__c</picklist>
+            <values>
+                <fullName>Decco %E2%80%93 Bolton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Burnley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Chesham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Dagenham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Ipswich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Newton Abbott</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Perth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Sheffield</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93Rawtenstall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco - Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Barnstaple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Scotland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Bristol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Edinburgh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Worsley</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Event_Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Order_Type__c</picklist>
+            <values>
+                <fullName>FDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Super</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Twist and Spray</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Profit_Centers__c</picklist>
+            <values>
+                <fullName>BTC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bev Ends</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steel Cont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T%26M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Piece</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Admin Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B %26 Q Div%2FReg Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Day Off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Audit %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Visit</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work*With %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Training_Type__c</picklist>
+            <values>
+                <fullName>Aisle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Classroom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Informal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Admin Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B %26 Q Div%2FReg Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Day Off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Audit %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work*With %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Cons_Ace_Event</fullName>
+        <active>true</active>
+        <label>Cons Ace Event</label>
+        <picklistValues>
+            <picklist>Activity_Type__c</picklist>
+            <values>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E-mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planned Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unplanned Call</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Call_Type__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Testing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Distributor__c</picklist>
+            <values>
+                <fullName>Decco %E2%80%93 Bolton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Burnley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Chesham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Dagenham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Ipswich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Newton Abbott</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Perth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Sheffield</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93Rawtenstall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco - Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Barnstaple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Scotland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Bristol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Edinburgh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Worsley</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Event_Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Order_Type__c</picklist>
+            <values>
+                <fullName>FDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Super</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Twist and Spray</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Profit_Centers__c</picklist>
+            <values>
+                <fullName>BTC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bev Ends</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steel Cont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T%26M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Piece</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>B %26 Q Div%2FReg Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Visit</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work*With %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Training_Type__c</picklist>
+            <values>
+                <fullName>Classroom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Store</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Informal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>B %26 Q Div%2FReg Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In-Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Site Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work*With %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Cons_Lowes_Event</fullName>
+        <active>true</active>
+        <description>Record type for Lowe&apos;s Events</description>
+        <label>Cons Lowes Event</label>
+        <picklistValues>
+            <picklist>Activity_Type__c</picklist>
+            <values>
+                <fullName>In-Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Site Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Call_Type__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Distributor__c</picklist>
+            <values>
+                <fullName>Decco %E2%80%93 Bolton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Burnley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Chesham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Dagenham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Ipswich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Newton Abbott</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Perth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Sheffield</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93Rawtenstall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco - Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Barnstaple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Scotland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Bristol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Edinburgh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Worsley</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Event_Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Order_Type__c</picklist>
+            <values>
+                <fullName>FDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Super</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Twist and Spray</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Profit_Centers__c</picklist>
+            <values>
+                <fullName>BTC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bev Ends</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steel Cont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T%26M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Piece</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Customer Visit</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Training_Type__c</picklist>
+            <values>
+                <fullName>Aisle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Classroom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Informal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>In-Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Site Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Cons_Masters_Event</fullName>
+        <active>true</active>
+        <description>Event record type for Masters</description>
+        <label>Cons Masters Event</label>
+        <picklistValues>
+            <picklist>Activity_Category__c</picklist>
+            <values>
+                <fullName>Additional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planned</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Activity_Type__c</picklist>
+            <values>
+                <fullName>Business Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Complaint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Promotions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Relays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Safety Huddles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stock-take %28General%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Call_Type__c</picklist>
+            <values>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Testing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Distributor__c</picklist>
+            <values>
+                <fullName>Border Distribution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Bolton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Burnley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Chesham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Dagenham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Ipswich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Newton Abbott</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Perth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Sheffield</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93Rawtenstall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco - Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hills DIY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Barnstaple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Scotland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Bristol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Edinburgh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Worsley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - %28Curtis Holt-North-west%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - %28Curtis Holt-Northern%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - Cwmbran</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - Dartford</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - Exeter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - Finnie %26 Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - Halesowen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - Newcastle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - Norwich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - Southampton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toolbank - St Albans</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Event_Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Order_Type__c</picklist>
+            <values>
+                <fullName>FDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Super</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Twist and Spray</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Profit_Centers__c</picklist>
+            <values>
+                <fullName>BTC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bev Ends</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steel Cont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T%26M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Piece</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Type__c</picklist>
+            <values>
+                <fullName>Aisle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Classroom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deployment Topics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engaging Consumer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incentive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Informal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meet with Trader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitor Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Showroom Topics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staff Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Breakfast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Breakfast Planning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Planning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visit Planning</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Admin Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B %26 Q Div%2FReg Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Visit</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Day Off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Audit %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work*With %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Training_Instance__c</picklist>
+            <values>
+                <fullName>First-Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refresher</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Training_Type__c</picklist>
+            <values>
+                <fullName>Aisle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Classroom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Store</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Informal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Admin Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B %26 Q Div%2FReg Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Day Off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In-Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Site Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Audit %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Work*With %28for managers only%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Valspar_Master_Event_Record_Type</fullName>
+        <active>true</active>
+        <description>Master custom record type</description>
+        <label>Valspar Master Event Record Type</label>
+        <picklistValues>
+            <picklist>Activity_Type__c</picklist>
+            <values>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E-mail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planned Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planned Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Curriculum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unplanned Call</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Call_Type__c</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Testing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Distributor__c</picklist>
+            <values>
+                <fullName>Decco %E2%80%93 Bolton</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Burnley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Chesham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Dagenham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Ipswich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Newton Abbott</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Perth</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93 Sheffield</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco %E2%80%93Rawtenstall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decco - Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Barnstaple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Home Hardware %E2%80%93 Scotland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Birmingham</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Bristol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Edinburgh</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Leeds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Manchester</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stax %E2%80%93 Worsley</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Event_Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Order_Type__c</picklist>
+            <values>
+                <fullName>FDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Super</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Twist and Spray</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Profit_Centers__c</picklist>
+            <values>
+                <fullName>BTC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bev Ends</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Steel Cont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>T%26M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Piece</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Visit</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Training_Type__c</picklist>
+            <values>
+                <fullName>Aisle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Classroom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Informal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>In-Store Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Site Visit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Event_Length_Checkbox</fullName>
+        <active>true</active>
+        <description>Ensures that only 1 event length checkbox is selected</description>
+        <errorConditionFormula>X1_2_Day_Event_AM__c = TRUE &amp;&amp;  X1_2_Day_Event_PM__c = TRUE ||
+X1_2_Day_Event_AM__c = TRUE &amp;&amp;  X1_4_Day_Event__c = TRUE ||
+X1_2_Day_Event_AM__c = TRUE &amp;&amp;  X1_4_Day_Event_PM__c = TRUE ||
+X1_2_Day_Event_AM__c = TRUE &amp;&amp;  IsAllDayEvent  = TRUE ||
+X1_2_Day_Event_PM__c = TRUE &amp;&amp;  X1_4_Day_Event__c = TRUE ||
+X1_2_Day_Event_PM__c = TRUE &amp;&amp;  X1_4_Day_Event_PM__c = TRUE ||
+X1_2_Day_Event_PM__c = TRUE &amp;&amp;  IsAllDayEvent = TRUE ||
+X1_4_Day_Event__c = TRUE &amp;&amp;  X1_4_Day_Event_PM__c = TRUE ||
+X1_4_Day_Event__c = TRUE &amp;&amp;  IsAllDayEvent = TRUE ||
+X1_4_Day_Event_PM__c = TRUE &amp;&amp;  IsAllDayEvent = TRUE</errorConditionFormula>
+        <errorMessage>Only one field can be selected:
+All Day Event, 1/2 Day Event AM, 1/2 Day Event PM, 1/4 Day Event AM or 1/4 Day Event PM</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Duration_for_Store_Visit</fullName>
+        <active>true</active>
+        <description>Makes a selection of one of the duration checkboxes (All Day, 1/2 AM, 1/2 PM) mandatory if the event type is Store Visit</description>
+        <errorConditionFormula>ISPICKVAL(Activity_Type__c, &apos;Store Visit&apos;) &amp;&amp; AND( IsAllDayEvent == FALSE,  X1_2_Day_Event_AM__c==FALSE,  X1_2_Day_Event_PM__c ==FALSE )&amp;&amp; RecordType.Name = &apos;ConsB&amp;Q&apos;</errorConditionFormula>
+        <errorMessage>You must select a store visit duration - All Day, 1/2 AM or 1/2 PM</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS( $ObjectType.Event )}; 
+var taskRecords = {!GETRECORDIDS( $ObjectType.Task)}; 
+records = records.concat(taskRecords); 
+
+
+if (records[0] == null) { 
+alert(&quot;Please select at least one record.&quot;) } 
+else { 
+
+var errors = []; 
+var result = sforce.connection.deleteIds(records); 
+if (result &amp;&amp; result.length){ 
+var numFailed = 0; 
+var numSucceeded = 0; 
+for (var i = 0; i &lt; result.length; i++){ 
+var res = result[i]; 
+if (res &amp;&amp; res.success == &apos;true&apos;){ 
+numSucceeded++; 
+} else { 
+var es = res.getArray(&quot;errors&quot;); 
+if (es.length &gt; 0) { 
+errors.push(es[0].message); 
+} 
+numFailed++; 
+} 
+} 
+if (numFailed &gt; 0){ 
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;)); 
+} else { 
+alert(&quot;Number of records deleted: &quot; + numSucceeded); 
+} 
+} 
+window.location.reload(); 
+}</url>
+    </webLinks>
+</CustomObject>

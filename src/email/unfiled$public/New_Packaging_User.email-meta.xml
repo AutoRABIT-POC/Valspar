@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The email that is sent when a new Packaging User is added to Salesforce</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>New Packaging User</name>
+    <style>none</style>
+    <subject>New Packaging Salesforce User Notification</subject>
+    <type>text</type>
+</EmailTemplate>

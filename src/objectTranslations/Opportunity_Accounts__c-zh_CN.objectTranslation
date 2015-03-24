@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>项目关联客户</value>
+    </caseValues>
+    <fields>
+        <label>客户</label>
+        <name>Account__c</name>
+        <relationshipLabel>项目客户</relationshipLabel>
+    </fields>
+    <fields>
+        <label>备注</label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label>项目</label>
+        <name>Opportunity__c</name>
+        <relationshipLabel>关联客户</relationshipLabel>
+    </fields>
+    <fields>
+        <label>类型</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer-Architect</masterLabel>
+            <translation>设计师公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer-Consultant</masterLabel>
+            <translation>顾问公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer-Curtain Wall</masterLabel>
+            <translation>幕墙公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spray Company-Aluminum Extrusion</masterLabel>
+            <translation>型材喷涂厂</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spray Company-Aluminum Veneer</masterLabel>
+            <translation>铝单板喷涂厂</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Opportunity Accounts Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Opportunity Accounts Name</nameFieldLabel>
+</CustomObjectTranslation>

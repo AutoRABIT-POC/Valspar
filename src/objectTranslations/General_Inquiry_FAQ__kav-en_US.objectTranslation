@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>General Inquiry / FAQ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>General Inquiry / FAQs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Article Text Area --></label>
+        <name>Article_Text_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Inquiry / FAQ Attachment --></label>
+        <name>General_Inquiry_FAQ_Attachment__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

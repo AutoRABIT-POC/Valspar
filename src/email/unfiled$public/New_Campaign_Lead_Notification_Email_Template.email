@@ -1,0 +1,7 @@
+***NEW LEAD ASSIGNED TO YOU***
+
+Name: {!Lead.Name}
+Company: {!Lead.Company}
+Phone: {!Lead.Phone}
+Email: {!Lead.Phone}
+{!Lead.Description}

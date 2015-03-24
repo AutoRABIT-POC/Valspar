@@ -1,0 +1,44 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p class="MsoPlainText">Date: July 31, 2014</p>
+
+<p class="MsoPlainText">&nbsp;</p>
+
+<p class="MsoPlainText">RE: Paperless Price Communications</p>
+
+<p class="MsoPlainText">&nbsp;</p>
+
+<p class="MsoPlainText">Dear {!Contact.FirstName} {!Contact.LastName}</p>
+
+<p class="MsoPlainText">&nbsp;</p>
+
+<p class="MsoPlainText">Effective immediately EPS will <b>communicate pricing
+notifications via Email</b>. This will improve the timeliness as well as the
+accuracy of information. We are committed to improving our communications as
+well as the environment. <b>Please contact your sales representative</b>
+{!Contact.OwnerFullName} at {!Contact.OwnerEmail}, {!Contact.OwnerPhone} to
+continue to receive paper notifications.</p>
+
+<p class="MsoPlainText">&nbsp;</p>
+
+<p class="MsoPlainText">Thank you for your cooperation,</p>&nbsp;<p class="MsoNormal"><b><span style="font-size:10.0pt;line-height:115%;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Henry Bunch</span></b></p>
+
+<p class="MsoNormal"><i><span style="font-size:9.0pt;line-height:115%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;">Division Vice President</span></i></p>
+
+<p class="MsoNormal"><i><span style="font-size:9.0pt;line-height:115%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;">p) 815.568.4140&nbsp;|</span></i><span style="font-size:
+9.0pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">&nbsp;m<i>)
+630.240.4618&nbsp;|</i> <i>voip) 211.4140</i></span></p>
+
+<p class="MsoNormal"><a href="mailto:yourname@eps-materials.com"><i><span style="font-size:9.0pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">hbunch@eps-materials.com</span></i></a></p><p class="MsoNormal"><img alt="" src="https://valspar--full--c.cs14.content.force.com/servlet/servlet.ImageServer?id=015c0000000F7ju&amp;oid=00Dc0000003t5YI" align="left" border="0"><br><a href="mailto:yourname@eps-materials.com"><i><span style="font-size:9.0pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"></span></i></a><i><span style="font-size:9.0pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"></span></i></p>
+
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style="font-size:9.0pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:black;mso-no-proof:yes"><br></span></i><i><span style="font-size:9.0pt;
+line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"></span></i></p>
+
+<p class="MsoPlainText"><br></p><p class="MsoPlainText"><br></p><p class="MsoPlainText"><br></p><p class="MsoPlainText">CC: {!Contact.OwnerFullName}</p>]]></td>
+</tr>
+</table>

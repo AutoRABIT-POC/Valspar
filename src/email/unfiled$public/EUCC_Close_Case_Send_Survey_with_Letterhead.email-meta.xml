@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email send to EU Customers when a Case is Closed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>EU_Call_Center_Letterhead</letterhead>
+    <name>EUCC Close Case - Send Survey with Letterhead</name>
+    <style>formalLetter</style>
+    <subject>Help us to be the best!</subject>
+    <textOnly>Dear {!Contact.FirstName}
+
+At Valspar®, we are proud to be trusted by our customers, for not only our high quality products but also the service and support we provide.
+
+
+
+We would love to hear your feedback regarding your recent contact with the Valspar Customer Service team.  We want to make sure we are always able to help, whether it is product related, some advice, to share your experience or any concerns you may have had.
+
+
+
+Taking the time to complete our quick survey will help us ensure we continue to provide the best Customer Service experience we can.
+
+
+
+We don’t compromise on colour and we won’t compromise on our customer service.
+
+
+
+Kind regards
+
+{!Case.OwnerFirstName}
+
+
+
+Valspar Customer Service Team
+
+
+
+Please complete this survey at: Valspar Customer Service Survey</textOnly>
+    <type>html</type>
+</EmailTemplate>

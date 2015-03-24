@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Offer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Offers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Offers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Date --></label>
+        <name>Offer_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Decision Date --></label>
+        <name>Offer_Decision_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Detail $ --></label>
+        <name>Offer_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Status --></label>
+        <name>Offer_Status__c</name>
+        <picklistValues>
+            <masterLabel>Pending Customer Answer</masterLabel>
+            <translation><!-- Pending Customer Answer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Settlement</masterLabel>
+            <translation><!-- Pending Settlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settled</masterLabel>
+            <translation><!-- Settled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Offer Type --></label>
+        <name>Offer_Type_del__c</name>
+        <picklistValues>
+            <masterLabel>Billing Adjustment</masterLabel>
+            <translation><!-- Billing Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Request</masterLabel>
+            <translation><!-- Check Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Refund</masterLabel>
+            <translation><!-- Customer Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOC - Free of Charge</masterLabel>
+            <translation><!-- FOC - Free of Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goodwill</masterLabel>
+            <translation><!-- Goodwill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowe&apos;s RA</masterLabel>
+            <translation><!-- Lowe&apos;s RA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valspar Voucher</masterLabel>
+            <translation><!-- Valspar Voucher --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Settlement Update --></label>
+        <name>Settlement_Update__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Offer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- ConsCCEU Offer --></label>
+        <name>ConsCCEU_Offer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ConsCCNA Offer --></label>
+        <name>ConsCCNA_Offer</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+        <label>Information</label>
+        <layoutColumns>
+            <layoutItems>
+                <field>Product_Label_Attachment__c</field>
+            </layoutItems>
+            <layoutItems>
+                <field>Channel__c</field>
+            </layoutItems>
+            <layoutItems>
+                <field>Status__c</field>
+            </layoutItems>
+            <layoutItems>
+                <field>Use__c</field>
+            </layoutItems>
+            <layoutItems>
+                <field>Coating_Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <field>Product_Number__c</field>
+            </layoutItems>
+            <layoutItems>
+                <field>Search_Tag__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>OneColumn</style>
+    </layoutSections>
+</Layout>

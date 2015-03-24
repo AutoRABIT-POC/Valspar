@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Market Segment Intelligence</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Market Segment Intelligence</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Market Segment Intelligence --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Segment Needs --></label>
+        <name>Customer_Segment_Needs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Position --></label>
+        <name>Market_Position__c</name>
+        <picklistValues>
+            <masterLabel>Challenger</masterLabel>
+            <translation><!-- Challenger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follower</masterLabel>
+            <translation><!-- Follower --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leader</masterLabel>
+            <translation><!-- Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niche Orientation</masterLabel>
+            <translation><!-- Niche Orientation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Market Segment Participation --></label>
+        <name>Market_Segment_Participation__c</name>
+        <picklistValues>
+            <masterLabel>Architectural</masterLabel>
+            <translation><!-- Architectural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Industrial</masterLabel>
+            <translation><!-- General Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mastics</masterLabel>
+            <translation><!-- Mastics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paints, Coatings and Inks</masterLabel>
+            <translation><!-- Paints, Coatings and Inks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polymer Adhesives</masterLabel>
+            <translation><!-- Polymer Adhesives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sealants</masterLabel>
+            <translation><!-- Sealants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation><!-- Specialty --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Products/Branding --></label>
+        <name>Products_Branding__c</name>
+    </fields>
+    <layouts>
+        <layout>Market Segment Intelligence Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

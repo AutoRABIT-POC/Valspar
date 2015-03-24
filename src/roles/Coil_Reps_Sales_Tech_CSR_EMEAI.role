@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Coil Reps: Sales/Tech/CSR_EMEAI</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Coil_Executives_and_Managers_EMEAI</parentRole>
+</Role>

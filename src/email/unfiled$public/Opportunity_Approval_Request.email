@@ -1,0 +1,3 @@
+An approval is needed for the {!Opportunity.Name} opportunity which is owned by {!Opportunity.OwnerFullName}.  Please access the opportunity to update it at the following URL:<br/><br/>
+
+{!Opportunity.Link}

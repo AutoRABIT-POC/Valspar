@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>The Approved to Sell By has been updated on the Opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Request to Sell By is Approved</name>
+    <style>none</style>
+    <subject>Request to Sell Approval has been Accepted</subject>
+    <textOnly>The Request to Sell Approval for the Opportunity named: {!Opportunity.Name} has been accepted. To view and update this Opportunity, follow the link: {!Opportunity.Id}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

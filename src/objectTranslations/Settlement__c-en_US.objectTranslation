@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Settlement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Settlements</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Number Customer Bank --></label>
+        <name>Account_Number_Customer_Bank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Email --></label>
+        <name>Additional_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the name of the person to receive the shipment. --></help>
+        <label><!-- C/O Name --></label>
+        <name>CO_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Contact Email --></label>
+        <name>Case_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Name --></label>
+        <name>Case_Name__c</name>
+        <relationshipLabel><!-- Settlements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case Number --></label>
+        <name>Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Pickup EU Formatted --></label>
+        <name>Consumer_Pickup_EU_Formatted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Pickup Plus an Hour --></label>
+        <name>Consumer_Pickup_Plus_an_Hour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Pickup --></label>
+        <name>Consumer_Pickup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email --></label>
+        <name>Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Mailing Address --></label>
+        <name>Contact_Mailing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Phone --></label>
+        <name>Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Physical Address --></label>
+        <name>Contact_Physical_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Site Address --></label>
+        <name>Contact_Site_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedBy$User --></label>
+        <name>CreatedBy_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Note Number --></label>
+        <name>Credit_Note_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Bank Name --></label>
+        <name>Customer_Bank_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Number --></label>
+        <name>Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>Distributor__c</name>
+        <relationshipLabel><!-- Settlements (Distributor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Customer Communication Email will NOT be sent when Settlement is closed. --></help>
+        <label><!-- Do Not Send Customer Email --></label>
+        <name>Do_Not_Send_Customer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Number --></label>
+        <name>Document_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- G/L Account --></label>
+        <name>G_L_Account__c</name>
+        <picklistValues>
+            <masterLabel>0001 2109 0000 0000 5005950 5200 000  Mills Fleet Farm, Blains Farm &amp; Fleet</masterLabel>
+            <translation><!-- 0001 2109 0000 0000 5005950 5200 000  Mills Fleet Farm, Blains Farm &amp; Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2110 0000 0000 5005950 5200 000  Wal-Mart</masterLabel>
+            <translation><!-- 0001 2110 0000 0000 5005950 5200 000  Wal-Mart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2111 0000 0000 5005950 5200 000   United Hardware</masterLabel>
+            <translation><!-- 0001 2111 0000 0000 5005950 5200 000   United Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2113 0000 0000 5005950 5200 000   Do It Best Hardware</masterLabel>
+            <translation><!-- 0001 2113 0000 0000 5005950 5200 000   Do It Best Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2200 0000 0000 5005950 5200 000     Menard&apos;s</masterLabel>
+            <translation><!-- 0001 2200 0000 0000 5005950 5200 000     Menard&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2228 0000 0000 5005950 5200 000   Orgill</masterLabel>
+            <translation><!-- 0001 2228 0000 0000 5005950 5200 000   Orgill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2400 0000 0000 5005950 5200 000   Other Distributors</masterLabel>
+            <translation><!-- 0001 2400 0000 0000 5005950 5200 000   Other Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2450 0000 0000 5005950 5200 000   Factory Finish</masterLabel>
+            <translation><!-- 0001 2450 0000 0000 5005950 5200 000   Factory Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2604 0000 0000 5005950 5200 000   Lowes Canada</masterLabel>
+            <translation><!-- 0001 2604 0000 0000 5005950 5200 000   Lowes Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2605 0000 0000 5005950 5200 000   Lowes</masterLabel>
+            <translation><!-- 0001 2605 0000 0000 5005950 5200 000   Lowes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2650 0000 0000 5005950 5200 000   Tractor Supply</masterLabel>
+            <translation><!-- 0001 2650 0000 0000 5005950 5200 000   Tractor Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2665 0000 0000 5005950 5200 000   Home Depot</masterLabel>
+            <translation><!-- 0001 2665 0000 0000 5005950 5200 000   Home Depot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001 2672 0000 0000 5005950 5200 000   Independent Retailers</masterLabel>
+            <translation><!-- 0001 2672 0000 0000 5005950 5200 000   Independent Retailers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001-2116-0000-0000-5005950-5200-000 Paint Drop</masterLabel>
+            <translation><!-- 0001-2116-0000-0000-5005950-5200-000 Paint Drop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001-2211-0000-0000-5005950-5200-000 ACE Valspar Branded</masterLabel>
+            <translation><!-- 0001-2211-0000-0000-5005950-5200-000 ACE Valspar Branded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001-2213-0000-0000-5005950-5200-000 ACE Private Label</masterLabel>
+            <translation><!-- 0001-2213-0000-0000-5005950-5200-000 ACE Private Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0001-2672-0000-0000-5005100-5200-000 Costco</masterLabel>
+            <translation><!-- 0001-2672-0000-0000-5005100-5200-000 Costco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0006-2036-0000-6800-7000295-6800-000 Plastikote</masterLabel>
+            <translation><!-- 0006-2036-0000-6800-7000295-6800-000 Plastikote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0006-2305-0000-0000-5005500-5200-000 B&amp;Q</masterLabel>
+            <translation><!-- 0006-2305-0000-0000-5005500-5200-000 B&amp;Q --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>See Notes</masterLabel>
+            <translation><!-- See Notes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IBAN Number Customer Bank --></label>
+        <name>IBAN_Number_Customer_Bank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Colour2 --></label>
+        <name>Item_Colour2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Colour3 --></label>
+        <name>Item_Colour3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Colour4 --></label>
+        <name>Item_Colour4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Colour5 --></label>
+        <name>Item_Colour5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Colour --></label>
+        <name>Item_Colour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number 2 --></label>
+        <name>Item_Number_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number 3 --></label>
+        <name>Item_Number_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number 4 --></label>
+        <name>Item_Number_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number 5 --></label>
+        <name>Item_Number_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number Description2 --></label>
+        <name>Item_Number_Description2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number Description3 --></label>
+        <name>Item_Number_Description3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number Description4 --></label>
+        <name>Item_Number_Description4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number Description5 --></label>
+        <name>Item_Number_Description5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number Description --></label>
+        <name>Item_Number_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Number --></label>
+        <name>Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lowe&apos;s Clerk Name --></label>
+        <name>Lowe_s_Clerk_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lowe&apos;s TM Email --></label>
+        <name>Lowe_s_TM_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lowe&apos;s TM Email Formula --></label>
+        <name>Lowes_TM_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lowe&apos;s TM Name --></label>
+        <name>Lowes_TM_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Address --></label>
+        <name>Mailing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes from Agent to Order Dept --></label>
+        <name>Notes_from_Agent_to_Order_Dept__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes to be Placed on Order --></label>
+        <name>Notes_to_be_Placed_on_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Vouchers --></label>
+        <name>Number_of_Vouchers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Date --></label>
+        <name>Offer_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Detail Gallons --></label>
+        <name>Offer_Detail_Gallons__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer Detail $ --></label>
+        <name>Offer_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payable To: --></label>
+        <name>Payable_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 2 --></label>
+        <name>Quantity_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 3 --></label>
+        <name>Quantity_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 4 --></label>
+        <name>Quantity_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 5 --></label>
+        <name>Quantity_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- RA # --></label>
+        <name>RA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>Reason__c</name>
+        <picklistValues>
+            <masterLabel>Claim Settlement</masterLabel>
+            <translation><!-- Claim Settlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Container Failure/Deficiency</masterLabel>
+            <translation><!-- Container Failure/Deficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Satisfaction</masterLabel>
+            <translation><!-- Customer Satisfaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Destroy Approved</masterLabel>
+            <translation><!-- Field Destroy Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Margin Support</masterLabel>
+            <translation><!-- Margin Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Failure/Deficiency</masterLabel>
+            <translation><!-- Product Failure/Deficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promo/Trial</masterLabel>
+            <translation><!-- Promo/Trial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show/Store Demo</masterLabel>
+            <translation><!-- Show/Store Demo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested By: --></label>
+        <name>Requested_By__c</name>
+        <picklistValues>
+            <masterLabel>Account Manager</masterLabel>
+            <translation><!-- Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Director</masterLabel>
+            <translation><!-- Business Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Divisional</masterLabel>
+            <translation><!-- Divisional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM</masterLabel>
+            <translation><!-- RM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM</masterLabel>
+            <translation><!-- TM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Retailer Reference Comments --></label>
+        <name>Retailer_Reference_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retailer Ship-to Address --></label>
+        <name>Retailer_Ship_to_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retailer --></label>
+        <name>Retailer__c</name>
+        <relationshipLabel><!-- Settlements (Retailer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Select Ship-to Address --></label>
+        <name>Select_Ship_to_Address__c</name>
+        <picklistValues>
+            <masterLabel>Contact Mailing Address</masterLabel>
+            <translation><!-- Contact Mailing Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Physical Address</masterLabel>
+            <translation><!-- Contact Physical Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Site Address</masterLabel>
+            <translation><!-- Contact Site Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>See Notes from Agent to Order Dept.</masterLabel>
+            <translation><!-- See Notes from Agent to Order Dept. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Purchased Address</masterLabel>
+            <translation><!-- Store Purchased Address --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Send By: --></label>
+        <name>Send_By__c</name>
+        <picklistValues>
+            <masterLabel>FedEx 2 Day</masterLabel>
+            <translation><!-- FedEx 2 Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Overnight</masterLabel>
+            <translation><!-- FedEx Overnight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Royal Mail Special Delivery</masterLabel>
+            <translation><!-- Royal Mail Special Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USPS</masterLabel>
+            <translation><!-- USPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Settlement Date EU Formatted --></label>
+        <name>Settlement_Date_EU_Formatted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Settlement Accepted Date --></label>
+        <name>Settlement_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Settlement Status --></label>
+        <name>Settlement_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU Finance Processing</masterLabel>
+            <translation><!-- EU Finance Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Rejected</masterLabel>
+            <translation><!-- Offer Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Dept Processing</masterLabel>
+            <translation><!-- Order Dept Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending CSA Completion</masterLabel>
+            <translation><!-- Pending CSA Completion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Customer Answer</masterLabel>
+            <translation><!-- Pending Customer Answer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Offer Acceptance</masterLabel>
+            <translation><!-- Pending Offer Acceptance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Settlement</masterLabel>
+            <translation><!-- Pending Settlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Settlement Internal Approval</masterLabel>
+            <translation><!-- Pending Settlement Internal Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settled</masterLabel>
+            <translation><!-- Settled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement Rejected</masterLabel>
+            <translation><!-- Settlement Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on VAC</masterLabel>
+            <translation><!-- Waiting on VAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Witney Office Processing</masterLabel>
+            <translation><!-- Witney Office Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Funds Processing</masterLabel>
+            <translation><!-- Working Funds Processing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Settlement Type --></label>
+        <name>Settlement_Type__c</name>
+        <picklistValues>
+            <masterLabel>Billing Adjustment</masterLabel>
+            <translation><!-- Billing Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Request</masterLabel>
+            <translation><!-- Check Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Refund</masterLabel>
+            <translation><!-- Customer Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOC - Free of Charge</masterLabel>
+            <translation><!-- FOC - Free of Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goodwill</masterLabel>
+            <translation><!-- Goodwill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowe&apos;s RA</masterLabel>
+            <translation><!-- Lowe&apos;s RA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valspar Voucher</masterLabel>
+            <translation><!-- Valspar Voucher --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ship-To Address --></label>
+        <name>Ship_To_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship-To Number --></label>
+        <name>Ship_To_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort or Swift Code Customer Bank --></label>
+        <name>Sort_or_Swift_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of Contact at B/Q Store --></help>
+        <label><!-- Store Contact Name --></label>
+        <name>Store_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Purchased Account Owner Email --></label>
+        <name>Store_Purchased_Account_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Purchased Account Owner --></label>
+        <name>Store_Purchased_Account_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Purchased Address --></label>
+        <name>Store_Purchased_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Purchased Contact Email --></label>
+        <name>Store_Purchased_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Purchased Contact Phone --></label>
+        <name>Store_Purchased_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Purchased Contact --></label>
+        <name>Store_Purchased_Contact__c</name>
+        <relationshipLabel><!-- Settlements Contact --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Store Purchased --></label>
+        <name>Store_Purchased__c</name>
+        <relationshipLabel><!-- Settlements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tinting Information --></label>
+        <name>Tinting_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Ext. $ --></label>
+        <name>Total_Ext__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>03 substandard Product</masterLabel>
+            <translation><!-- 03 substandard Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 Samples</masterLabel>
+            <translation><!-- 05 Samples --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06 Policy Allowance</masterLabel>
+            <translation><!-- 06 Policy Allowance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- VAC Update only: Will Close the Settlement and send emails --></help>
+        <label><!-- VAC Completed --></label>
+        <name>VAC_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- VAC Update Only: Returns the Settlement to the CSA to process --></help>
+        <label><!-- VAC Rejected --></label>
+        <name>VAC_Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valspar Entity --></label>
+        <name>Valspar_Entity__c</name>
+        <picklistValues>
+            <masterLabel>Plastikote</masterLabel>
+            <translation><!-- Plastikote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valspar Consumer UK</masterLabel>
+            <translation><!-- Valspar Consumer UK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Voucher Type --></label>
+        <name>Voucher_Type__c</name>
+        <picklistValues>
+            <masterLabel>Exterior Masonry 5L</masterLabel>
+            <translation><!-- Exterior Masonry 5L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exterior Trim 2.5L</masterLabel>
+            <translation><!-- Exterior Trim 2.5L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interior Wood Varnish 1L</masterLabel>
+            <translation><!-- Interior Wood Varnish 1L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium W&amp;C 5L</masterLabel>
+            <translation><!-- Premium W&amp;C 5L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium W&amp;M 2.5L</masterLabel>
+            <translation><!-- Premium W&amp;M 2.5L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard K&amp;B 2.5L</masterLabel>
+            <translation><!-- Standard K&amp;B 2.5L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard W&amp;C 10L</masterLabel>
+            <translation><!-- Standard W&amp;C 10L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tester pot</masterLabel>
+            <translation><!-- Tester pot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tintable Primer 2.5L</masterLabel>
+            <translation><!-- Tintable Primer 2.5L --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Billing Adjustment Settlement</layout>
+        <sections>
+            <label><!-- Billing Adjustment Information --></label>
+            <section>Billing Adjustment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Order Dept Use Only: --></label>
+            <section>Order Dept Use Only:</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Check Request Settlement</layout>
+        <sections>
+            <label><!-- Check Request Information --></label>
+            <section>Check Request Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Refund Settlement</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Information --></label>
+            <section>Purchase Information</section>
+        </sections>
+        <sections>
+            <label><!-- Refund Request Information --></label>
+            <section>Refund Request Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FOC Settlement</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Contact Information --></label>
+            <section>Customer Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Information --></label>
+            <section>Purchase Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Goodwill Settlement Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Item Information --></label>
+            <section>Item Information</section>
+        </sections>
+        <sections>
+            <label><!-- Order Dept Use Only: --></label>
+            <section>Order Dept Use Only:</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Return Authorization Settlement</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- RA Information --></label>
+            <section>RA Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Settlement Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Valspar Voucher Settlement</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Contact Information --></label>
+            <section>Customer Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Information --></label>
+            <section>Purchase Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Billing Adjustment --></label>
+        <name>Billing_Adjustment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Check Request --></label>
+        <name>Check_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer Refund --></label>
+        <name>Customer_Refund</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FOC - Free of Charge --></label>
+        <name>FOC_Free_of_Charge</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Goodwill --></label>
+        <name>Goodwill_Settlement</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lowe&apos;s RA --></label>
+        <name>Lowes_RA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Valspar Voucher --></label>
+        <name>Valspar_Voucher</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Item Number must be 15 characters --></errorMessage>
+        <name>Item_Number_Must_be_15_characters</name>
+    </validationRules>
+</CustomObjectTranslation>
