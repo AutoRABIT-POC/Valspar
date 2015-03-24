@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Packaging Executives &amp; Managers_NA</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Packaging Executives &amp; Managers_NA</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>Packaging_Executives_and_Managers_Global</parentRole>
+</Role>

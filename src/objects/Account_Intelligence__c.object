@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>For Wattyl Trade</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>A_Spend_Brushes_DIY__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. For things like Brush Combs &amp; Brush Restorers.</inlineHelpText>
+        <label>DIY/Economy - Brush/Mitt</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Brushes_P__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. For things like Brush Combs &amp; Brush Restorers.</inlineHelpText>
+        <label>Premium – Brush/Mitt</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Brushes_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Trade - Brush/Mitt</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Preparation_DIY__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. For things like Masking Tapes &amp; Sand Papers.</inlineHelpText>
+        <label>DIY/Economy - Preparation</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Preparation_P__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. For things like Masking Tapes &amp; Sand Papers.</inlineHelpText>
+        <label>Premium - Preparation</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Preparation_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Trade - Preparation</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Rollers_DIY__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. For things like Poles &amp; Trays &amp; Roller Keepers.</inlineHelpText>
+        <label>DIY/Economy - Rollers</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Rollers_P__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. For things like Poles &amp; Trays &amp; Roller Keepers.</inlineHelpText>
+        <label>Premium - Rollers</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Rollers_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Trade - Rollers</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Spray_Equipment_DIY__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is your percentage of accessory spend by quality for all methods of application? 
+
+e.g. Like Wagner Spray Equipment.</inlineHelpText>
+        <label>DIY/Economy - Spray Equipment</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Spray_Equipment_P__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is your percentage of accessory spend by quality for all methods of application? 
+
+e.g. Like Wagner &amp; Graco Spray Equipment.</inlineHelpText>
+        <label>Premium - Spray Equipment</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Spray_Equipment_T__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Aelisco Spray Equipment</inlineHelpText>
+        <label>Trade - Spray Equipment</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Texture_DIY__c</fullName>
+        <externalId>false</externalId>
+        <label>DIY/Economy - Texture - Trowel/Hawk</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Texture_P__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. For things like Lamb&apos;s Wool Mitts &amp; Trowels.</inlineHelpText>
+        <label>Premium - Texture - Trowel/Hawk</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Texture_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Trade - Texture - Trowel/Hawk</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>A_Spend_Texture_UP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. For things like Lamb&apos;s Wool Mitts &amp; Trowels.</inlineHelpText>
+        <label>Texture-Ultra Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Account_Intel_Last_Verified_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The Last person to verify the Acc Intel data.  This will be autopopulated to the User updating the Account Intel Last Verified Date by a Workflow.</description>
+        <externalId>false</externalId>
+        <label>Account Intel Last Verified By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Account_Intelligence</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account_Intel_Last_Verified_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Intel Last Verified Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Intelligence</relationshipLabel>
+        <relationshipName>Account_Intelligence</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Anticipated_Annual_Purchases__c</fullName>
+        <externalId>false</externalId>
+        <formula>Number_of_Painters__c * 10000</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Anticipated Annual Purchases</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Anticipated_Monthly_Purchases__c</fullName>
+        <externalId>false</externalId>
+        <formula>Anticipated_Annual_Purchases__c /12</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Anticipated Monthly Purchases</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>B_Accessories_Company_Owned_Stores__c</fullName>
+        <externalId>false</externalId>
+        <label>Company Owned Stores</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>B_Accessories_Corporate__c</fullName>
+        <externalId>false</externalId>
+        <label>Corporate</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>B_Accessories_ITC_Stores__c</fullName>
+        <externalId>false</externalId>
+        <label>ITC Stores</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>B_Accessories_Inderpendant_Hardware__c</fullName>
+        <externalId>false</externalId>
+        <label>Independent Hardware</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>B_Accessories_Inderpendant_Paint__c</fullName>
+        <externalId>false</externalId>
+        <label>Independent Paint Specialist</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>B_Accessories_Online__c</fullName>
+        <externalId>false</externalId>
+        <label>Online</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>B_Accessories_Wholesale__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>i.e. Direct from the Manufacturer e.g. From Wagner or &apos;Accessory Only&apos; Distributor</inlineHelpText>
+        <label>Wholesale</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Business_Split_Exterior__c</fullName>
+        <externalId>false</externalId>
+        <label>Exterior</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Business_Split_Interior__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Figures added will be deemed a percentage and can only be entered as whole numbers.</inlineHelpText>
+        <label>Interior</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Business_Split_Texture__c</fullName>
+        <externalId>false</externalId>
+        <label>Texture</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>C_Time_3pm_4pm__c</fullName>
+        <externalId>false</externalId>
+        <label>3pm-4pm</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>C_Time_4pm_5pm__c</fullName>
+        <externalId>false</externalId>
+        <label>4pm-5pm</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>C_Time_6am_7am__c</fullName>
+        <externalId>false</externalId>
+        <label>6am-7am</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>C_Time_7am_8am__c</fullName>
+        <externalId>false</externalId>
+        <label>7am-8am</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>C_Time_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Completion_Of_Occupation__c</fullName>
+        <description>Completion Of Occupation</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(
+ISPICKVAL (Occupation__c, &quot;Painter&quot; ),
+ISPICKVAL (Occupation__c, &quot;Renderer&quot;),
+ISPICKVAL (Occupation__c, &quot;Texture&quot;),
+ISPICKVAL (Occupation__c, &quot;Handyman&quot;)
+),0,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Completion Of Occupation</inlineHelpText>
+        <label>Completion Of Occupation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completion_of_Promotion_Response_Method__c</fullName>
+        <description>Completion of Promotion Response Method</description>
+        <externalId>false</externalId>
+        <formula>IF(OR(Contact_Text__c,Contact_Phone__c,Contact_MMS__c,Contact_Email__c), 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Completion of Promotion Response Method</inlineHelpText>
+        <label>Completion of Promotion Response Method</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completion_of_Promotion_Response__c</fullName>
+        <description>Completion of Promotion Response</description>
+        <externalId>false</externalId>
+        <formula>IF(Promotion_Response__c, 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Completion of Promotion Response</inlineHelpText>
+        <label>Completion of Promotion Response</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Email</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_MMS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>MMS</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Phone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Text__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Any and all Check Box&apos;s can be selected here and will help us determine which is the best method to make contact with the customer for Promotional Offers.</inlineHelpText>
+        <label>Text</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Diff_between_Anticipated_Mth_Purchases__c</fullName>
+        <externalId>false</externalId>
+        <formula>Anticipated_Monthly_Purchases__c - Account__r.Rolling_1_12_Month_Avg_Monthly_Purchases__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Diff between Anticipated Mth Purchases</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Dulux_ShareofBusiness__c</fullName>
+        <description>Dulux share/percentage of the Business for this Account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Figures added will be deemed a percentage and can only be entered as whole numbers.</inlineHelpText>
+        <label>Dulux</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>E_Application_Brush__c</fullName>
+        <externalId>false</externalId>
+        <label>Brush/Mitt</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>E_Application_Roller__c</fullName>
+        <externalId>false</externalId>
+        <label>Roller</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>E_Application_Spray__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This section is relating to the application method of EXTERIOR PAINT only.
+
+Figures added will be deemed a percentage and can only be entered as whole numbers.</inlineHelpText>
+        <label>Spray</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>E_Application_Trowel_Mitt__c</fullName>
+        <externalId>false</externalId>
+        <label>Trowel/Hawk</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Other_EL__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Entry Level</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Other_None__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - None</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Other_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Other_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Trade</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Other_UP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This section is relating to EXTERIOR PAINT only. 
+
+We are looking for a split between quality of product purchased - The &quot;Other Companies&quot; component is to be inserted by you and must tally 100%.</inlineHelpText>
+        <label>Other - Ultra Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Valspar_EL__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Entry Level</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Valspar_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Valspar_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Trade</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Exterior_Valspar_UP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The &quot;Valspar&quot; component will self propagate from Analytics data.</inlineHelpText>
+        <label>Valspar - Ultra Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Haymes_ShareofBusiness__c</fullName>
+        <description>Haymes share/percentage of the Business for this Account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Figures added will be deemed a percentage and can only be entered as whole numbers.</inlineHelpText>
+        <label>Haymes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>I_Application_Brush__c</fullName>
+        <externalId>false</externalId>
+        <label>Brush/Mitt</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>I_Application_Roller__c</fullName>
+        <externalId>false</externalId>
+        <label>Roller</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>I_Application_Spray__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This section is relating to the application method of INTERIOR PAINT only.
+
+Figures added will be deemed a percentage and can only be entered as whole numbers.</inlineHelpText>
+        <label>Spray</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>I_Application_Trowel_Mitt__c</fullName>
+        <externalId>false</externalId>
+        <label>Trowel</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Other_EL__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Entry Level</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Other_None__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - None</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Other_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Other_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Trade</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Other_UP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This section is relating to INTERIOR PAINT only. 
+
+We are looking for a split between quality of product purchased - The &quot;Other Companies&quot; component is to be inserted by you and must tally 100%.</inlineHelpText>
+        <label>Other - Ultra Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Valspar_EL__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Entry Level</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Valspar_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Valspar_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Trade</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Interior_Valspar_UP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The &quot;Valspar&quot; component will self propagate from Analytics data.</inlineHelpText>
+        <label>Valspar - Ultra Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>No_Exterior_Paint_Applied__c</fullName>
+        <externalId>false</externalId>
+        <label>No Exterior Paint Applied</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>No_Interior_Paint_Applied__c</fullName>
+        <externalId>false</externalId>
+        <label>No Interior Paint Applied</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>No_Texture_Paint_Applied__c</fullName>
+        <externalId>false</externalId>
+        <label>No Texture Paint Applied</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Painters__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>On The Brush</inlineHelpText>
+        <label>Number of Painters</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>O_Split_Company_Owned_Stores_Other__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A Dulux Trade Centre</inlineHelpText>
+        <label>Company Owned Stores - Other (ie Dulux)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Split_Corporate_Masters__c</fullName>
+        <externalId>false</externalId>
+        <label>Corporate - Masters</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Split_Corporate_Other__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A Bunnings Store</inlineHelpText>
+        <label>Corporate - Other (ie Bunnings)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Split_ITC_Stores__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A 3D Inspirations (AUS) or PlaceMakers (NZ) Store</inlineHelpText>
+        <label>ITC Stores</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Split_Inderpendant_Hardware__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A Mitre10 Store</inlineHelpText>
+        <label>Independent Hardware</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Split_Inderpendant_Paint_Specialist__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A Paint Place (AUS) or ColourPlus (NZ) Store</inlineHelpText>
+        <label>Independent Paint Specialist</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Time_A_Week_Prior__c</fullName>
+        <externalId>false</externalId>
+        <label>A Week Prior</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Time_Day_Before__c</fullName>
+        <externalId>false</externalId>
+        <label>Day Before</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Time_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>O_Time_Same_Day__c</fullName>
+        <externalId>false</externalId>
+        <label>Same Day</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Occupation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is were you need to determine what type of work this account predominately does.
+e.g.  
+Is this account predominately a:
+     Painter  OR 
+     Renderer OR 
+     Texture  OR 
+     Handyman</inlineHelpText>
+        <label>Occupation</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Painter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renderer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Texture</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Handyman</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Other_ShareofBusiness__c</fullName>
+        <description>Other competitor&apos;s share/percentage of the Business for this Account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Figures added will be deemed a percentage and can only be entered as whole numbers.</inlineHelpText>
+        <label>Other</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PPG_ShareofBusiness__c</fullName>
+        <description>PPG share/percentage of the Business for this Account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Figures added will be deemed a percentage and can only be entered as whole numbers.</inlineHelpText>
+        <label>PPG</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>P_Delivery_Delivery__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>P_Delivery_Pick_Up__c</fullName>
+        <externalId>false</externalId>
+        <label>Pick-Up</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Promotion_Response__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The Check Box needs to be either ticked (for Yes) OR not ticked (for No)</inlineHelpText>
+        <label>Promotion Response</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>T_Application_Brush__c</fullName>
+        <externalId>false</externalId>
+        <label>Brush/Mitt</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>T_Application_Roller__c</fullName>
+        <externalId>false</externalId>
+        <label>Roller</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>T_Application_Spray__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This section is relating to the application method of TEXTURE PAINT only.
+
+Figures added will be deemed a percentage and can only be entered as whole numbers.</inlineHelpText>
+        <label>Spray</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>T_Application_Trowel_Mitt__c</fullName>
+        <externalId>false</externalId>
+        <label>Trowel/Hawk</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Other_EL__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Entry Level</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Other_None__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - None</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Other_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Other_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Other - Trade</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Other_UP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This section is relating to TEXTURE PAINT only. 
+
+We are looking for a split between quality of product purchased - The &quot;Other Companies&quot; component is to be inserted by you and must tally 100%.</inlineHelpText>
+        <label>Other - Ultra Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Valspar_EL__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Entry Level</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Valspar_P__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Valspar_T__c</fullName>
+        <externalId>false</externalId>
+        <label>Valspar - Trade</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Texture_Valspar_UP__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The &quot;Valspar&quot; component will self propagate from Analytics data.</inlineHelpText>
+        <label>Valspar - Ultra Premium</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Total_Percentage_of_Q2_to_Q20__c</fullName>
+        <description>Total Percentage of Q2 To Q20</description>
+        <externalId>false</externalId>
+        <formula>( 
+
+V_Split_Company_Owned_Stores__c + 
+V_Split_ITC_Stores__c + 
+V_Split_Corporate_Masters__c + 
+V_Split_Inderpendant_Paint_Specialist__c + 
+V_Split_Inderpendant_Hardware__c + 
+
+
+O_Split_Inderpendant_Paint_Specialist__c + 
+O_Split_Inderpendant_Hardware__c + 
+O_Split_Corporate_Masters__c + 
+O_Split_ITC_Stores__c + 
+O_Split_Corporate_Other__c + 
+O_Split_Company_Owned_Stores_Other__c + 
+
+W_Split_Commercial_Repaint__c + 
+W_Split_Commercial_Texture__c + 
+W_Split_Residential_Repaint__c + 
+W_Split_Commercial_Texture_New__c + 
+W_Split_Commercial_Paint_New__c + 
+W_Split_Residential_Texture__c + 
+W_Split_New_Residential_Proj_Homes_Paint__c + 
+
+
+Business_Split_Interior__c + 
+Business_Split_Exterior__c + 
+Business_Split_Texture__c + 
+
+
+Interior_Other_UP__c + 
+Interior_Other_P__c + 
+Interior_Other_T__c + 
+Interior_Other_EL__c + 
+Interior_Other_None__c + 
+
+
+I_Application_Spray__c + 
+I_Application_Roller__c + 
+I_Application_Brush__c + 
+I_Application_Trowel_Mitt__c + 
+No_Interior_Paint_Applied__c + 
+
+Exterior_Other_UP__c + 
+Exterior_Other_P__c + 
+Exterior_Other_T__c + 
+Exterior_Other_EL__c + 
+Exterior_Other_None__c + 
+
+E_Application_Spray__c + 
+E_Application_Roller__c + 
+E_Application_Brush__c + 
+E_Application_Trowel_Mitt__c + 
+No_Exterior_Paint_Applied__c + 
+
+Texture_Other_UP__c + 
+Texture_Other_P__c + 
+Texture_Other_T__c + 
+Texture_Other_EL__c + 
+Texture_Other_None__c + 
+
+
+T_Application_Spray__c + 
+T_Application_Roller__c + 
+T_Application_Brush__c + 
+T_Application_Trowel_Mitt__c + 
+No_Texture_Paint_Applied__c + 
+
+A_Spend_Spray_Equipment_P__c + 
+A_Spend_Spray_Equipment_T__c + 
+A_Spend_Spray_Equipment_DIY__c + 
+
+A_Spend_Rollers_P__c + 
+A_Spend_Rollers_T__c + 
+A_Spend_Rollers_DIY__c + 
+
+A_Spend_Brushes_P__c + 
+A_Spend_Brushes_T__c + 
+A_Spend_Brushes_DIY__c + 
+
+A_Spend_Texture_P__c + 
+A_Spend_Texture_T__c + 
+A_Spend_Texture_DIY__c + 
+
+A_Spend_Preparation_P__c + 
+A_Spend_Preparation_T__c + 
+A_Spend_Preparation_DIY__c + 
+
+B_Accessories_Company_Owned_Stores__c + 
+B_Accessories_ITC_Stores__c + 
+B_Accessories_Corporate__c + 
+B_Accessories_Inderpendant_Hardware__c + 
+B_Accessories_Inderpendant_Paint__c + 
+B_Accessories_Online__c + 
+B_Accessories_Wholesale__c + 
+
+
+P_Delivery_Pick_Up__c + 
+P_Delivery_Delivery__c + 
+
+C_Time_6am_7am__c + 
+C_Time_7am_8am__c + 
+C_Time_3pm_4pm__c + 
+C_Time_4pm_5pm__c + 
+C_Time_Other__c + 
+
+O_Time_Same_Day__c + 
+O_Time_Day_Before__c + 
+O_Time_A_Week_Prior__c + 
+O_Time_Other__c)/19</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total Percentage of Q2 To Q20</inlineHelpText>
+        <label>Total Percentage of Q2 to Q20</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Total_ShareofBusiness__c</fullName>
+        <description>Total Share Of Business</description>
+        <externalId>false</externalId>
+        <formula>Account__r.Share_of_Wallet__c  +
+Dulux_ShareofBusiness__c +
+PPG_ShareofBusiness__c +
+Other_ShareofBusiness__c +
+Haymes_ShareofBusiness__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total Share Of Business</inlineHelpText>
+        <label>Total Share Of Business</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Total_completion_of_Q21_Q22__c</fullName>
+        <description>Total completion of Q21 -Q22 (Promotion Response)</description>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(Completion_of_Promotion_Response__c = Completion_of_Promotion_Response_Method__c, Total_Percentage_of_Q2_to_Q20__c &gt; 0)
+,1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total completion of Q21 -Q22 (Promotion Response)</inlineHelpText>
+        <label>Total completion of Q21 -Q22</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>V_Split_Company_Owned_Stores__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A Wattyl TPC OR Solver SDC</inlineHelpText>
+        <label>Company Owned Stores - Valspar</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>V_Split_Corporate_Masters__c</fullName>
+        <externalId>false</externalId>
+        <label>Corporate - Masters</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>V_Split_ITC_Stores__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A Paint Place (AUS) or PlaceMakers (NZ) store that is an ITC</inlineHelpText>
+        <label>ITC Stores</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>V_Split_Inderpendant_Hardware__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A Mitre10 (AUS) Store</inlineHelpText>
+        <label>Independent Hardware</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>V_Split_Inderpendant_Paint_Specialist__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. A Paint Place (AUS) that is not an ITC Store</inlineHelpText>
+        <label>Independent Paint Specialist</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Valspar_ShareofBusiness__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(((Account__r.Rolling_12_Month_Sales__c /(Number_of_Painters__c*10000))&gt; 1.0), 1.0,   (Account__r.Rolling_12_Month_Sales__c/ (Number_of_Painters__c*10000) ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Valspar</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Variance_Share_of_Business__c</fullName>
+        <description>Variance in Share of Business</description>
+        <externalId>false</externalId>
+        <formula>Total_ShareofBusiness__c -(100/100)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Variance in Share of Business</inlineHelpText>
+        <label>Variance in Share of Business</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>W_Split_Commercial_Paint_New__c</fullName>
+        <externalId>false</externalId>
+        <label>Commercial - Paint - New</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>W_Split_Commercial_Repaint__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. What is the mix of work that this account does?</inlineHelpText>
+        <label>Commercial - Repaint</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>W_Split_Commercial_Texture_New__c</fullName>
+        <externalId>false</externalId>
+        <label>Commercial - Texture - New</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>W_Split_Commercial_Texture__c</fullName>
+        <externalId>false</externalId>
+        <label>Commercial - Texture</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>W_Split_New_Residential_Proj_Homes_Paint__c</fullName>
+        <externalId>false</externalId>
+        <label>New Residential - Project Homes - Paint</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>W_Split_Residential_Repaint__c</fullName>
+        <externalId>false</externalId>
+        <label>Residential - Repaint</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>W_Split_Residential_Texture__c</fullName>
+        <externalId>false</externalId>
+        <label>Residential - Texture</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Wattyl_NZ_O_Split_Corporate_Retail__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Corporate Mitre10 or PlaceMakers Store</inlineHelpText>
+        <label>Corporate - Retail</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Wattyl_NZ_Resene_ShareofBusiness__c</fullName>
+        <description>Resene share/percentage of the Business for this Account</description>
+        <externalId>false</externalId>
+        <label>Resene</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Wattyl_NZ_V_Split_Other__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>e.g. Somewhere other than TPC or ITC</inlineHelpText>
+        <label>Other</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Account Intelligence</label>
+    <nameField>
+        <label>Account Intelligence Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Account Intelligence</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>Exterior_Application_Method_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(E_Application_Spray__c,0) 
++NULLVALUE(E_Application_Roller__c,0) 
++NULLVALUE(E_Application_Brush__c,0) 
++NULLVALUE(E_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Exterior_Paint_Applied__c, 0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(E_Application_Spray__c,0) 
++NULLVALUE(E_Application_Roller__c,0) 
++NULLVALUE(E_Application_Brush__c,0) 
++NULLVALUE(E_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Exterior_Paint_Applied__c, 0)
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>No_Exterior_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Percentage type of  Exterior Application must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Exterior_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Business_Split_Exterior__c,0) = 0
+&amp;&amp; 
+ NULLVALUE(Business_Split_Interior__c,0) 
++NULLVALUE(Business_Split_Texture__c ,0) = 1.0
+&amp;&amp; 
+NULLVALUE(Exterior_Other_None__c,0) &lt;&gt; 1.0</errorConditionFormula>
+        <errorDisplayField>Exterior_Other_None__c</errorDisplayField>
+        <errorMessage>Since you entered 0% for Exterior in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Exterior_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NULLVALUE(Business_Split_Exterior__c ,0) &lt;&gt; 0
+&amp;&amp; 
+NULLVALUE(Exterior_Other_None__c,0)&lt;&gt; 0)</errorConditionFormula>
+        <errorDisplayField>Exterior_Other_None__c</errorDisplayField>
+        <errorMessage>Exterior field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Exterior_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Business_Split_Exterior__c,0) = 0
+&amp;&amp; 
+ NULLVALUE(Business_Split_Interior__c,0) 
++NULLVALUE(Business_Split_Texture__c ,0) = 1.0
+&amp;&amp; 
+NULLVALUE(No_Exterior_Paint_Applied__c,0) &lt;&gt; 1.0</errorConditionFormula>
+        <errorDisplayField>No_Exterior_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Since you entered 0% for Exterior in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Exterior_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NULLVALUE(Business_Split_Exterior__c ,0) &lt;&gt; 0
+&amp;&amp; 
+NULLVALUE(No_Exterior_Paint_Applied__c,0)&lt;&gt; 0)</errorConditionFormula>
+        <errorDisplayField>No_Exterior_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Exterior field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>From_Another_Company_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(O_Split_Inderpendant_Paint_Specialist__c , 0)  
++ NULLVALUE(O_Split_Inderpendant_Hardware__c,0) 
++ NULLVALUE(O_Split_Corporate_Masters__c,0) 
++ NULLVALUE(O_Split_ITC_Stores__c,0) 
++NULLVALUE(O_Split_Corporate_Other__c, 0)
++NULLVALUE(O_Split_Company_Owned_Stores_Other__c,0)
++NULLVALUE(Wattyl_NZ_O_Split_Corporate_Retail__c,0)
+  &lt;&gt;   1.0  
+&amp;&amp; 
+NULLVALUE(O_Split_Inderpendant_Paint_Specialist__c , 0) 
++ NULLVALUE(O_Split_Inderpendant_Hardware__c,0)
++ NULLVALUE(O_Split_Corporate_Masters__c,0) 
++ NULLVALUE(O_Split_ITC_Stores__c,0) 
++NULLVALUE(O_Split_Corporate_Other__c, 0)
++ NULLVALUE(O_Split_Company_Owned_Stores_Other__c,0)  
++NULLVALUE(Wattyl_NZ_O_Split_Corporate_Retail__c,0)
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>O_Split_Company_Owned_Stores_Other__c</errorDisplayField>
+        <errorMessage>Percentage Other Company  must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>How_do_you_get_your_paint_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(P_Delivery_Pick_Up__c,0) 
++NULLVALUE(P_Delivery_Delivery__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(P_Delivery_Pick_Up__c,0) 
++NULLVALUE(P_Delivery_Delivery__c,0) 
+
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>P_Delivery_Delivery__c</errorDisplayField>
+        <errorMessage>Percentage of how do you get your paint must  add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Interior_Application_Method_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(I_Application_Spray__c,0) 
++NULLVALUE(I_Application_Roller__c,0) 
++NULLVALUE(I_Application_Brush__c,0) 
++NULLVALUE(I_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Interior_Paint_Applied__c, 0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(I_Application_Spray__c,0) 
++NULLVALUE(I_Application_Roller__c,0) 
++NULLVALUE(I_Application_Brush__c,0) 
++NULLVALUE(I_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Interior_Paint_Applied__c, 0)
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>No_Interior_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Percentage type of  Interior Application must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Interior_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0) = 0
+&amp;&amp;
+NULLVALUE(Business_Split_Exterior__c ,0) +
+NULLVALUE(Business_Split_Texture__c ,0) = 1.0
+&amp;&amp; 
+NULLVALUE(Interior_Other_None__c,0)&lt;&gt;1.0</errorConditionFormula>
+        <errorDisplayField>Interior_Other_None__c</errorDisplayField>
+        <errorMessage>Since you entered 0% for Interior in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Interior_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NULLVALUE(Business_Split_Interior__c ,0) &lt;&gt; 0
+&amp;&amp; 
+NULLVALUE(Interior_Other_None__c,0)&lt;&gt; 0)</errorConditionFormula>
+        <errorDisplayField>Interior_Other_None__c</errorDisplayField>
+        <errorMessage>Interior field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Interior_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0) = 0
+&amp;&amp;
+NULLVALUE(Business_Split_Exterior__c ,0) +
+NULLVALUE(Business_Split_Texture__c ,0) = 1.0
+&amp;&amp; 
+NULLVALUE(No_Interior_Paint_Applied__c,0)&lt;&gt;1.0</errorConditionFormula>
+        <errorDisplayField>No_Interior_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Since you entered 0% for Interior in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Interior_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NULLVALUE(Business_Split_Interior__c ,0) &lt;&gt; 0
+&amp;&amp; 
+NULLVALUE(No_Interior_Paint_Applied__c,0)&lt;&gt; 0)</errorConditionFormula>
+        <errorDisplayField>No_Interior_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Interior field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Paint_Purchase_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(V_Split_Company_Owned_Stores__c , 0)  + NULLVALUE(V_Split_Corporate_Masters__c, 0) + NULLVALUE(V_Split_Inderpendant_Hardware__c, 0)  + NULLVALUE(V_Split_Inderpendant_Paint_Specialist__c, 0) +NULLVALUE(V_Split_ITC_Stores__c, 0)
++NULLVALUE(Wattyl_NZ_V_Split_Other__c,0)
+&lt;&gt;   1.0  
+&amp;&amp; NULLVALUE(V_Split_Company_Owned_Stores__c , 0)  + NULLVALUE(V_Split_Corporate_Masters__c, 0) + NULLVALUE(V_Split_Inderpendant_Hardware__c, 0)  + NULLVALUE(V_Split_Inderpendant_Paint_Specialist__c, 0) +NULLVALUE(V_Split_ITC_Stores__c, 0)
++NULLVALUE(Wattyl_NZ_V_Split_Other__c,0)
+&lt;&gt;   0</errorConditionFormula>
+        <errorDisplayField>V_Split_Inderpendant_Hardware__c</errorDisplayField>
+        <errorMessage>Percentage of  Paint Purchase must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Pct_of_Spend_Preparation_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(A_Spend_Preparation_P__c,0) 
++NULLVALUE(A_Spend_Preparation_DIY__c,0) 
++NULLVALUE(A_Spend_Preparation_T__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Preparation_P__c,0) 
++NULLVALUE(A_Spend_Preparation_DIY__c,0) 
++NULLVALUE(A_Spend_Preparation_T__c,0) 
+
+
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>A_Spend_Preparation_DIY__c</errorDisplayField>
+        <errorMessage>Percentage type of Spend Preparation must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Percentage_of_Spend_Brushes_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(A_Spend_Brushes_P__c,0) 
++NULLVALUE(A_Spend_Brushes_DIY__c,0) 
++NULLVALUE(A_Spend_Brushes_T__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Brushes_P__c,0) 
++NULLVALUE(A_Spend_Brushes_DIY__c,0) 
++NULLVALUE(A_Spend_Brushes_T__c,0) 
+
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>A_Spend_Brushes_DIY__c</errorDisplayField>
+        <errorMessage>Percentage type of Spend Brushes must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Percentage_of_Spend_Rollers_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(A_Spend_Rollers_P__c,0) 
++NULLVALUE(A_Spend_Rollers_DIY__c,0) 
++NULLVALUE(A_Spend_Rollers_T__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Rollers_P__c,0) 
++NULLVALUE(A_Spend_Rollers_DIY__c,0) 
++NULLVALUE(A_Spend_Rollers_T__c,0) 
+
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>A_Spend_Rollers_DIY__c</errorDisplayField>
+        <errorMessage>Percentage type of Spend Rollers must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Percentage_of_Spend_Spray_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(A_Spend_Spray_Equipment_P__c,0) 
++NULLVALUE(A_Spend_Spray_Equipment_DIY__c,0) 
++NULLVALUE(A_Spend_Spray_Equipment_T__c,0) 
+
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Spray_Equipment_P__c,0) 
++NULLVALUE(A_Spend_Spray_Equipment_DIY__c,0) 
++NULLVALUE(A_Spend_Spray_Equipment_T__c,0) 
+
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>A_Spend_Spray_Equipment_DIY__c</errorDisplayField>
+        <errorMessage>Percentage type of Spend Spray must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Percentage_of_Spend_Texture_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(A_Spend_Texture_P__c,0) 
++NULLVALUE(A_Spend_Texture_DIY__c,0) 
++NULLVALUE(A_Spend_Texture_T__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Texture_P__c,0) 
++NULLVALUE(A_Spend_Texture_DIY__c,0) 
++NULLVALUE(A_Spend_Texture_T__c,0) 
+
+
+
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>A_Spend_Texture_DIY__c</errorDisplayField>
+        <errorMessage>Percentage type of Spend texture must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Share_of_Business_Validation_rule</fullName>
+        <active>false</active>
+        <errorConditionFormula>if ($Profile.Name &lt;&gt; &apos;API USER&apos;,
+NULLVALUE(ROUND(Valspar_ShareofBusiness__c,2),0)
++NULLVALUE(PPG_ShareofBusiness__c ,0) 
++NULLVALUE(+Other_ShareofBusiness__c ,0) 
++NULLVALUE(Dulux_ShareofBusiness__c ,0) 
++NULLVALUE(Haymes_ShareofBusiness__c ,0) 
++NULLVALUE(Wattyl_NZ_Resene_ShareofBusiness__c,0) 
+&lt;&gt;1.0
+&amp;&amp;
+NULLVALUE(Valspar_ShareofBusiness__c,0)
++NULLVALUE(PPG_ShareofBusiness__c ,0) 
++NULLVALUE(+Other_ShareofBusiness__c ,0) 
++NULLVALUE(Dulux_ShareofBusiness__c ,0) 
++NULLVALUE(Haymes_ShareofBusiness__c ,0) 
++NULLVALUE(Wattyl_NZ_Resene_ShareofBusiness__c,0)
+&lt;&gt;0,null)</errorConditionFormula>
+        <errorDisplayField>Other_ShareofBusiness__c</errorDisplayField>
+        <errorMessage>Percentage Share  of Business must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Split_of_Business_Validation_rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0)  
++NULLVALUE(Business_Split_Exterior__c,0) 
++NULLVALUE(Business_Split_Texture__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(Business_Split_Interior__c ,0)  
++NULLVALUE(Business_Split_Exterior__c,0) 
++NULLVALUE(Business_Split_Texture__c,0) 
+
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>Business_Split_Texture__c</errorDisplayField>
+        <errorMessage>Percentage Split  of Business must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Texture_Application_Method_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(T_Application_Spray__c,0) 
++NULLVALUE(T_Application_Roller__c,0) 
++NULLVALUE(T_Application_Brush__c,0) 
++NULLVALUE(T_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Texture_Paint_Applied__c, 0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(T_Application_Spray__c,0) 
++NULLVALUE(T_Application_Roller__c,0) 
++NULLVALUE(T_Application_Brush__c,0) 
++NULLVALUE(T_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Texture_Paint_Applied__c, 0)
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>No_Texture_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Percentage type of Texture Application must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Texture_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) = 0
+&amp;&amp; 
+ NULLVALUE(Business_Split_Interior__c,0) 
++NULLVALUE(Business_Split_Exterior__c,0) = 1.0
+&amp;&amp; 
+NULLVALUE(Texture_Other_None__c,0)&lt;&gt;1.0</errorConditionFormula>
+        <errorDisplayField>Texture_Other_None__c</errorDisplayField>
+        <errorMessage>Since you entered 0% for Texture in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Texture_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NULLVALUE(Business_Split_Texture__c ,0) &lt;&gt; 0
+&amp;&amp; 
+NULLVALUE(Texture_Other_None__c,0) &lt;&gt; 0)</errorConditionFormula>
+        <errorDisplayField>Texture_Other_None__c</errorDisplayField>
+        <errorMessage>Texture field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Texture_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) = 0
+&amp;&amp; 
+ NULLVALUE(Business_Split_Interior__c,0) 
++NULLVALUE(Business_Split_Exterior__c,0) = 1.0
+&amp;&amp; 
+NULLVALUE(No_Texture_Paint_Applied__c,0)&lt;&gt;1.0</errorConditionFormula>
+        <errorDisplayField>No_Texture_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Since you entered 0% for Texture in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Texture_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) &lt;&gt; 0
+&amp;&amp; 
+NULLVALUE(No_Texture_Paint_Applied__c,0)&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>No_Texture_Paint_Applied__c</errorDisplayField>
+        <errorMessage>Texture field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Type_of_Exterior_Products_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Exterior_Other_UP__c,0) 
++NULLVALUE(Exterior_Other_T__c,0) 
++NULLVALUE(Exterior_Other_P__c,0)
++NULLVALUE(Exterior_Other_EL__c,0)
++NULLVALUE(Exterior_Other_None__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(Exterior_Other_UP__c,0) 
++NULLVALUE(Exterior_Other_T__c,0) 
++NULLVALUE(Exterior_Other_P__c,0)
++NULLVALUE(Exterior_Other_EL__c,0)
++NULLVALUE(Exterior_Other_None__c,0)
+&gt; 0</errorConditionFormula>
+        <errorDisplayField>Exterior_Other_None__c</errorDisplayField>
+        <errorMessage>Percentage type of Exterior Products  must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Type_of_Interior_Products_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Interior_Other_UP__c,0) 
++NULLVALUE(Interior_Other_T__c,0) 
++NULLVALUE(Interior_Other_P__c,0)
++NULLVALUE(Interior_Other_EL__c,0)
++NULLVALUE(Interior_Other_None__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(Interior_Other_UP__c,0) 
++NULLVALUE(Interior_Other_T__c,0) 
++NULLVALUE(Interior_Other_P__c,0)
++NULLVALUE(Interior_Other_EL__c,0)
++NULLVALUE(Interior_Other_None__c,0)
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>Interior_Other_None__c</errorDisplayField>
+        <errorMessage>Percentage Type of Interior must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Type_of_Texture_Products_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(Texture_Other_UP__c,0) 
++NULLVALUE(Texture_Other_T__c,0) 
++NULLVALUE(Texture_Other_P__c,0)
++NULLVALUE(Texture_Other_EL__c,0)
++NULLVALUE(Texture_Other_None__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(Texture_Other_UP__c,0) 
++NULLVALUE(Texture_Other_T__c,0) 
++NULLVALUE(Texture_Other_P__c,0)
++NULLVALUE(Texture_Other_EL__c,0)
++NULLVALUE(Texture_Other_None__c,0)
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>Texture_Other_None__c</errorDisplayField>
+        <errorMessage>Percentage type of Texture Products  must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Type_of_Work_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(W_Split_Commercial_Repaint__c , 0)  
++NULLVALUE(W_Split_Commercial_Texture__c,0) 
++NULLVALUE(W_Split_Residential_Repaint__c,0) 
++NULLVALUE(W_Split_Commercial_Texture_New__c,0) 
++NULLVALUE(W_Split_Commercial_Paint_New__c, 0)
++NULLVALUE(W_Split_Residential_Texture__c,0)
++NULLVALUE(W_Split_New_Residential_Proj_Homes_Paint__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(W_Split_Commercial_Repaint__c , 0)  
++NULLVALUE(W_Split_Commercial_Texture__c,0) 
++NULLVALUE(W_Split_Residential_Repaint__c,0) 
++NULLVALUE(W_Split_Commercial_Texture_New__c,0) 
++NULLVALUE(W_Split_Commercial_Paint_New__c, 0)
++NULLVALUE(W_Split_Residential_Texture__c,0)
++NULLVALUE(W_Split_New_Residential_Proj_Homes_Paint__c,0)
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>W_Split_New_Residential_Proj_Homes_Paint__c</errorDisplayField>
+        <errorMessage>Percentage Type of Work  must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>When_Do_You_Order_Paint_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(O_Time_Same_Day__c,0) 
++NULLVALUE(O_Time_Day_Before__c,0) 
++NULLVALUE(O_Time_A_Week_Prior__c,0) 
++NULLVALUE(O_Time_Other__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(O_Time_Same_Day__c,0) 
++NULLVALUE(O_Time_Day_Before__c,0) 
++NULLVALUE(O_Time_A_Week_Prior__c,0) 
++NULLVALUE(O_Time_Other__c,0) 
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>O_Time_Other__c</errorDisplayField>
+        <errorMessage>Percentage when do you order paint  must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>When_Do_You_Pickup_Paint_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(C_Time_6am_7am__c,0) 
++NULLVALUE(C_Time_7am_8am__c,0) 
++NULLVALUE(C_Time_3pm_4pm__c,0) 
++NULLVALUE(C_Time_4pm_5pm__c,0) 
++NULLVALUE(C_Time_Other__c,0) 
+
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(C_Time_6am_7am__c,0) 
++NULLVALUE(C_Time_7am_8am__c,0) 
++NULLVALUE(C_Time_3pm_4pm__c,0) 
++NULLVALUE(C_Time_4pm_5pm__c,0) 
++NULLVALUE(C_Time_Other__c,0) 
+
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>C_Time_Other__c</errorDisplayField>
+        <errorMessage>Percentage when do you pickup paint  must add up to 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Where_do_you_buy_Accessoried_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NULLVALUE(B_Accessories_Company_Owned_Stores__c,0) 
++NULLVALUE(B_Accessories_ITC_Stores__c,0) 
++NULLVALUE(B_Accessories_Corporate__c,0) 
++NULLVALUE(B_Accessories_Inderpendant_Hardware__c, 0)
++NULLVALUE(B_Accessories_Inderpendant_Paint__c, 0)
++NULLVALUE(B_Accessories_Online__c,0)
++NULLVALUE(B_Accessories_Wholesale__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(B_Accessories_Company_Owned_Stores__c,0) 
++NULLVALUE(B_Accessories_ITC_Stores__c,0) 
++NULLVALUE(B_Accessories_Corporate__c,0) 
++NULLVALUE(B_Accessories_Inderpendant_Hardware__c, 0)
++NULLVALUE(B_Accessories_Inderpendant_Paint__c, 0)
++NULLVALUE(B_Accessories_Online__c,0)
++NULLVALUE(B_Accessories_Wholesale__c,0)
+&lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>B_Accessories_Wholesale__c</errorDisplayField>
+        <errorMessage>Percentage Where you buy Accessories  must add up to 100%</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Account_Intelligence_Completion_Status_Report</fullName>
+        <availability>online</availability>
+        <description>Account Intelligence Completion Status Report</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Account Intelligence Completion Status Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00OE0000001yWlN</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Share_of_Business_Exceptions_Report</fullName>
+        <availability>online</availability>
+        <description>Share of Business Exceptions Report</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Share of Business Exceptions Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00OE0000001yWlO</url>
+    </webLinks>
+</CustomObject>

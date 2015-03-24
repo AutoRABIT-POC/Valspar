@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Batch_Alert__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Alert</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Batch_Check_Cycle_Time__c</fullName>
+        <description>Calculates the difference between Date CPI Status set to Completed and Date Batch Check set to Yes</description>
+        <externalId>false</externalId>
+        <formula>Date_CPI_Status_set_to_Completed__c - Date_Batch_Check_set_to_Yes__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Batch Check Cycle Time</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Batch_Check_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Check Location</label>
+        <picklist>
+            <picklistValues>
+                <fullName>CCA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chicago</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Garland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lebanon</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Matteson</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medina</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Newburyport</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Outside Vendor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sacramento</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Statesville</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wheeling</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wheeling Color</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wheeling Technical</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Batch_Check__c</fullName>
+        <externalId>false</externalId>
+        <label>Batch Check</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Batch_Manufacturing_Location__c</fullName>
+        <description>ConsQuality - Batch manufacturing site pulled from custom settings Case Product Info Category = PLANT CODE</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated from 11i</inlineHelpText>
+        <label>*Batch Manufacturing Location</label>
+        <picklist>
+            <picklistValues>
+                <fullName>620 – Lebanon</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>600 – Sacramento</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>310 – Statesville</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>080 – Medina</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>390 – Wheeling</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>300 – Garland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>060 – Matteson</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>370 – Newburyport</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>130 - CCA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Bulk_Batch_Number__c</fullName>
+        <description>Quality Team</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated from 11</inlineHelpText>
+        <label>*Bulk Batch Number</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CPI_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>CPI Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>New</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Batch Check Requested</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Color Check Requested</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Waiting On More Info</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Can_Sequence__c</fullName>
+        <externalId>false</externalId>
+        <label>Can Sequence</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Defect_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT (Case__r.Defect_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Defect Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Owner:User.FirstName &amp; &quot; &quot; &amp; Case__r.Owner:User.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Reason_Opened__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Case__r.Reason_Opened__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Reason Opened</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Subject__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case__r.Subject</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Subject</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Case Product Information</relationshipLabel>
+        <relationshipName>Case_Product_Information</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Complaint_Confirmed__c</fullName>
+        <description>For Quality Team only.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For Quality Team Only. Indicates the Complaint information has been confirmed by the Quality Team.</inlineHelpText>
+        <label>Complaint Confirmed</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Undetermined</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Not Tested</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Conclusion_Notes__c</fullName>
+        <description>Quality Team: Only Quality Team can update. For their Notes and Conclusions on a Complaint Case</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Quality Team only to update with Conclusion Notes.</inlineHelpText>
+        <label>Conclusion Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Date_Batch_Check_set_to_Yes__c</fullName>
+        <description>The date the Batch Check field is set to Yes</description>
+        <externalId>false</externalId>
+        <label>Date Batch Check set to Yes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Date_CPI_Status_set_to_Completed__c</fullName>
+        <description>Capture the date the CPI Status field is set to &apos;Completed&apos;</description>
+        <externalId>false</externalId>
+        <label>Date CPI Status set to Completed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Error_Messages__c</fullName>
+        <description>Error Messages returned from 11i/Legacy system calls</description>
+        <externalId>false</externalId>
+        <label>Error Messages</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Fill_Batch_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Fill Batch Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fill_Batch_Quantity__c</fullName>
+        <description>Cons Quality - populated from 11i call</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated from 11i</inlineHelpText>
+        <label>*Fill Batch Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Formula__c</fullName>
+        <description>Quality Team</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated from 11</inlineHelpText>
+        <label>*Formula</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Item_Number_Description__c</fullName>
+        <description>Quality Team:  Free form text for now.  May convert into.  Waiting on a products object to auto-populate this from Item Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated from 11</inlineHelpText>
+        <label>*Item Number Description</label>
+        <length>75</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Item_Number__c</fullName>
+        <description>New custom Item Number field</description>
+        <externalId>false</externalId>
+        <label>Item Number</label>
+        <length>25</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Item_Size_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>RIGHT((Item_Number__c),3)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Item Size Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Item_with_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>Item_Number__c &amp; &quot; - &quot; &amp;  Item_Number_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Item with Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Medina_Fill_Batch_Number__c</fullName>
+        <description>Cons Quality Fill Batch Number for Medina populated from 11i</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated from 11i</inlineHelpText>
+        <label>*Medina Fill Batch Number</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Line__c</fullName>
+        <description>Product Line of the Item from the 11i Item Master</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated from 11i</inlineHelpText>
+        <label>*Product Line</label>
+        <length>75</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity__c</fullName>
+        <description>Item Quantity</description>
+        <externalId>false</externalId>
+        <label>Purchased Quantity</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Settlement_Offer__c</fullName>
+        <externalId>false</externalId>
+        <formula>Related_Settlement__r.Offer_Detail__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Related Settlement Offer $</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Related_Settlement_Total_Ext__c</fullName>
+        <externalId>false</externalId>
+        <formula>Related_Settlement__r.Total_Ext__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Related Settlement Total Ext. $</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Related_Settlement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Settlement</label>
+        <referenceTo>Settlement__c</referenceTo>
+        <relationshipLabel>Case Product Information</relationshipLabel>
+        <relationshipName>Case_Product_Information</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Retain_Number__c</fullName>
+        <description>Retain Number from the 11i Quality Module for the Bulk Batch</description>
+        <externalId>false</externalId>
+        <label>*Retain Number</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Valtrack_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Valtrack Number</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Warehouse_Hold__c</fullName>
+        <externalId>false</externalId>
+        <label>Warehouse Hold</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Case Product Information</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Case__c</columns>
+        <columns>NAME</columns>
+        <columns>Item_Number__c</columns>
+        <columns>Item_Number_Description__c</columns>
+        <columns>CPI_Status__c</columns>
+        <columns>Valtrack_Number__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>Batch_Check__c</columns>
+        <columns>Fill_Batch_Number__c</columns>
+        <columns>Bulk_Batch_Number__c</columns>
+        <columns>Formula__c</columns>
+        <columns>Complaint_Confirmed__c</columns>
+        <columns>Conclusion_Notes__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>AllOpenCPI</fullName>
+        <columns>Case__c</columns>
+        <columns>NAME</columns>
+        <columns>Item_Number__c</columns>
+        <columns>Item_Number_Description__c</columns>
+        <columns>CPI_Status__c</columns>
+        <columns>Valtrack_Number__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>Batch_Check__c</columns>
+        <columns>Fill_Batch_Number__c</columns>
+        <columns>Bulk_Batch_Number__c</columns>
+        <columns>Formula__c</columns>
+        <columns>Complaint_Confirmed__c</columns>
+        <columns>Conclusion_Notes__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CPI_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>All Open CPI</label>
+    </listViews>
+    <listViews>
+        <fullName>All_NARMIN</fullName>
+        <columns>LAST_UPDATE</columns>
+        <columns>Case__c</columns>
+        <columns>Item_Number_Description__c</columns>
+        <columns>Product_Line__c</columns>
+        <columns>NAME</columns>
+        <columns>Item_Number__c</columns>
+        <columns>CPI_Status__c</columns>
+        <columns>Valtrack_Number__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>Batch_Check__c</columns>
+        <columns>Fill_Batch_Number__c</columns>
+        <columns>Bulk_Batch_Number__c</columns>
+        <columns>Formula__c</columns>
+        <columns>Complaint_Confirmed__c</columns>
+        <columns>Conclusion_Notes__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All-NARMIN</label>
+    </listViews>
+    <listViews>
+        <fullName>MyAllCPI</fullName>
+        <columns>Case__c</columns>
+        <columns>NAME</columns>
+        <columns>Item_Number__c</columns>
+        <columns>Item_Number_Description__c</columns>
+        <columns>CPI_Status__c</columns>
+        <columns>Valtrack_Number__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>Batch_Check__c</columns>
+        <columns>Fill_Batch_Number__c</columns>
+        <columns>Bulk_Batch_Number__c</columns>
+        <columns>Formula__c</columns>
+        <columns>Complaint_Confirmed__c</columns>
+        <columns>Conclusion_Notes__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My All CPI</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpenCPI</fullName>
+        <columns>Case__c</columns>
+        <columns>NAME</columns>
+        <columns>Item_Number__c</columns>
+        <columns>Item_Number_Description__c</columns>
+        <columns>CPI_Status__c</columns>
+        <columns>Valtrack_Number__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>Batch_Check__c</columns>
+        <columns>Fill_Batch_Number__c</columns>
+        <columns>Bulk_Batch_Number__c</columns>
+        <columns>Formula__c</columns>
+        <columns>Complaint_Confirmed__c</columns>
+        <columns>Conclusion_Notes__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CPI_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>My Open CPI</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{000000}</displayFormat>
+        <label>CPI Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Case Product Information</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Item_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Item_Number_Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Case__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Fill_Batch_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Bulk_Batch_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Formula__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Complaint_Confirmed__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Conclusion_Notes__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Item_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Item_Number_Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Case__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Fill_Batch_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Bulk_Batch_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Formula__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Complaint_Confirmed__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Conclusion_Notes__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Item_Number__c</searchFilterFields>
+        <searchFilterFields>Item_Number_Description__c</searchFilterFields>
+        <searchFilterFields>Case__c</searchFilterFields>
+        <searchFilterFields>Fill_Batch_Number__c</searchFilterFields>
+        <searchFilterFields>Bulk_Batch_Number__c</searchFilterFields>
+        <searchFilterFields>Formula__c</searchFilterFields>
+        <searchFilterFields>Complaint_Confirmed__c</searchFilterFields>
+        <searchResultsAdditionalFields>Item_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Item_Number_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Case__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Fill_Batch_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Bulk_Batch_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Formula__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Complaint_Confirmed__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Conclusion_Notes__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Fill_Batch_Number_must_be_10_characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+AND( 
+LEN(Fill_Batch_Number__c)&lt;10, 
+LEN(Fill_Batch_Number__c)&gt;0
+),
+AND(
+LEN(Fill_Batch_Number__c)&gt;10
+)
+)</errorConditionFormula>
+        <errorMessage>Fill Batch Number must be 10 characters</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Item_Number_must_be_15_characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+AND( 
+LEN(Item_Number__c)&lt;15, 
+LEN(Item_Number__c)&gt;0
+),
+AND(
+LEN(Item_Number__c)&gt;15
+)
+)</errorConditionFormula>
+        <errorMessage>Item Number must be 15 characters</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>CPI11iBatchItemCall</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Get Item/Batch Data</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/CPI11iBatchItemCallPage?CaseID={!Case_Product_Information__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>ValApps</fullName>
+        <availability>online</availability>
+        <description>Link to ValApps with Report Parameters to run this Red Prairie data report</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>ValApps Batch Recal Deliveries</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://valapps.valspar.local/valapps/faces/login.jspx?_afrLoop=18861226201820372&amp;_afrWindowMode=0&amp;_adf.ctrl-state=1ccrvy73ct_4</url>
+    </webLinks>
+</CustomObject>

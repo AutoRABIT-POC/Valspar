@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fiscal Period</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fiscal Periods</value>
+    </caseValues>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiscal Year --></label>
+        <name>Fiscal_Year__c</name>
+        <relationshipLabel><!-- Fiscal Periods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Period Number --></label>
+        <name>Period_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>ROW_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>ROW_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Fiscal Period Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- North America Date Range --></label>
+            <section>North America Date Range</section>
+        </sections>
+        <sections>
+            <label><!-- Rest Of World Date Range --></label>
+            <section>Rest Of World Date Range</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

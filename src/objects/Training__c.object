@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Training object for consumer.  Contains training module information and training tracking information.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Assortment__c</fullName>
+        <description>Training family</description>
+        <externalId>false</externalId>
+        <label>Assortment</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Bulk Paint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Concrete Coatings</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cabot Stains</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Consumer B&amp;Q</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer Masters</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <picklist>
+            <controllingField>Business_Unit__c</controllingField>
+            <picklistValues>
+                <fullName>Aerosols</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ceiling</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Colour</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Exterior Paints</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Features &amp; Effects</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Interior Paints</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Metal Paint</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Paint Foundations</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pascol Paving</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Preps</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Selling Skills</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Woodcare</fullName>
+                <controllingFieldValues>Consumer Masters</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Training Course</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Business_Unit__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Training Course Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Training Courses</pluralLabel>
+    <recordTypes>
+        <fullName>Valspar_Master_Training_Record_Type</fullName>
+        <active>true</active>
+        <label>Valspar Master Training Record Type</label>
+        <picklistValues>
+            <picklist>Assortment__c</picklist>
+            <values>
+                <fullName>Bulk Paint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabot Stains</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concrete Coatings</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Unit__c</picklist>
+            <values>
+                <fullName>Consumer B%26Q</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Masters</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Aerosols</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ceiling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior Paints</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Features %26 Effects</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interior Paints</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metal Paint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paint Foundations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pascol Paving</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Preps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling Skills</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Woodcare</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>Assortment__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Active__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>Active__c</searchFilterFields>
+        <searchResultsAdditionalFields>Assortment__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Active__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

@@ -1,0 +1,3 @@
+Please review the pricing for Contract {!Contract.ContractNumber} for {!Contract.Account}.  The contract is set to expire on {!Contract.EndDate}.
+
+The contract can be found here: https://valspar.my.salesforce.com/{!Contract.Id}

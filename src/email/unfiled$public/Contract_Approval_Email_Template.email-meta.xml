@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email templated used in the default Contract Approval process</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Contract Approval Email Template</name>
+    <style>none</style>
+    <subject>Contract Approval Needed</subject>
+    <type>text</type>
+</EmailTemplate>

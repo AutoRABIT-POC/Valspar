@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Action_Items__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Add any action items that will require follow up.</inlineHelpText>
+        <label>Action Items</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Activity_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Category</label>
+        <picklist>
+            <controllingField>Activity_Type__c</controllingField>
+            <picklistValues>
+                <fullName>Planned</fullName>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <controllingFieldValues>Meeting</controllingFieldValues>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <controllingFieldValues>Planned Training</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Additional</fullName>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <controllingFieldValues>Meeting</controllingFieldValues>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <controllingFieldValues>Planned Training</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Completed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Completed Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Admin Day</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>B &amp; Q Div/Reg Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Review</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Complaint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Day Off</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>E-mail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>In-Store Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Job Site Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Planned Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Promotions</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Relays</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Safety Huddles</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stock-take (General)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store Audit (for managers only)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Team Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Breakfast</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unplanned Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Valspar HO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Work*With (for managers only)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training Curriculum</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Planned Training</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Call_Date__c</fullName>
+        <description>Date of Call</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter planned or actual call date.</inlineHelpText>
+        <label>Call Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Call_Purpose__c</fullName>
+        <externalId>false</externalId>
+        <label>Call Purpose</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Call_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Call Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Testing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Forecast</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Competitor_info__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitor Intel Gathered</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Create_Training_Tasks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checkbox used for the batch process that will create training tasks when a curriculum task is created.  When set to true, the record will be included in the batch process.</description>
+        <externalId>false</externalId>
+        <label>Create Training Tasks</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Distributor__c</fullName>
+        <description>Created for Plastikote; picklist used due to inability to create custom lookup fields on activity object</description>
+        <externalId>false</externalId>
+        <label>Distributor</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Border Distribution</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bromborough Paints</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco - Birmingham</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Bolton</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Burnley</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Chesham</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Dagenham</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Ipswich</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Leeds</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Manchester</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Newton Abbott</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Perth</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco –Rawtenstall</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decco – Sheffield</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hills DIY</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Home Hardware – Barnstaple</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Home Hardware – Scotland</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stax – Birmingham</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stax – Bristol</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stax – Edinburgh</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stax – Leeds</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stax – Manchester</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stax – Worsley</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - (Curtis Holt-Northern)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - (Curtis Holt-North-west)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - Cwmbran</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - Dartford</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - Exeter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - Finnie &amp; Co</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - Halesowen</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - Newcastle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - Norwich</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - Southampton</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toolbank - St Albans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Winterstoke DM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Duration_in_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(IsAllDayEvent = TRUE, 1,
+   IF(X1_2_Day_Event_AM__c = TRUE, 0.5,
+      IF(X1_2_Day_Event_PM__c = TRUE, 0.5,
+         IF(X1_4_Day_Event__c = TRUE, 0.25, 
+            IF(X1_4_Day_Event_PM__c = TRUE, 0.25, NULL
+               )
+            )
+          )
+        )
+     )</formula>
+        <label>Duration in Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duration_in_Minutes__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Duration in Minutes</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Status__c</fullName>
+        <description>Custom field for tracking activity status.  Created due to lack of status field for Events.</description>
+        <externalId>false</externalId>
+        <label>Activity Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Forecast_Updates__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Include changes to forecast that should be shared.</inlineHelpText>
+        <label>Forecast Updates</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Order_Type__c</fullName>
+        <description>Created for Plastikote</description>
+        <externalId>false</externalId>
+        <label>Order Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>FDE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Super</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Twist and Spray</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Order_Value__c</fullName>
+        <description>Consumer PK field to track value of order placed.  Accepts values up to 999,999.</description>
+        <externalId>false</externalId>
+        <label>Order Value</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pricing__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Add any new info on Pricing.</inlineHelpText>
+        <label>Pricing</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Products__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter products that were discussed.</inlineHelpText>
+        <label>Products</label>
+        <length>64</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profit_Centers__c</fullName>
+        <externalId>false</externalId>
+        <label>Profit Centers</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Bev Ends</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Two Piece</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GP</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Food</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Steel Cont</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>T&amp;M</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BTC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Projects__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Updates on Projects in process</inlineHelpText>
+        <label>Projects</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Session_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Session Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Type</label>
+        <picklist>
+            <controllingField>Activity_Type__c</controllingField>
+            <picklistValues>
+                <fullName>Aisle</fullName>
+                <controllingFieldValues>Planned Training</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Classroom</fullName>
+                <controllingFieldValues>Planned Training</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deployment Topics</fullName>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Engaging Consumer</fullName>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Formal</fullName>
+                <controllingFieldValues>Meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Incentive</fullName>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Informal</fullName>
+                <controllingFieldValues>Meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meet with Trader</fullName>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Monitor Competitor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Showroom Topics</fullName>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Staff Event</fullName>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store Event</fullName>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Breakfast</fullName>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Breakfast Planning</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training Planning</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Visit Planning</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Training_Instance__c</fullName>
+        <externalId>false</externalId>
+        <label>Training Instance</label>
+        <picklist>
+            <controllingField>Activity_Type__c</controllingField>
+            <picklistValues>
+                <fullName>First-Time</fullName>
+                <controllingFieldValues>Training Course</controllingFieldValues>
+                <controllingFieldValues>Training Curriculum</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Refresher</fullName>
+                <controllingFieldValues>Training Course</controllingFieldValues>
+                <controllingFieldValues>Training Curriculum</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Training_Type__c</fullName>
+        <description>Training type</description>
+        <externalId>false</externalId>
+        <label>Training Type</label>
+        <picklist>
+            <controllingField>Activity_Type__c</controllingField>
+            <picklistValues>
+                <fullName>Aisle</fullName>
+                <controllingFieldValues>Training Course</controllingFieldValues>
+                <controllingFieldValues>Training Curriculum</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Formal</fullName>
+                <controllingFieldValues>Training Course</controllingFieldValues>
+                <controllingFieldValues>Training Curriculum</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Group</fullName>
+                <controllingFieldValues>Training Course</controllingFieldValues>
+                <controllingFieldValues>Training Curriculum</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>In Store</fullName>
+                <controllingFieldValues>Training Course</controllingFieldValues>
+                <controllingFieldValues>Training Curriculum</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Informal</fullName>
+                <controllingFieldValues>Training Course</controllingFieldValues>
+                <controllingFieldValues>Training Curriculum</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Classroom</fullName>
+                <controllingFieldValues>Training Course</controllingFieldValues>
+                <controllingFieldValues>Training Curriculum</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>User_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Owner:User.Region__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User Region</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Valspar_Attendees__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>List Valspar attendees</inlineHelpText>
+        <label>Valspar Attendees</label>
+        <length>64</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X1_2_Day_Event_AM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>1/2 Day Event AM</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X1_2_Day_Event_PM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>1/2 Day Event PM</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X1_4_Day_Event_PM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>B&amp;Q - 1/4 Store Visit PM</description>
+        <externalId>false</externalId>
+        <label>1/4 Day Event PM</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X1_4_Day_Event__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>B&amp;Q - Used to classify time for store visit.  Referenced in Apex Trigger and workflow rule validating that one duration checkbox be checked if Store Visit is the Activity Type selected.</description>
+        <externalId>false</externalId>
+        <label>1/4 Day Event AM</label>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>B_Q_Region_1_Open_Activities</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>Event_Status__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>ACTIVITY.TASK</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>User_Region__c</field>
+            <operation>equals</operation>
+            <value>B&amp;Q Region 1</value>
+        </filters>
+        <filters>
+            <field>Event_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Completed,Waiting on someone else,Deferred</value>
+        </filters>
+        <label>B&amp;Q Region 1 Open Activities</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cons_B_Q_BDM</roleAndSubordinatesInternal>
+            <roleAndSubordinatesInternal>Cons_B_Q_Executives_Managers_EMEAI</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>B_Q_Region_2_Open_Activities</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>Event_Status__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>ACTIVITY.TASK</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>User_Region__c</field>
+            <operation>equals</operation>
+            <value>B&amp;Q Region 2</value>
+        </filters>
+        <filters>
+            <field>Event_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Completed,Waiting on someone else,Deferred</value>
+        </filters>
+        <label>B&amp;Q Region 2 Open Activities</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cons_B_Q_BDM</roleAndSubordinatesInternal>
+            <roleAndSubordinatesInternal>Cons_B_Q_Executives_Managers_EMEAI</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>B_Q_Region_3_Open_Activities</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>Event_Status__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>ACTIVITY.TASK</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>User_Region__c</field>
+            <operation>equals</operation>
+            <value>B&amp;Q Region 3</value>
+        </filters>
+        <filters>
+            <field>Event_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Completed,Waiting on someone else,Deferred</value>
+        </filters>
+        <label>B&amp;Q Region 3 Open Activities</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cons_B_Q_BDM</roleAndSubordinatesInternal>
+            <roleAndSubordinatesInternal>Cons_B_Q_Executives_Managers_EMEAI</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>B_Q_Region_4_Open_Activities</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>Event_Status__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>ACTIVITY.TASK</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>User_Region__c</field>
+            <operation>equals</operation>
+            <value>B&amp;Q Region 4</value>
+        </filters>
+        <filters>
+            <field>Event_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Completed,Waiting on someone else,Deferred</value>
+        </filters>
+        <label>B&amp;Q Region 4 Open Activities</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cons_B_Q_BDM</roleAndSubordinatesInternal>
+            <roleAndSubordinatesInternal>Cons_B_Q_Executives_Managers_EMEAI</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>B_Q_Region_5_Open_Activities</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>Event_Status__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>ACTIVITY.TASK</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>User_Region__c</field>
+            <operation>equals</operation>
+            <value>B&amp;Q Region 5</value>
+        </filters>
+        <filters>
+            <field>Event_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Completed,Waiting on someone else,Deferred</value>
+        </filters>
+        <label>B&amp;Q Region 5 Open Activities</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cons_B_Q_BDM</roleAndSubordinatesInternal>
+            <roleAndSubordinatesInternal>Cons_B_Q_Executives_Managers_EMEAI</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>B_Q_Region_6_Open_Activities</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>Event_Status__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>ACTIVITY.TASK</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>User_Region__c</field>
+            <operation>equals</operation>
+            <value>B&amp;Q Region 6</value>
+        </filters>
+        <filters>
+            <field>Event_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Completed,Waiting on someone else,Deferred</value>
+        </filters>
+        <label>B&amp;Q Region 6 Open Activities</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cons_B_Q_BDM</roleAndSubordinatesInternal>
+            <roleAndSubordinatesInternal>Cons_B_Q_Executives_Managers_EMEAI</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>EPS_Sales_Calendar</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Team</filterScope>
+        <label>EPS Sales Calendar</label>
+        <sharedTo>
+            <roleAndSubordinates>EPSExecutivesManagers</roleAndSubordinates>
+            <roleAndSubordinates>EPSRepsSalesTechCS_NA</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Event_Status__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Event_Comments__c</columns>
+        <columns>ACTIVITY.TASK</columns>
+        <columns>Activity_Type__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Open_Activities1</fullName>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Event_Status__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Event_Comments__c</columns>
+        <columns>ACTIVITY.TASK</columns>
+        <columns>Activity_Type__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Event_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <label>My Open Activities</label>
+        <sharedTo>
+            <group>ConsBQUsers</group>
+            <roleAndSubordinatesInternal>Cons_B_Q_BDM</roleAndSubordinatesInternal>
+            <roleAndSubordinatesInternal>Cons_B_Q_Executives_Managers_EMEAI</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Packaging_Trials</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>EVENT.LOCATION</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>EVENT.END_DATE_TIME</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.WHO_NAME</field>
+            <operation>contains</operation>
+            <value>Add Trial</value>
+        </filters>
+        <label>Packaging Trials</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>PackagingBUAdmin</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Region_Activities_Last_14_Days</fullName>
+        <columns>TASK.TYPE</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <columns>Event_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:14</value>
+        </filters>
+        <filters>
+            <field>TASK.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Event.Cons_Lowes_Event</value>
+        </filters>
+        <label>All Region Activities - Last 14 Days</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cons_Lowes_BU_Admin</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Today_s_Open_Activities</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>TASK.TYPE</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Event_Status__c</columns>
+        <columns>TASK.PRIORITY</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Completed,Deferred</value>
+        </filters>
+        <filters>
+            <field>Event_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>Open Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

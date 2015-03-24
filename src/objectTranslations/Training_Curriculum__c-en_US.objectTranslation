@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Training Curriculum Courses</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Training Curriculum Courses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Training Curriculum --></label>
+        <name>Curriculum__c</name>
+        <relationshipLabel><!-- Training Curriculum Courses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Minutes --></label>
+        <name>Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Courses --></label>
+        <name>Training__c</name>
+        <relationshipLabel><!-- Training Curriculum Courses --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Training Curriculum Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

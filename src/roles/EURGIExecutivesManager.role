@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>EUR GI Executives &amp; Manager</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>GI Executives &amp; Managers_EMEAI</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>GI_BU_Admin_EMEAI</parentRole>
+</Role>

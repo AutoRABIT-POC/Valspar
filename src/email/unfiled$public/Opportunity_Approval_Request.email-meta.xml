@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Opportunity Approval Request</name>
+    <style>none</style>
+    <subject>New Opportunity Approval Request Has Been Submitted</subject>
+    <textOnly>An approval is needed for the {!Opportunity.Name} opportunity which is owned by {!Opportunity.Owner}. Please access the opportunity to update it at the following URL:
+
+{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

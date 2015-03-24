@@ -1,0 +1,5 @@
+{!Receiving_User.FirstName}
+
+{!Lead.OwnerFullName} has requested that you review the following Lead and convert it to an Opportunity.
+
+{!Lead.Link}

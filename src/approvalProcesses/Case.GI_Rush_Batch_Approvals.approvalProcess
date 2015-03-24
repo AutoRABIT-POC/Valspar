@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>GIBUAdmin</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+        <field>Account</field>
+        <field>Account_Tier__c</field>
+        <field>Plant_Lead_Time__c</field>
+        <field>Item_Number__c</field>
+        <field>Batch_Number__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>ljacobson@valspar.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Change 521836 - Accounts with No Tier to be fixed/approve by CSR Mgr</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Account_Tier__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Accounts with No Tier/Rating Approval</label>
+        <name>Accounts_with_No_Tier_Rating_Approval</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>GI_Sales_Managers</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Change 521836 - Accounts in Silver &amp; Bronze Account Ranking need Sales Mgr approval 1st for Rush Batches</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Account_Tier__c</field>
+                <operation>equals</operation>
+                <value>Bronze</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Account_Tier__c</field>
+                <operation>equals</operation>
+                <value>Silver</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Silver &amp; Bronze Sales Management Approval</label>
+        <name>Silver_Bronze_Sales_Management_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>GI_Toll_Producer_Approvers</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Change 521836 - Toll Producers Approval for Rush Batches</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Plant_Lead_Time__c</field>
+                <operation>startsWith</operation>
+                <value>D</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Toll Producers Approval</label>
+        <name>Toll_Producers_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>GI_Demand_Planners</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Change 521836 - Stock Orders to Demand Planning for Approval</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Item_Type__c</field>
+                <operation>equals</operation>
+                <value>STOCK</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>GI Rush Batch Stock Demand Planning Approval</label>
+        <name>GI_Rush_Batch_Stock_Demand_Planning_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>GI_Purchasing</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Change 521836 - Approval to Purchasing Dept. for Rush Batches</description>
+        <label>GI Rush Batch Purchasing Approval</label>
+        <name>GI_Rush_Batch_Purchasing_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>GI_Scheduling</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Change 521836 - Approval to Scheduling Department on Rush Batches</description>
+        <label>GI Rush Batch Scheduling Approval</label>
+        <name>GI_Rush_Batch_Scheduling_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Change 521836 GI Service Cloud - Rush Batch Approval Process; evaluates the Account Rating, Plant coming from, and Item Type to determine which group approves.</description>
+    <emailTemplate>GI_Customer_Service/GI_Case_Approval_Request</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Case.RecordType</field>
+            <operation>equals</operation>
+            <value>Rush Batch</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Case_Approved_Status_Update</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Email_Case_Owner_when_Case_is_Approved</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Case_Status_to_Approval_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Email_Case_Owner_when_Case_is_Rejected</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Case_Status_to_Pending_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>GI Rush Batch Approvals</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

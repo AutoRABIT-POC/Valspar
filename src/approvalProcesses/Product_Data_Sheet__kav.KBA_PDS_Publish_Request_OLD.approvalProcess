@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>KBA_Content_Viewers</submitter>
+        <type>group</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Title</field>
+        <field>ArticleNumber</field>
+        <field>UrlName</field>
+        <field>Summary</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Publish_Article</name>
+                <type>KnowledgePublish</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>genglis@valspar.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>mmckay@valspar.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>tdunne@valspar.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Manager Approval</description>
+        <label>Manager Approval</label>
+        <name>Manager_Approval</name>
+    </approvalStep>
+    <description>KBA Product Data Sheet Publish Request
+New Process added to include B&amp;Q</description>
+    <emailTemplate>Cases/KBA_Product_Data_Sheet_Publish_Request</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <finalApprovalActions>
+        <action>
+            <name>Publish_Article</name>
+            <type>KnowledgePublish</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>KBA PDS Publish Request OLD</label>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

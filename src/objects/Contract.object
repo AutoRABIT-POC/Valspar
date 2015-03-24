@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Terminate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Agent__c</fullName>
+        <externalId>false</externalId>
+        <label>Agent</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Annual_Revenue__c</fullName>
+        <description>GI Approvals</description>
+        <externalId>false</externalId>
+        <label>Annual Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Applicator_s_requesting_approval__c</fullName>
+        <description>April 2014 GI Approvals: Applicator(s) requesting approval</description>
+        <externalId>false</externalId>
+        <label>Applicator(s) requesting approval</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Approved_Valspar_Product_Codes__c</fullName>
+        <description>April 2014 GI Approvals: Approved Valspar Product Codes</description>
+        <externalId>false</externalId>
+        <label>Approved Valspar Product Codes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Approver_Type__c</fullName>
+        <description>April 2014 GI Approvals: Approver Type</description>
+        <externalId>false</externalId>
+        <label>Approver Type</label>
+        <picklist>
+            <controllingField>Market_Approval_Type__c</controllingField>
+            <picklistValues>
+                <fullName>Private Car Owner</fullName>
+                <controllingFieldValues>Rail Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rail Road</fullName>
+                <controllingFieldValues>Rail Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>End User Influencer</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Engineering Firm</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pipe Mill</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pipe Distributor</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inspection</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Shipping Lines</fullName>
+                <controllingFieldValues>Container Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Leasing Companies</fullName>
+                <controllingFieldValues>Container Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Coil/Extrusion</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer DB</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer PD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EPS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>General Industrial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wood</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3D Laser Sintering</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mirror</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Graphic Arts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer Plastikote</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer B&amp;Q</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer Wattyl Trade</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer Consumer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer Lowes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consumer Ace</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>CDA__c</fullName>
+        <externalId>false</externalId>
+        <label>CDA</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>CompanySignedDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CompanySignedId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Consignment__c</fullName>
+        <externalId>false</externalId>
+        <label>Consignment</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ContractTerm</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Cost_Savings_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Savings Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Cost_Savings_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Savings Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Cost_Savings__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Savings</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedTitle</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Freight_Description__c</fullName>
+        <description>If Contract Terms do not meet standard terms, they can be described in this field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If Contract Freight Terms do not meet Standard Freight Terms, describe terms in this this field</inlineHelpText>
+        <label>Freight Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Freight_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Freight Terms</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Prepaid</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prepaid &amp; Add</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prepaid &amp; Charged</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Freight Collect</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prepaid &amp; Allowed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Collect &amp; Allowed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Will Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Index_Based_Pricing__c</fullName>
+        <externalId>false</externalId>
+        <label>Index Based Pricing</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Market_Approval_Type__c</fullName>
+        <description>April 2014 GI Approvals: Market Approval Type</description>
+        <externalId>false</externalId>
+        <label>Market Approval Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Rail Approval</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pipe Approval</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Container Approval</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerExpirationNotice</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Powder_Shuttle__c</fullName>
+        <externalId>false</externalId>
+        <label>Powder Shuttle</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Prebate_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Prebate Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Prebate__c</fullName>
+        <externalId>false</externalId>
+        <label>Prebate</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Pricing_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Pricing Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Pricing_Referenced_in_Agreement__c</fullName>
+        <externalId>false</externalId>
+        <label>Pricing Referenced in Agreement</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Pricing_To_Be_Reviewed__c</fullName>
+        <description>Description of when pricing should be reviewed</description>
+        <externalId>false</externalId>
+        <label>Pricing To Be Reviewed</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <description>April 2014 GI Approvals: Priority</description>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <picklist>
+            <picklistValues>
+                <fullName>High</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Rebate_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Rebate Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Rebate__c</fullName>
+        <externalId>false</externalId>
+        <label>Rebate</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SpecialTerms</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Silent</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N/A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Stocking_Agreement__c</fullName>
+        <externalId>false</externalId>
+        <label>Stocking Agreement</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Technology__c</fullName>
+        <description>April 2014 GI Approvals: Technology</description>
+        <externalId>false</externalId>
+        <label>Technology</label>
+        <picklist>
+            <controllingField>Market_Approval_Type__c</controllingField>
+            <picklistValues>
+                <fullName>Anticipated approval date</fullName>
+                <controllingFieldValues>Rail Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Epoxy</fullName>
+                <controllingFieldValues>Rail Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Flowliner</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HOT 120</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HOT 150</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ID Coatings</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LAT</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <controllingFieldValues>Rail Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pipeclad 2000 FBE</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pipeclad 2040 ARO</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pipeclad 2040 Flex</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roughcoat</fullName>
+                <controllingFieldValues>Pipe Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tank Liner</fullName>
+                <controllingFieldValues>Rail Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Urethane</fullName>
+                <controllingFieldValues>Rail Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Waterborne (WB)</fullName>
+                <controllingFieldValues>Rail Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Aquaguard</fullName>
+                <controllingFieldValues>Container Approval</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Trigger_Date_of_Pricing__c</fullName>
+        <externalId>false</externalId>
+        <label>Trigger Date of Pricing</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Valspar_Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>User field referenced from approval workflow.  CHG-520797</description>
+        <externalId>false</externalId>
+        <label>Valspar Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>AllActivatedContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>All Activated Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllDraftContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>All Draft Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllInApprovalContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>P</value>
+        </filters>
+        <label>All In Approval Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>GI_AllContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Business_Unit__c</field>
+            <operation>equals</operation>
+            <value>General Industrial</value>
+        </filters>
+        <label>GI All Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>GI_MasterContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Business_Unit__c</field>
+            <operation>equals</operation>
+            <value>General Industrial</value>
+        </filters>
+        <filters>
+            <field>CONTRACT.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Contract.Valspar_Master_Contract_Record_Type</value>
+        </filters>
+        <label>GI Master Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>GI_MkApContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Business_Unit__c</field>
+            <operation>equals</operation>
+            <value>General Industrial</value>
+        </filters>
+        <filters>
+            <field>CONTRACT.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Contract.GI_Market_Approval</value>
+        </filters>
+        <label>GI Market Approval Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyActivatedContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>My Activated Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDraftContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>My Draft Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyInApprovalContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>P</value>
+        </filters>
+        <label>My In Approval Contracts</label>
+    </listViews>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>GI_Market_Approval</fullName>
+        <active>true</active>
+        <description>GI Market Approvals based on Technology</description>
+        <label>GI Market Approval</label>
+        <picklistValues>
+            <picklist>Approver_Type__c</picklist>
+            <values>
+                <fullName>End User Influencer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Firm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leasing Companies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipe Distributor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipe Mill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Car Owner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail Road</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping Lines</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Unit__c</picklist>
+            <values>
+                <fullName>3D Laser Sintering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coil%2FExtrusion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Ace</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer B%26Q</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Consumer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer DB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Lowes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer PD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Plastikote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Wattyl Trade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Industrial</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Graphic Arts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mirror</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Market_Approval_Type__c</picklist>
+            <values>
+                <fullName>Container Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipe Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>Anticipated approval date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aquaguard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epoxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flowliner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT 120</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT 150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID Coatings</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeclad 2000 FBE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeclad 2040 ARO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeclad 2040 Flex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Roughcoat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tank Liner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Urethane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waterborne %28WB%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Valspar_Master_Contract_Record_Type</fullName>
+        <active>true</active>
+        <description>Master contract record type for Valspar.</description>
+        <label>Valspar Master Contract Record Type</label>
+        <picklistValues>
+            <picklist>Agent__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Approver_Type__c</picklist>
+            <values>
+                <fullName>End User Influencer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering Firm</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leasing Companies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipe Distributor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipe Mill</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Car Owner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail Road</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping Lines</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Unit__c</picklist>
+            <values>
+                <fullName>3D Laser Sintering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coil%2FExtrusion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Ace</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer B%26Q</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Consumer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer DB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Lowes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer PD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Plastikote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Wattyl Trade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Graphic Arts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mirror</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wood</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CDA__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consignment__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cost_Savings_Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cost_Savings__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Freight_Terms__c</picklist>
+            <values>
+                <fullName>Collect %26 Allowed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Freight Collect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prepaid %26 Add</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prepaid %26 Allowed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prepaid %26 Charged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Will Call</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Index_Based_Pricing__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Market_Approval_Type__c</picklist>
+            <values>
+                <fullName>Container Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipe Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rail Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Powder_Shuttle__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Prebate__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pricing_Referenced_in_Agreement__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rebate__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stocking_Agreement__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>Anticipated approval date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aquaguard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epoxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flowliner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT 120</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT 150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID Coatings</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeclad 2000 FBE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeclad 2040 ARO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeclad 2040 Flex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Roughcoat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tank Liner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Urethane</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waterborne %28WB%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CONTRACT.CONTRACT_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.STATUS</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.NAME</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)}
+
+var records = {!GETRECORDIDS(  $ObjectType.Contract  )};
+
+if (records[0] == null) {
+alert(&quot;Please select at least one record.&quot;) }
+else {
+
+var errors = [];
+var result = sforce.connection.deleteIds(records);
+if (result &amp;&amp; result.length){
+var numFailed = 0;
+var numSucceeded = 0;
+for (var i = 0; i &lt; result.length; i++){
+var res = result[i];
+if (res &amp;&amp; res.success == &apos;true&apos;){
+numSucceeded++;
+} else {
+var es = res.getArray(&quot;errors&quot;);
+if (es.length &gt; 0) {
+errors.push(es[0].message);
+}
+numFailed++;
+}
+}
+if (numFailed &gt; 0){
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;));
+} else {
+alert(&quot;Number of records deleted: &quot; + numSucceeded);
+}
+}
+window.location.reload();
+}</url>
+    </webLinks>
+</CustomObject>

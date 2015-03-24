@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quality Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quality Issues</value>
+    </caseValues>
+    <fields>
+        <label><!-- Article Text Area --></label>
+        <name>Article_Text_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality Issue Attachment --></label>
+        <name>Quality_Issue_Attachment__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
