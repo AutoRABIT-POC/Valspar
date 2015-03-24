@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <apex:page >
     <apex:pageBlock title="Open Opportunities Report">
         <apex:pageBlockSection title="Filter Criteria">
@@ -11,4 +12,19 @@
             </apex:form>
         </apex:pageBlockSection>
     </apex:pageBlock>
+=======
+<apex:page >
+    <apex:pageBlock title="Open Opportunities Report">
+        <apex:pageBlockSection title="Filter Criteria">
+            <apex:form >
+                <apex:outputLabel >Business Segment&nbsp;</apex:outputLabel>
+                <apex:selectList id="businessSegmentSelect" size="1">
+                    <apex:selectOption itemLabel="First" itemvalue="1"/>
+                    <apex:selectOption itemLabel="Second" itemvalue="2"/>
+                </apex:selectList>
+                <apex:commandButton value="Run Report!"/>
+            </apex:form>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 </apex:page>

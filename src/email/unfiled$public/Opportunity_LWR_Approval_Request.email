@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 A LWR Approval is needed for the {!Opportunity.Name} opportunity which is owned by {!Opportunity.OwnerFullName}  Please access the opportunity to update it at the following URL:<br/><br/>
 
+=======
+A LWR Approval is needed for the {!Opportunity.Name} opportunity which is owned by {!Opportunity.OwnerFullName}  Please access the opportunity to update it at the following URL:<br/><br/>
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 {!Opportunity.Link}

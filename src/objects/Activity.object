@@ -446,6 +446,7 @@
     <fields>
         <fullName>Duration_in_Days__c</fullName>
         <externalId>false</externalId>
+<<<<<<< HEAD
         <formula>IF(IsAllDayEvent = TRUE, 1,
    IF(X1_2_Day_Event_AM__c = TRUE, 0.5,
       IF(X1_2_Day_Event_PM__c = TRUE, 0.5,
@@ -455,6 +456,17 @@
             )
           )
         )
+=======
+        <formula>IF(IsAllDayEvent = TRUE, 1,
+   IF(X1_2_Day_Event_AM__c = TRUE, 0.5,
+      IF(X1_2_Day_Event_PM__c = TRUE, 0.5,
+         IF(X1_4_Day_Event__c = TRUE, 0.25, 
+            IF(X1_4_Day_Event_PM__c = TRUE, 0.25, NULL
+               )
+            )
+          )
+        )
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
      )</formula>
         <label>Duration in Days</label>
         <precision>18</precision>

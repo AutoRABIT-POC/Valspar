@@ -5,6 +5,7 @@
 </tr>
 <tr height="300" valign="top" >
 <td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<<<<<<< HEAD
 <![CDATA[<span style="line-height: 115%; font-family: Arial, sans-serif; background-color: white;">At Valspar, we value our reputation for high
 quality products, services, and support to our customers. Whether you have a
 product question or issue, we work to provide you with the correct information
@@ -19,6 +20,22 @@ we’re on it.</span></span><sup><span style="font-size: 10pt; line-height: 115%
 <span style="background-color: white;">Sincerely,<span class="apple-converted-space">&nbsp;</span></span><br>
 <br>
 <span style="background-color: white;">The
+=======
+<![CDATA[<span style="line-height: 115%; font-family: Arial, sans-serif; background-color: white;">At Valspar, we value our reputation for high
+quality products, services, and support to our customers. Whether you have a
+product question or issue, we work to provide you with the correct information
+to make sure your current and future projects are successful.<span class="apple-converted-space">&nbsp;</span></span><span style="line-height: 115%; font-family: Arial, sans-serif;"><br>
+<br>
+<span style="background-color: white;">Please
+take this brief survey to help us better serve your needs in the future. You
+demand and deserve not only the best products to protect and beautify your
+home, but also the best in service. Valspar’s tagline states, “If it matters,
+we’re on it.</span></span><sup><span style="font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif; background-color: white; background-position: initial initial; background-repeat: initial initial;">®</span></sup><span style="line-height: 115%; font-family: Arial, sans-serif;"><span style="background-color: white;">” In Customer Service, we believe that you matter.<span class="apple-converted-space">&nbsp;</span></span><br>
+<br>
+<span style="background-color: white;">Sincerely,<span class="apple-converted-space">&nbsp;</span></span><br>
+<br>
+<span style="background-color: white;">The
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 Valspar Team<span class="apple-converted-space">&nbsp;</span></span></span>]]></td>
 </tr>
 <tr height="50" valign="top" >

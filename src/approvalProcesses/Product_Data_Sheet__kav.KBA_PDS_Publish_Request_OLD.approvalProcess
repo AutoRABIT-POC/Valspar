@@ -42,7 +42,11 @@
         <label>Manager Approval</label>
         <name>Manager_Approval</name>
     </approvalStep>
+<<<<<<< HEAD
     <description>KBA Product Data Sheet Publish Request
+=======
+    <description>KBA Product Data Sheet Publish Request
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 New Process added to include B&amp;Q</description>
     <emailTemplate>Cases/KBA_Product_Data_Sheet_Publish_Request</emailTemplate>
     <enableMobileDeviceAccess>false</enableMobileDeviceAccess>

@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 {!Receiving_User.FirstName}
 
 {!Lead.OwnerFullName} has requested that you review the following Lead and convert it to an Opportunity.
 
+=======
+{!Receiving_User.FirstName}
+
+{!Lead.OwnerFullName} has requested that you review the following Lead and convert it to an Opportunity.
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 {!Lead.Link}

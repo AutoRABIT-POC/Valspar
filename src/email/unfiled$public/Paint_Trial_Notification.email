@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *** NEW LEAD ASSIGNMENT NOTIFICATION ***  
 
 The following {!CampaignMember.Campaign} lead has been assigned to you.  
@@ -7,4 +8,15 @@ Name: {!CampaignMember.FirstName} {!CampaignMember.LastName}
 Phone: {!CampaignMember.Phone}
 
 To view this lead, click the link below:
+=======
+*** NEW LEAD ASSIGNMENT NOTIFICATION ***  
+
+The following {!CampaignMember.Campaign} lead has been assigned to you.  
+
+Company:  {!CampaignMember.CompanyOrAccount}
+Name: {!CampaignMember.FirstName} {!CampaignMember.LastName}
+Phone: {!CampaignMember.Phone}
+
+To view this lead, click the link below:
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 {!CampaignMember.Link}

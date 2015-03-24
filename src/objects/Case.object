@@ -2544,7 +2544,11 @@ IF( Social_Media__c = True,&quot;Social Media&quot;,&quot;&quot;)</formula>
     <fields>
         <fullName>Regional_Manager__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
+<<<<<<< HEAD
         <description>Lookup the &quot;Regional Manager&quot; from the list of SFDC Users
+=======
+        <description>Lookup the &quot;Regional Manager&quot; from the list of SFDC Users
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 10/28 - Change Name - from Territory to Regional. The TM is now auto-populated into the Store Purchased Account Owner&apos;s Email field.</description>
         <externalId>false</externalId>
         <label>Regional Manager</label>
@@ -12530,6 +12534,7 @@ RecordType.Name = &quot;Information Case&quot;
         <masterLabel>Create Complaint Case</masterLabel>
         <openType>replace</openType>
         <protected>false</protected>
+<<<<<<< HEAD
         <url>/500/e?retURL=%2F500%2Fo
 
 &amp;RecordType=012E000000023tj
@@ -12547,6 +12552,25 @@ RecordType.Name = &quot;Information Case&quot;
 
 &amp;cas8={!Case.Priority}
 
+=======
+        <url>/500/e?retURL=%2F500%2Fo
+
+&amp;RecordType=012E000000023tj
+&amp;cas28={!Case.CaseNumber}
+
+&amp;Description={!Case.Description}
+
+&amp;cas3_lkid={!Case.ContactId}
+
+&amp;cas3={!Case.Contact}
+
+&amp;cas11={!Case.Origin}
+
+&amp;cas14={!Case.Subject}
+
+&amp;cas8={!Case.Priority}
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &amp;saveURL=/{!Case.Id}</url>
     </webLinks>
     <webLinks>

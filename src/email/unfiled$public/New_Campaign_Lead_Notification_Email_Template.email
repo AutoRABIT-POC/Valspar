@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 ***NEW LEAD ASSIGNED TO YOU***
 
 Name: {!Lead.Name}
 Company: {!Lead.Company}
 Phone: {!Lead.Phone}
 Email: {!Lead.Phone}
+=======
+***NEW LEAD ASSIGNED TO YOU***
+
+Name: {!Lead.Name}
+Company: {!Lead.Company}
+Phone: {!Lead.Phone}
+Email: {!Lead.Phone}
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 {!Lead.Description}

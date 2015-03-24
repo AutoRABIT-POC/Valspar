@@ -51,8 +51,13 @@
         <name>A_Spend_Rollers_T__c</name>
     </fields>
     <fields>
+<<<<<<< HEAD
         <help><!-- What is your percentage of accessory spend by quality for all methods of application? 
 
+=======
+        <help><!-- What is your percentage of accessory spend by quality for all methods of application? 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 e.g. Like Wagner Spray Equipment. --></help>
         <label><!-- DIY/Economy - Spray Equipment --></label>
         <name>A_Spend_Spray_Equipment_DIY__c</name>

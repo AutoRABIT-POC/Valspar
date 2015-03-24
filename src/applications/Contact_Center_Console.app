@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
+<<<<<<< HEAD
     <description>Contact Center Console
+=======
+    <description>Contact Center Console
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 Incident 334403: Update Choose List Placement to Full Screen</description>
     <detailPageRefreshMethod>autoRefresh</detailPageRefreshMethod>
     <enableKeyboardShortcuts>true</enableKeyboardShortcuts>

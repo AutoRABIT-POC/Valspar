@@ -7,6 +7,7 @@
     <name>[Send using Timba Surveys] Valspar Customer Service Phone Experience</name>
     <style>formalLetter</style>
     <subject>Please complete this survey: Valspar Customer Service Phone Experience</subject>
+<<<<<<< HEAD
     <textOnly>Dear {!Contact.FirstName}, 
 
 At Valspar, we value our reputation for high quality products, services, and support to our customers. Whether you have a product question or issue, we work to provide you with the correct information to make sure your current and future projects are successful. 
@@ -22,6 +23,23 @@ Please complete this survey at: %SURVEY_URL%
 _____________________________________________________________________
 
 Surveys Made Easy by Timba Surveys
+=======
+    <textOnly>Dear {!Contact.FirstName}, 
+
+At Valspar, we value our reputation for high quality products, services, and support to our customers. Whether you have a product question or issue, we work to provide you with the correct information to make sure your current and future projects are successful. 
+
+Please take this brief survey to help us better serve your needs in the future. You demand and deserve not only the best products to protect and beautify your home, but also the best in service. Valspar’s tagline states, “If it matters, we’re on it.®” In Customer Service, we believe that you matter. 
+
+Sincerely, 
+
+The Valspar Team 
+
+Please complete this survey at: %SURVEY_URL%
+
+_____________________________________________________________________
+
+Surveys Made Easy by Timba Surveys
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 http://survey.timbasoftware.com</textOnly>
     <type>html</type>
 </EmailTemplate>

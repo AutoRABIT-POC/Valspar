@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 Please review the pricing for Contract {!Contract.ContractNumber} for {!Contract.Account}.  The contract is set to expire on {!Contract.EndDate}.
 
+=======
+Please review the pricing for Contract {!Contract.ContractNumber} for {!Contract.Account}.  The contract is set to expire on {!Contract.EndDate}.
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 The contract can be found here: https://valspar.my.salesforce.com/{!Contract.Id}

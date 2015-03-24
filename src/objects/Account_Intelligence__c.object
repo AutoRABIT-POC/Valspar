@@ -162,8 +162,13 @@
     <fields>
         <fullName>A_Spend_Spray_Equipment_DIY__c</fullName>
         <externalId>false</externalId>
+<<<<<<< HEAD
         <inlineHelpText>What is your percentage of accessory spend by quality for all methods of application? 
 
+=======
+        <inlineHelpText>What is your percentage of accessory spend by quality for all methods of application? 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 e.g. Like Wagner Spray Equipment.</inlineHelpText>
         <label>DIY/Economy - Spray Equipment</label>
         <precision>3</precision>
@@ -1310,6 +1315,7 @@ We are looking for a split between quality of product purchased - The &quot;Othe
         <fullName>Total_Percentage_of_Q2_to_Q20__c</fullName>
         <description>Total Percentage of Q2 To Q20</description>
         <externalId>false</externalId>
+<<<<<<< HEAD
         <formula>( 
 
 V_Split_Company_Owned_Stores__c + 
@@ -1419,6 +1425,117 @@ C_Time_Other__c +
 O_Time_Same_Day__c + 
 O_Time_Day_Before__c + 
 O_Time_A_Week_Prior__c + 
+=======
+        <formula>( 
+
+V_Split_Company_Owned_Stores__c + 
+V_Split_ITC_Stores__c + 
+V_Split_Corporate_Masters__c + 
+V_Split_Inderpendant_Paint_Specialist__c + 
+V_Split_Inderpendant_Hardware__c + 
+
+
+O_Split_Inderpendant_Paint_Specialist__c + 
+O_Split_Inderpendant_Hardware__c + 
+O_Split_Corporate_Masters__c + 
+O_Split_ITC_Stores__c + 
+O_Split_Corporate_Other__c + 
+O_Split_Company_Owned_Stores_Other__c + 
+
+W_Split_Commercial_Repaint__c + 
+W_Split_Commercial_Texture__c + 
+W_Split_Residential_Repaint__c + 
+W_Split_Commercial_Texture_New__c + 
+W_Split_Commercial_Paint_New__c + 
+W_Split_Residential_Texture__c + 
+W_Split_New_Residential_Proj_Homes_Paint__c + 
+
+
+Business_Split_Interior__c + 
+Business_Split_Exterior__c + 
+Business_Split_Texture__c + 
+
+
+Interior_Other_UP__c + 
+Interior_Other_P__c + 
+Interior_Other_T__c + 
+Interior_Other_EL__c + 
+Interior_Other_None__c + 
+
+
+I_Application_Spray__c + 
+I_Application_Roller__c + 
+I_Application_Brush__c + 
+I_Application_Trowel_Mitt__c + 
+No_Interior_Paint_Applied__c + 
+
+Exterior_Other_UP__c + 
+Exterior_Other_P__c + 
+Exterior_Other_T__c + 
+Exterior_Other_EL__c + 
+Exterior_Other_None__c + 
+
+E_Application_Spray__c + 
+E_Application_Roller__c + 
+E_Application_Brush__c + 
+E_Application_Trowel_Mitt__c + 
+No_Exterior_Paint_Applied__c + 
+
+Texture_Other_UP__c + 
+Texture_Other_P__c + 
+Texture_Other_T__c + 
+Texture_Other_EL__c + 
+Texture_Other_None__c + 
+
+
+T_Application_Spray__c + 
+T_Application_Roller__c + 
+T_Application_Brush__c + 
+T_Application_Trowel_Mitt__c + 
+No_Texture_Paint_Applied__c + 
+
+A_Spend_Spray_Equipment_P__c + 
+A_Spend_Spray_Equipment_T__c + 
+A_Spend_Spray_Equipment_DIY__c + 
+
+A_Spend_Rollers_P__c + 
+A_Spend_Rollers_T__c + 
+A_Spend_Rollers_DIY__c + 
+
+A_Spend_Brushes_P__c + 
+A_Spend_Brushes_T__c + 
+A_Spend_Brushes_DIY__c + 
+
+A_Spend_Texture_P__c + 
+A_Spend_Texture_T__c + 
+A_Spend_Texture_DIY__c + 
+
+A_Spend_Preparation_P__c + 
+A_Spend_Preparation_T__c + 
+A_Spend_Preparation_DIY__c + 
+
+B_Accessories_Company_Owned_Stores__c + 
+B_Accessories_ITC_Stores__c + 
+B_Accessories_Corporate__c + 
+B_Accessories_Inderpendant_Hardware__c + 
+B_Accessories_Inderpendant_Paint__c + 
+B_Accessories_Online__c + 
+B_Accessories_Wholesale__c + 
+
+
+P_Delivery_Pick_Up__c + 
+P_Delivery_Delivery__c + 
+
+C_Time_6am_7am__c + 
+C_Time_7am_8am__c + 
+C_Time_3pm_4pm__c + 
+C_Time_4pm_5pm__c + 
+C_Time_Other__c + 
+
+O_Time_Same_Day__c + 
+O_Time_Day_Before__c + 
+O_Time_A_Week_Prior__c + 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 O_Time_Other__c)/19</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Total Percentage of Q2 To Q20</inlineHelpText>
@@ -1434,10 +1551,17 @@ O_Time_Other__c)/19</formula>
         <fullName>Total_ShareofBusiness__c</fullName>
         <description>Total Share Of Business</description>
         <externalId>false</externalId>
+<<<<<<< HEAD
         <formula>Account__r.Share_of_Wallet__c  +
 Dulux_ShareofBusiness__c +
 PPG_ShareofBusiness__c +
 Other_ShareofBusiness__c +
+=======
+        <formula>Account__r.Share_of_Wallet__c  +
+Dulux_ShareofBusiness__c +
+PPG_ShareofBusiness__c +
+Other_ShareofBusiness__c +
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 Haymes_ShareofBusiness__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Total Share Of Business</inlineHelpText>
@@ -1681,6 +1805,7 @@ AND(Completion_of_Promotion_Response__c = Completion_of_Promotion_Response_Metho
     <validationRules>
         <fullName>Exterior_Application_Method_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(E_Application_Spray__c,0) 
 +NULLVALUE(E_Application_Roller__c,0) 
 +NULLVALUE(E_Application_Brush__c,0) 
@@ -1693,6 +1818,20 @@ NULLVALUE(E_Application_Spray__c,0)
 +NULLVALUE(E_Application_Brush__c,0) 
 +NULLVALUE(E_Application_Trowel_Mitt__c, 0)
 +NULLVALUE(No_Exterior_Paint_Applied__c, 0)
+=======
+        <errorConditionFormula>NULLVALUE(E_Application_Spray__c,0) 
++NULLVALUE(E_Application_Roller__c,0) 
++NULLVALUE(E_Application_Brush__c,0) 
++NULLVALUE(E_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Exterior_Paint_Applied__c, 0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(E_Application_Spray__c,0) 
++NULLVALUE(E_Application_Roller__c,0) 
++NULLVALUE(E_Application_Brush__c,0) 
++NULLVALUE(E_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Exterior_Paint_Applied__c, 0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>No_Exterior_Paint_Applied__c</errorDisplayField>
         <errorMessage>Percentage type of  Exterior Application must add up to 100%</errorMessage>
@@ -1700,11 +1839,19 @@ NULLVALUE(E_Application_Spray__c,0)
     <validationRules>
         <fullName>Exterior_Validation_1</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Business_Split_Exterior__c,0) = 0
 &amp;&amp; 
  NULLVALUE(Business_Split_Interior__c,0) 
 +NULLVALUE(Business_Split_Texture__c ,0) = 1.0
 &amp;&amp; 
+=======
+        <errorConditionFormula>NULLVALUE(Business_Split_Exterior__c,0) = 0
+&amp;&amp; 
+ NULLVALUE(Business_Split_Interior__c,0) 
++NULLVALUE(Business_Split_Texture__c ,0) = 1.0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(Exterior_Other_None__c,0) &lt;&gt; 1.0</errorConditionFormula>
         <errorDisplayField>Exterior_Other_None__c</errorDisplayField>
         <errorMessage>Since you entered 0% for Exterior in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
@@ -1712,8 +1859,13 @@ NULLVALUE(Exterior_Other_None__c,0) &lt;&gt; 1.0</errorConditionFormula>
     <validationRules>
         <fullName>Exterior_Validation_2</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>(NULLVALUE(Business_Split_Exterior__c ,0) &lt;&gt; 0
 &amp;&amp; 
+=======
+        <errorConditionFormula>(NULLVALUE(Business_Split_Exterior__c ,0) &lt;&gt; 0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(Exterior_Other_None__c,0)&lt;&gt; 0)</errorConditionFormula>
         <errorDisplayField>Exterior_Other_None__c</errorDisplayField>
         <errorMessage>Exterior field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
@@ -1721,11 +1873,19 @@ NULLVALUE(Exterior_Other_None__c,0)&lt;&gt; 0)</errorConditionFormula>
     <validationRules>
         <fullName>Exterior_Validation_3</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Business_Split_Exterior__c,0) = 0
 &amp;&amp; 
  NULLVALUE(Business_Split_Interior__c,0) 
 +NULLVALUE(Business_Split_Texture__c ,0) = 1.0
 &amp;&amp; 
+=======
+        <errorConditionFormula>NULLVALUE(Business_Split_Exterior__c,0) = 0
+&amp;&amp; 
+ NULLVALUE(Business_Split_Interior__c,0) 
++NULLVALUE(Business_Split_Texture__c ,0) = 1.0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(No_Exterior_Paint_Applied__c,0) &lt;&gt; 1.0</errorConditionFormula>
         <errorDisplayField>No_Exterior_Paint_Applied__c</errorDisplayField>
         <errorMessage>Since you entered 0% for Exterior in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
@@ -1733,8 +1893,13 @@ NULLVALUE(No_Exterior_Paint_Applied__c,0) &lt;&gt; 1.0</errorConditionFormula>
     <validationRules>
         <fullName>Exterior_Validation_4</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>(NULLVALUE(Business_Split_Exterior__c ,0) &lt;&gt; 0
 &amp;&amp; 
+=======
+        <errorConditionFormula>(NULLVALUE(Business_Split_Exterior__c ,0) &lt;&gt; 0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(No_Exterior_Paint_Applied__c,0)&lt;&gt; 0)</errorConditionFormula>
         <errorDisplayField>No_Exterior_Paint_Applied__c</errorDisplayField>
         <errorMessage>Exterior field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
@@ -1742,6 +1907,7 @@ NULLVALUE(No_Exterior_Paint_Applied__c,0)&lt;&gt; 0)</errorConditionFormula>
     <validationRules>
         <fullName>From_Another_Company_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(O_Split_Inderpendant_Paint_Specialist__c , 0)  
 + NULLVALUE(O_Split_Inderpendant_Hardware__c,0) 
 + NULLVALUE(O_Split_Corporate_Masters__c,0) 
@@ -1758,6 +1924,24 @@ NULLVALUE(O_Split_Inderpendant_Paint_Specialist__c , 0)
 +NULLVALUE(O_Split_Corporate_Other__c, 0)
 + NULLVALUE(O_Split_Company_Owned_Stores_Other__c,0)  
 +NULLVALUE(Wattyl_NZ_O_Split_Corporate_Retail__c,0)
+=======
+        <errorConditionFormula>NULLVALUE(O_Split_Inderpendant_Paint_Specialist__c , 0)  
++ NULLVALUE(O_Split_Inderpendant_Hardware__c,0) 
++ NULLVALUE(O_Split_Corporate_Masters__c,0) 
++ NULLVALUE(O_Split_ITC_Stores__c,0) 
++NULLVALUE(O_Split_Corporate_Other__c, 0)
++NULLVALUE(O_Split_Company_Owned_Stores_Other__c,0)
++NULLVALUE(Wattyl_NZ_O_Split_Corporate_Retail__c,0)
+  &lt;&gt;   1.0  
+&amp;&amp; 
+NULLVALUE(O_Split_Inderpendant_Paint_Specialist__c , 0) 
++ NULLVALUE(O_Split_Inderpendant_Hardware__c,0)
++ NULLVALUE(O_Split_Corporate_Masters__c,0) 
++ NULLVALUE(O_Split_ITC_Stores__c,0) 
++NULLVALUE(O_Split_Corporate_Other__c, 0)
++ NULLVALUE(O_Split_Company_Owned_Stores_Other__c,0)  
++NULLVALUE(Wattyl_NZ_O_Split_Corporate_Retail__c,0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>O_Split_Company_Owned_Stores_Other__c</errorDisplayField>
         <errorMessage>Percentage Other Company  must add up to 100%</errorMessage>
@@ -1765,6 +1949,7 @@ NULLVALUE(O_Split_Inderpendant_Paint_Specialist__c , 0)
     <validationRules>
         <fullName>How_do_you_get_your_paint_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(P_Delivery_Pick_Up__c,0) 
 +NULLVALUE(P_Delivery_Delivery__c,0) 
 &lt;&gt;1.0  
@@ -1772,6 +1957,15 @@ NULLVALUE(O_Split_Inderpendant_Paint_Specialist__c , 0)
 NULLVALUE(P_Delivery_Pick_Up__c,0) 
 +NULLVALUE(P_Delivery_Delivery__c,0) 
 
+=======
+        <errorConditionFormula>NULLVALUE(P_Delivery_Pick_Up__c,0) 
++NULLVALUE(P_Delivery_Delivery__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(P_Delivery_Pick_Up__c,0) 
++NULLVALUE(P_Delivery_Delivery__c,0) 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>P_Delivery_Delivery__c</errorDisplayField>
         <errorMessage>Percentage of how do you get your paint must  add up to 100%</errorMessage>
@@ -1779,6 +1973,7 @@ NULLVALUE(P_Delivery_Pick_Up__c,0)
     <validationRules>
         <fullName>Interior_Application_Method_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(I_Application_Spray__c,0) 
 +NULLVALUE(I_Application_Roller__c,0) 
 +NULLVALUE(I_Application_Brush__c,0) 
@@ -1791,6 +1986,20 @@ NULLVALUE(I_Application_Spray__c,0)
 +NULLVALUE(I_Application_Brush__c,0) 
 +NULLVALUE(I_Application_Trowel_Mitt__c, 0)
 +NULLVALUE(No_Interior_Paint_Applied__c, 0)
+=======
+        <errorConditionFormula>NULLVALUE(I_Application_Spray__c,0) 
++NULLVALUE(I_Application_Roller__c,0) 
++NULLVALUE(I_Application_Brush__c,0) 
++NULLVALUE(I_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Interior_Paint_Applied__c, 0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(I_Application_Spray__c,0) 
++NULLVALUE(I_Application_Roller__c,0) 
++NULLVALUE(I_Application_Brush__c,0) 
++NULLVALUE(I_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Interior_Paint_Applied__c, 0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>No_Interior_Paint_Applied__c</errorDisplayField>
         <errorMessage>Percentage type of  Interior Application must add up to 100%</errorMessage>
@@ -1798,11 +2007,19 @@ NULLVALUE(I_Application_Spray__c,0)
     <validationRules>
         <fullName>Interior_Validation_1</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0) = 0
 &amp;&amp;
 NULLVALUE(Business_Split_Exterior__c ,0) +
 NULLVALUE(Business_Split_Texture__c ,0) = 1.0
 &amp;&amp; 
+=======
+        <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0) = 0
+&amp;&amp;
+NULLVALUE(Business_Split_Exterior__c ,0) +
+NULLVALUE(Business_Split_Texture__c ,0) = 1.0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(Interior_Other_None__c,0)&lt;&gt;1.0</errorConditionFormula>
         <errorDisplayField>Interior_Other_None__c</errorDisplayField>
         <errorMessage>Since you entered 0% for Interior in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
@@ -1810,8 +2027,13 @@ NULLVALUE(Interior_Other_None__c,0)&lt;&gt;1.0</errorConditionFormula>
     <validationRules>
         <fullName>Interior_Validation_2</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>(NULLVALUE(Business_Split_Interior__c ,0) &lt;&gt; 0
 &amp;&amp; 
+=======
+        <errorConditionFormula>(NULLVALUE(Business_Split_Interior__c ,0) &lt;&gt; 0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(Interior_Other_None__c,0)&lt;&gt; 0)</errorConditionFormula>
         <errorDisplayField>Interior_Other_None__c</errorDisplayField>
         <errorMessage>Interior field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
@@ -1819,11 +2041,19 @@ NULLVALUE(Interior_Other_None__c,0)&lt;&gt; 0)</errorConditionFormula>
     <validationRules>
         <fullName>Interior_Validation_3</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0) = 0
 &amp;&amp;
 NULLVALUE(Business_Split_Exterior__c ,0) +
 NULLVALUE(Business_Split_Texture__c ,0) = 1.0
 &amp;&amp; 
+=======
+        <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0) = 0
+&amp;&amp;
+NULLVALUE(Business_Split_Exterior__c ,0) +
+NULLVALUE(Business_Split_Texture__c ,0) = 1.0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(No_Interior_Paint_Applied__c,0)&lt;&gt;1.0</errorConditionFormula>
         <errorDisplayField>No_Interior_Paint_Applied__c</errorDisplayField>
         <errorMessage>Since you entered 0% for Interior in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
@@ -1831,8 +2061,13 @@ NULLVALUE(No_Interior_Paint_Applied__c,0)&lt;&gt;1.0</errorConditionFormula>
     <validationRules>
         <fullName>Interior_Validation_4</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>(NULLVALUE(Business_Split_Interior__c ,0) &lt;&gt; 0
 &amp;&amp; 
+=======
+        <errorConditionFormula>(NULLVALUE(Business_Split_Interior__c ,0) &lt;&gt; 0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(No_Interior_Paint_Applied__c,0)&lt;&gt; 0)</errorConditionFormula>
         <errorDisplayField>No_Interior_Paint_Applied__c</errorDisplayField>
         <errorMessage>Interior field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
@@ -1840,11 +2075,19 @@ NULLVALUE(No_Interior_Paint_Applied__c,0)&lt;&gt; 0)</errorConditionFormula>
     <validationRules>
         <fullName>Paint_Purchase_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(V_Split_Company_Owned_Stores__c , 0)  + NULLVALUE(V_Split_Corporate_Masters__c, 0) + NULLVALUE(V_Split_Inderpendant_Hardware__c, 0)  + NULLVALUE(V_Split_Inderpendant_Paint_Specialist__c, 0) +NULLVALUE(V_Split_ITC_Stores__c, 0)
 +NULLVALUE(Wattyl_NZ_V_Split_Other__c,0)
 &lt;&gt;   1.0  
 &amp;&amp; NULLVALUE(V_Split_Company_Owned_Stores__c , 0)  + NULLVALUE(V_Split_Corporate_Masters__c, 0) + NULLVALUE(V_Split_Inderpendant_Hardware__c, 0)  + NULLVALUE(V_Split_Inderpendant_Paint_Specialist__c, 0) +NULLVALUE(V_Split_ITC_Stores__c, 0)
 +NULLVALUE(Wattyl_NZ_V_Split_Other__c,0)
+=======
+        <errorConditionFormula>NULLVALUE(V_Split_Company_Owned_Stores__c , 0)  + NULLVALUE(V_Split_Corporate_Masters__c, 0) + NULLVALUE(V_Split_Inderpendant_Hardware__c, 0)  + NULLVALUE(V_Split_Inderpendant_Paint_Specialist__c, 0) +NULLVALUE(V_Split_ITC_Stores__c, 0)
++NULLVALUE(Wattyl_NZ_V_Split_Other__c,0)
+&lt;&gt;   1.0  
+&amp;&amp; NULLVALUE(V_Split_Company_Owned_Stores__c , 0)  + NULLVALUE(V_Split_Corporate_Masters__c, 0) + NULLVALUE(V_Split_Inderpendant_Hardware__c, 0)  + NULLVALUE(V_Split_Inderpendant_Paint_Specialist__c, 0) +NULLVALUE(V_Split_ITC_Stores__c, 0)
++NULLVALUE(Wattyl_NZ_V_Split_Other__c,0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt;   0</errorConditionFormula>
         <errorDisplayField>V_Split_Inderpendant_Hardware__c</errorDisplayField>
         <errorMessage>Percentage of  Paint Purchase must add up to 100%</errorMessage>
@@ -1852,6 +2095,7 @@ NULLVALUE(No_Interior_Paint_Applied__c,0)&lt;&gt; 0)</errorConditionFormula>
     <validationRules>
         <fullName>Pct_of_Spend_Preparation_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(A_Spend_Preparation_P__c,0) 
 +NULLVALUE(A_Spend_Preparation_DIY__c,0) 
 +NULLVALUE(A_Spend_Preparation_T__c,0) 
@@ -1862,6 +2106,18 @@ NULLVALUE(A_Spend_Preparation_P__c,0)
 +NULLVALUE(A_Spend_Preparation_T__c,0) 
 
 
+=======
+        <errorConditionFormula>NULLVALUE(A_Spend_Preparation_P__c,0) 
++NULLVALUE(A_Spend_Preparation_DIY__c,0) 
++NULLVALUE(A_Spend_Preparation_T__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Preparation_P__c,0) 
++NULLVALUE(A_Spend_Preparation_DIY__c,0) 
++NULLVALUE(A_Spend_Preparation_T__c,0) 
+
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>A_Spend_Preparation_DIY__c</errorDisplayField>
         <errorMessage>Percentage type of Spend Preparation must add up to 100%</errorMessage>
@@ -1869,6 +2125,7 @@ NULLVALUE(A_Spend_Preparation_P__c,0)
     <validationRules>
         <fullName>Percentage_of_Spend_Brushes_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(A_Spend_Brushes_P__c,0) 
 +NULLVALUE(A_Spend_Brushes_DIY__c,0) 
 +NULLVALUE(A_Spend_Brushes_T__c,0) 
@@ -1878,6 +2135,17 @@ NULLVALUE(A_Spend_Brushes_P__c,0)
 +NULLVALUE(A_Spend_Brushes_DIY__c,0) 
 +NULLVALUE(A_Spend_Brushes_T__c,0) 
 
+=======
+        <errorConditionFormula>NULLVALUE(A_Spend_Brushes_P__c,0) 
++NULLVALUE(A_Spend_Brushes_DIY__c,0) 
++NULLVALUE(A_Spend_Brushes_T__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Brushes_P__c,0) 
++NULLVALUE(A_Spend_Brushes_DIY__c,0) 
++NULLVALUE(A_Spend_Brushes_T__c,0) 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>A_Spend_Brushes_DIY__c</errorDisplayField>
         <errorMessage>Percentage type of Spend Brushes must add up to 100%</errorMessage>
@@ -1885,6 +2153,7 @@ NULLVALUE(A_Spend_Brushes_P__c,0)
     <validationRules>
         <fullName>Percentage_of_Spend_Rollers_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(A_Spend_Rollers_P__c,0) 
 +NULLVALUE(A_Spend_Rollers_DIY__c,0) 
 +NULLVALUE(A_Spend_Rollers_T__c,0) 
@@ -1894,6 +2163,17 @@ NULLVALUE(A_Spend_Rollers_P__c,0)
 +NULLVALUE(A_Spend_Rollers_DIY__c,0) 
 +NULLVALUE(A_Spend_Rollers_T__c,0) 
 
+=======
+        <errorConditionFormula>NULLVALUE(A_Spend_Rollers_P__c,0) 
++NULLVALUE(A_Spend_Rollers_DIY__c,0) 
++NULLVALUE(A_Spend_Rollers_T__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Rollers_P__c,0) 
++NULLVALUE(A_Spend_Rollers_DIY__c,0) 
++NULLVALUE(A_Spend_Rollers_T__c,0) 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>A_Spend_Rollers_DIY__c</errorDisplayField>
         <errorMessage>Percentage type of Spend Rollers must add up to 100%</errorMessage>
@@ -1901,6 +2181,7 @@ NULLVALUE(A_Spend_Rollers_P__c,0)
     <validationRules>
         <fullName>Percentage_of_Spend_Spray_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(A_Spend_Spray_Equipment_P__c,0) 
 +NULLVALUE(A_Spend_Spray_Equipment_DIY__c,0) 
 +NULLVALUE(A_Spend_Spray_Equipment_T__c,0) 
@@ -1911,6 +2192,18 @@ NULLVALUE(A_Spend_Spray_Equipment_P__c,0)
 +NULLVALUE(A_Spend_Spray_Equipment_DIY__c,0) 
 +NULLVALUE(A_Spend_Spray_Equipment_T__c,0) 
 
+=======
+        <errorConditionFormula>NULLVALUE(A_Spend_Spray_Equipment_P__c,0) 
++NULLVALUE(A_Spend_Spray_Equipment_DIY__c,0) 
++NULLVALUE(A_Spend_Spray_Equipment_T__c,0) 
+
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Spray_Equipment_P__c,0) 
++NULLVALUE(A_Spend_Spray_Equipment_DIY__c,0) 
++NULLVALUE(A_Spend_Spray_Equipment_T__c,0) 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>A_Spend_Spray_Equipment_DIY__c</errorDisplayField>
         <errorMessage>Percentage type of Spend Spray must add up to 100%</errorMessage>
@@ -1918,6 +2211,7 @@ NULLVALUE(A_Spend_Spray_Equipment_P__c,0)
     <validationRules>
         <fullName>Percentage_of_Spend_Texture_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(A_Spend_Texture_P__c,0) 
 +NULLVALUE(A_Spend_Texture_DIY__c,0) 
 +NULLVALUE(A_Spend_Texture_T__c,0) 
@@ -1929,6 +2223,19 @@ NULLVALUE(A_Spend_Texture_P__c,0)
 
 
 
+=======
+        <errorConditionFormula>NULLVALUE(A_Spend_Texture_P__c,0) 
++NULLVALUE(A_Spend_Texture_DIY__c,0) 
++NULLVALUE(A_Spend_Texture_T__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(A_Spend_Texture_P__c,0) 
++NULLVALUE(A_Spend_Texture_DIY__c,0) 
++NULLVALUE(A_Spend_Texture_T__c,0) 
+
+
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>A_Spend_Texture_DIY__c</errorDisplayField>
         <errorMessage>Percentage type of Spend texture must add up to 100%</errorMessage>
@@ -1936,6 +2243,7 @@ NULLVALUE(A_Spend_Texture_P__c,0)
     <validationRules>
         <fullName>Share_of_Business_Validation_rule</fullName>
         <active>false</active>
+<<<<<<< HEAD
         <errorConditionFormula>if ($Profile.Name &lt;&gt; &apos;API USER&apos;,
 NULLVALUE(ROUND(Valspar_ShareofBusiness__c,2),0)
 +NULLVALUE(PPG_ShareofBusiness__c ,0) 
@@ -1951,6 +2259,23 @@ NULLVALUE(Valspar_ShareofBusiness__c,0)
 +NULLVALUE(Dulux_ShareofBusiness__c ,0) 
 +NULLVALUE(Haymes_ShareofBusiness__c ,0) 
 +NULLVALUE(Wattyl_NZ_Resene_ShareofBusiness__c,0)
+=======
+        <errorConditionFormula>if ($Profile.Name &lt;&gt; &apos;API USER&apos;,
+NULLVALUE(ROUND(Valspar_ShareofBusiness__c,2),0)
++NULLVALUE(PPG_ShareofBusiness__c ,0) 
++NULLVALUE(+Other_ShareofBusiness__c ,0) 
++NULLVALUE(Dulux_ShareofBusiness__c ,0) 
++NULLVALUE(Haymes_ShareofBusiness__c ,0) 
++NULLVALUE(Wattyl_NZ_Resene_ShareofBusiness__c,0) 
+&lt;&gt;1.0
+&amp;&amp;
+NULLVALUE(Valspar_ShareofBusiness__c,0)
++NULLVALUE(PPG_ShareofBusiness__c ,0) 
++NULLVALUE(+Other_ShareofBusiness__c ,0) 
++NULLVALUE(Dulux_ShareofBusiness__c ,0) 
++NULLVALUE(Haymes_ShareofBusiness__c ,0) 
++NULLVALUE(Wattyl_NZ_Resene_ShareofBusiness__c,0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt;0,null)</errorConditionFormula>
         <errorDisplayField>Other_ShareofBusiness__c</errorDisplayField>
         <errorMessage>Percentage Share  of Business must add up to 100%</errorMessage>
@@ -1958,6 +2283,7 @@ NULLVALUE(Valspar_ShareofBusiness__c,0)
     <validationRules>
         <fullName>Split_of_Business_Validation_rule</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0)  
 +NULLVALUE(Business_Split_Exterior__c,0) 
 +NULLVALUE(Business_Split_Texture__c,0) 
@@ -1967,6 +2293,17 @@ NULLVALUE(Business_Split_Interior__c ,0)
 +NULLVALUE(Business_Split_Exterior__c,0) 
 +NULLVALUE(Business_Split_Texture__c,0) 
 
+=======
+        <errorConditionFormula>NULLVALUE(Business_Split_Interior__c ,0)  
++NULLVALUE(Business_Split_Exterior__c,0) 
++NULLVALUE(Business_Split_Texture__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(Business_Split_Interior__c ,0)  
++NULLVALUE(Business_Split_Exterior__c,0) 
++NULLVALUE(Business_Split_Texture__c,0) 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>Business_Split_Texture__c</errorDisplayField>
         <errorMessage>Percentage Split  of Business must add up to 100%</errorMessage>
@@ -1974,6 +2311,7 @@ NULLVALUE(Business_Split_Interior__c ,0)
     <validationRules>
         <fullName>Texture_Application_Method_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(T_Application_Spray__c,0) 
 +NULLVALUE(T_Application_Roller__c,0) 
 +NULLVALUE(T_Application_Brush__c,0) 
@@ -1986,6 +2324,20 @@ NULLVALUE(T_Application_Spray__c,0)
 +NULLVALUE(T_Application_Brush__c,0) 
 +NULLVALUE(T_Application_Trowel_Mitt__c, 0)
 +NULLVALUE(No_Texture_Paint_Applied__c, 0)
+=======
+        <errorConditionFormula>NULLVALUE(T_Application_Spray__c,0) 
++NULLVALUE(T_Application_Roller__c,0) 
++NULLVALUE(T_Application_Brush__c,0) 
++NULLVALUE(T_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Texture_Paint_Applied__c, 0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(T_Application_Spray__c,0) 
++NULLVALUE(T_Application_Roller__c,0) 
++NULLVALUE(T_Application_Brush__c,0) 
++NULLVALUE(T_Application_Trowel_Mitt__c, 0)
++NULLVALUE(No_Texture_Paint_Applied__c, 0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>No_Texture_Paint_Applied__c</errorDisplayField>
         <errorMessage>Percentage type of Texture Application must add up to 100%</errorMessage>
@@ -1993,11 +2345,19 @@ NULLVALUE(T_Application_Spray__c,0)
     <validationRules>
         <fullName>Texture_Validation_1</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) = 0
 &amp;&amp; 
  NULLVALUE(Business_Split_Interior__c,0) 
 +NULLVALUE(Business_Split_Exterior__c,0) = 1.0
 &amp;&amp; 
+=======
+        <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) = 0
+&amp;&amp; 
+ NULLVALUE(Business_Split_Interior__c,0) 
++NULLVALUE(Business_Split_Exterior__c,0) = 1.0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(Texture_Other_None__c,0)&lt;&gt;1.0</errorConditionFormula>
         <errorDisplayField>Texture_Other_None__c</errorDisplayField>
         <errorMessage>Since you entered 0% for Texture in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
@@ -2005,8 +2365,13 @@ NULLVALUE(Texture_Other_None__c,0)&lt;&gt;1.0</errorConditionFormula>
     <validationRules>
         <fullName>Texture_Validation_2</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>(NULLVALUE(Business_Split_Texture__c ,0) &lt;&gt; 0
 &amp;&amp; 
+=======
+        <errorConditionFormula>(NULLVALUE(Business_Split_Texture__c ,0) &lt;&gt; 0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(Texture_Other_None__c,0) &lt;&gt; 0)</errorConditionFormula>
         <errorDisplayField>Texture_Other_None__c</errorDisplayField>
         <errorMessage>Texture field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
@@ -2014,11 +2379,19 @@ NULLVALUE(Texture_Other_None__c,0) &lt;&gt; 0)</errorConditionFormula>
     <validationRules>
         <fullName>Texture_Validation_3</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) = 0
 &amp;&amp; 
  NULLVALUE(Business_Split_Interior__c,0) 
 +NULLVALUE(Business_Split_Exterior__c,0) = 1.0
 &amp;&amp; 
+=======
+        <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) = 0
+&amp;&amp; 
+ NULLVALUE(Business_Split_Interior__c,0) 
++NULLVALUE(Business_Split_Exterior__c,0) = 1.0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(No_Texture_Paint_Applied__c,0)&lt;&gt;1.0</errorConditionFormula>
         <errorDisplayField>No_Texture_Paint_Applied__c</errorDisplayField>
         <errorMessage>Since you entered 0% for Texture in Section 5 (Business split by product type), this field must be 100%.</errorMessage>
@@ -2026,8 +2399,13 @@ NULLVALUE(No_Texture_Paint_Applied__c,0)&lt;&gt;1.0</errorConditionFormula>
     <validationRules>
         <fullName>Texture_Validation_4</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) &lt;&gt; 0
 &amp;&amp; 
+=======
+        <errorConditionFormula>NULLVALUE(Business_Split_Texture__c ,0) &lt;&gt; 0
+&amp;&amp; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NULLVALUE(No_Texture_Paint_Applied__c,0)&lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>No_Texture_Paint_Applied__c</errorDisplayField>
         <errorMessage>Texture field is not 0% in Section 5 (Business Split by Product Type), therefore this field must be blank or 0.</errorMessage>
@@ -2035,6 +2413,7 @@ NULLVALUE(No_Texture_Paint_Applied__c,0)&lt;&gt; 0</errorConditionFormula>
     <validationRules>
         <fullName>Type_of_Exterior_Products_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Exterior_Other_UP__c,0) 
 +NULLVALUE(Exterior_Other_T__c,0) 
 +NULLVALUE(Exterior_Other_P__c,0)
@@ -2047,6 +2426,20 @@ NULLVALUE(Exterior_Other_UP__c,0)
 +NULLVALUE(Exterior_Other_P__c,0)
 +NULLVALUE(Exterior_Other_EL__c,0)
 +NULLVALUE(Exterior_Other_None__c,0)
+=======
+        <errorConditionFormula>NULLVALUE(Exterior_Other_UP__c,0) 
++NULLVALUE(Exterior_Other_T__c,0) 
++NULLVALUE(Exterior_Other_P__c,0)
++NULLVALUE(Exterior_Other_EL__c,0)
++NULLVALUE(Exterior_Other_None__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(Exterior_Other_UP__c,0) 
++NULLVALUE(Exterior_Other_T__c,0) 
++NULLVALUE(Exterior_Other_P__c,0)
++NULLVALUE(Exterior_Other_EL__c,0)
++NULLVALUE(Exterior_Other_None__c,0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &gt; 0</errorConditionFormula>
         <errorDisplayField>Exterior_Other_None__c</errorDisplayField>
         <errorMessage>Percentage type of Exterior Products  must add up to 100%</errorMessage>
@@ -2054,6 +2447,7 @@ NULLVALUE(Exterior_Other_UP__c,0)
     <validationRules>
         <fullName>Type_of_Interior_Products_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Interior_Other_UP__c,0) 
 +NULLVALUE(Interior_Other_T__c,0) 
 +NULLVALUE(Interior_Other_P__c,0)
@@ -2066,6 +2460,20 @@ NULLVALUE(Interior_Other_UP__c,0)
 +NULLVALUE(Interior_Other_P__c,0)
 +NULLVALUE(Interior_Other_EL__c,0)
 +NULLVALUE(Interior_Other_None__c,0)
+=======
+        <errorConditionFormula>NULLVALUE(Interior_Other_UP__c,0) 
++NULLVALUE(Interior_Other_T__c,0) 
++NULLVALUE(Interior_Other_P__c,0)
++NULLVALUE(Interior_Other_EL__c,0)
++NULLVALUE(Interior_Other_None__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(Interior_Other_UP__c,0) 
++NULLVALUE(Interior_Other_T__c,0) 
++NULLVALUE(Interior_Other_P__c,0)
++NULLVALUE(Interior_Other_EL__c,0)
++NULLVALUE(Interior_Other_None__c,0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>Interior_Other_None__c</errorDisplayField>
         <errorMessage>Percentage Type of Interior must add up to 100%</errorMessage>
@@ -2073,6 +2481,7 @@ NULLVALUE(Interior_Other_UP__c,0)
     <validationRules>
         <fullName>Type_of_Texture_Products_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(Texture_Other_UP__c,0) 
 +NULLVALUE(Texture_Other_T__c,0) 
 +NULLVALUE(Texture_Other_P__c,0)
@@ -2085,6 +2494,20 @@ NULLVALUE(Texture_Other_UP__c,0)
 +NULLVALUE(Texture_Other_P__c,0)
 +NULLVALUE(Texture_Other_EL__c,0)
 +NULLVALUE(Texture_Other_None__c,0)
+=======
+        <errorConditionFormula>NULLVALUE(Texture_Other_UP__c,0) 
++NULLVALUE(Texture_Other_T__c,0) 
++NULLVALUE(Texture_Other_P__c,0)
++NULLVALUE(Texture_Other_EL__c,0)
++NULLVALUE(Texture_Other_None__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(Texture_Other_UP__c,0) 
++NULLVALUE(Texture_Other_T__c,0) 
++NULLVALUE(Texture_Other_P__c,0)
++NULLVALUE(Texture_Other_EL__c,0)
++NULLVALUE(Texture_Other_None__c,0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>Texture_Other_None__c</errorDisplayField>
         <errorMessage>Percentage type of Texture Products  must add up to 100%</errorMessage>
@@ -2092,6 +2515,7 @@ NULLVALUE(Texture_Other_UP__c,0)
     <validationRules>
         <fullName>Type_of_Work_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(W_Split_Commercial_Repaint__c , 0)  
 +NULLVALUE(W_Split_Commercial_Texture__c,0) 
 +NULLVALUE(W_Split_Residential_Repaint__c,0) 
@@ -2108,6 +2532,24 @@ NULLVALUE(W_Split_Commercial_Repaint__c , 0)
 +NULLVALUE(W_Split_Commercial_Paint_New__c, 0)
 +NULLVALUE(W_Split_Residential_Texture__c,0)
 +NULLVALUE(W_Split_New_Residential_Proj_Homes_Paint__c,0)
+=======
+        <errorConditionFormula>NULLVALUE(W_Split_Commercial_Repaint__c , 0)  
++NULLVALUE(W_Split_Commercial_Texture__c,0) 
++NULLVALUE(W_Split_Residential_Repaint__c,0) 
++NULLVALUE(W_Split_Commercial_Texture_New__c,0) 
++NULLVALUE(W_Split_Commercial_Paint_New__c, 0)
++NULLVALUE(W_Split_Residential_Texture__c,0)
++NULLVALUE(W_Split_New_Residential_Proj_Homes_Paint__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(W_Split_Commercial_Repaint__c , 0)  
++NULLVALUE(W_Split_Commercial_Texture__c,0) 
++NULLVALUE(W_Split_Residential_Repaint__c,0) 
++NULLVALUE(W_Split_Commercial_Texture_New__c,0) 
++NULLVALUE(W_Split_Commercial_Paint_New__c, 0)
++NULLVALUE(W_Split_Residential_Texture__c,0)
++NULLVALUE(W_Split_New_Residential_Proj_Homes_Paint__c,0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>W_Split_New_Residential_Proj_Homes_Paint__c</errorDisplayField>
         <errorMessage>Percentage Type of Work  must add up to 100%</errorMessage>
@@ -2115,6 +2557,7 @@ NULLVALUE(W_Split_Commercial_Repaint__c , 0)
     <validationRules>
         <fullName>When_Do_You_Order_Paint_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(O_Time_Same_Day__c,0) 
 +NULLVALUE(O_Time_Day_Before__c,0) 
 +NULLVALUE(O_Time_A_Week_Prior__c,0) 
@@ -2125,6 +2568,18 @@ NULLVALUE(O_Time_Same_Day__c,0)
 +NULLVALUE(O_Time_Day_Before__c,0) 
 +NULLVALUE(O_Time_A_Week_Prior__c,0) 
 +NULLVALUE(O_Time_Other__c,0) 
+=======
+        <errorConditionFormula>NULLVALUE(O_Time_Same_Day__c,0) 
++NULLVALUE(O_Time_Day_Before__c,0) 
++NULLVALUE(O_Time_A_Week_Prior__c,0) 
++NULLVALUE(O_Time_Other__c,0) 
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(O_Time_Same_Day__c,0) 
++NULLVALUE(O_Time_Day_Before__c,0) 
++NULLVALUE(O_Time_A_Week_Prior__c,0) 
++NULLVALUE(O_Time_Other__c,0) 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>O_Time_Other__c</errorDisplayField>
         <errorMessage>Percentage when do you order paint  must add up to 100%</errorMessage>
@@ -2132,6 +2587,7 @@ NULLVALUE(O_Time_Same_Day__c,0)
     <validationRules>
         <fullName>When_Do_You_Pickup_Paint_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(C_Time_6am_7am__c,0) 
 +NULLVALUE(C_Time_7am_8am__c,0) 
 +NULLVALUE(C_Time_3pm_4pm__c,0) 
@@ -2146,6 +2602,22 @@ NULLVALUE(C_Time_6am_7am__c,0)
 +NULLVALUE(C_Time_4pm_5pm__c,0) 
 +NULLVALUE(C_Time_Other__c,0) 
 
+=======
+        <errorConditionFormula>NULLVALUE(C_Time_6am_7am__c,0) 
++NULLVALUE(C_Time_7am_8am__c,0) 
++NULLVALUE(C_Time_3pm_4pm__c,0) 
++NULLVALUE(C_Time_4pm_5pm__c,0) 
++NULLVALUE(C_Time_Other__c,0) 
+
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(C_Time_6am_7am__c,0) 
++NULLVALUE(C_Time_7am_8am__c,0) 
++NULLVALUE(C_Time_3pm_4pm__c,0) 
++NULLVALUE(C_Time_4pm_5pm__c,0) 
++NULLVALUE(C_Time_Other__c,0) 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>C_Time_Other__c</errorDisplayField>
         <errorMessage>Percentage when do you pickup paint  must add up to 100%</errorMessage>
@@ -2153,6 +2625,7 @@ NULLVALUE(C_Time_6am_7am__c,0)
     <validationRules>
         <fullName>Where_do_you_buy_Accessoried_Validation</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>NULLVALUE(B_Accessories_Company_Owned_Stores__c,0) 
 +NULLVALUE(B_Accessories_ITC_Stores__c,0) 
 +NULLVALUE(B_Accessories_Corporate__c,0) 
@@ -2169,6 +2642,24 @@ NULLVALUE(B_Accessories_Company_Owned_Stores__c,0)
 +NULLVALUE(B_Accessories_Inderpendant_Paint__c, 0)
 +NULLVALUE(B_Accessories_Online__c,0)
 +NULLVALUE(B_Accessories_Wholesale__c,0)
+=======
+        <errorConditionFormula>NULLVALUE(B_Accessories_Company_Owned_Stores__c,0) 
++NULLVALUE(B_Accessories_ITC_Stores__c,0) 
++NULLVALUE(B_Accessories_Corporate__c,0) 
++NULLVALUE(B_Accessories_Inderpendant_Hardware__c, 0)
++NULLVALUE(B_Accessories_Inderpendant_Paint__c, 0)
++NULLVALUE(B_Accessories_Online__c,0)
++NULLVALUE(B_Accessories_Wholesale__c,0)
+&lt;&gt;1.0  
+&amp;&amp; 
+NULLVALUE(B_Accessories_Company_Owned_Stores__c,0) 
++NULLVALUE(B_Accessories_ITC_Stores__c,0) 
++NULLVALUE(B_Accessories_Corporate__c,0) 
++NULLVALUE(B_Accessories_Inderpendant_Hardware__c, 0)
++NULLVALUE(B_Accessories_Inderpendant_Paint__c, 0)
++NULLVALUE(B_Accessories_Online__c,0)
++NULLVALUE(B_Accessories_Wholesale__c,0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 &lt;&gt; 0</errorConditionFormula>
         <errorDisplayField>B_Accessories_Wholesale__c</errorDisplayField>
         <errorMessage>Percentage Where you buy Accessories  must add up to 100%</errorMessage>

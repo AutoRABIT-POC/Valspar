@@ -2710,7 +2710,11 @@ Rolling_12_Month_Sales__c /FLOOR( (today() -DATEVALUE(CreatedDate)) / 30.4375)
     </fields>
     <fields>
         <fullName>Rating__c</fullName>
+<<<<<<< HEAD
         <description>This is the default account segmentation. The values are generic to be used across the organization.
+=======
+        <description>This is the default account segmentation. The values are generic to be used across the organization.
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 10/6 Change 521836 GI Service Cloud - now Synced from 11i Ship To - converted to Platinum/Gold/Silver/Bronze</description>
         <externalId>false</externalId>
         <label>Rating</label>

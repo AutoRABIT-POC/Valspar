@@ -787,6 +787,7 @@
     <validationRules>
         <fullName>Fill_Batch_Number_must_be_10_characters</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>OR(
 AND( 
 LEN(Fill_Batch_Number__c)&lt;10, 
@@ -795,12 +796,23 @@ LEN(Fill_Batch_Number__c)&gt;0
 AND(
 LEN(Fill_Batch_Number__c)&gt;10
 )
+=======
+        <errorConditionFormula>OR(
+AND( 
+LEN(Fill_Batch_Number__c)&lt;10, 
+LEN(Fill_Batch_Number__c)&gt;0
+),
+AND(
+LEN(Fill_Batch_Number__c)&gt;10
+)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 )</errorConditionFormula>
         <errorMessage>Fill Batch Number must be 10 characters</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Item_Number_must_be_15_characters</fullName>
         <active>true</active>
+<<<<<<< HEAD
         <errorConditionFormula>OR(
 AND( 
 LEN(Item_Number__c)&lt;15, 
@@ -809,6 +821,16 @@ LEN(Item_Number__c)&gt;0
 AND(
 LEN(Item_Number__c)&gt;15
 )
+=======
+        <errorConditionFormula>OR(
+AND( 
+LEN(Item_Number__c)&lt;15, 
+LEN(Item_Number__c)&gt;0
+),
+AND(
+LEN(Item_Number__c)&gt;15
+)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 )</errorConditionFormula>
         <errorMessage>Item Number must be 15 characters</errorMessage>
     </validationRules>

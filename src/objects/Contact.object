@@ -2075,11 +2075,19 @@ IF ( INCLUDES ( Account.Price_List__c , &quot;Water based&quot; ), &quot;Water b
         <fullName>Account_Name_is_a_Required_Field</fullName>
         <active>true</active>
         <description>Account Name is a Required Field unless Business Unit = Consumer Consumer (AND LAST MODIFIED BY DOES NOT EQUAL API USER)</description>
+<<<<<<< HEAD
         <errorConditionFormula>AND(
 ISBLANK(Account.Name),
 IF(
 NOT(ISPICKVAL(Business_Unit__c, &quot;Consumer Consumer&quot;)),True,False),
 LastModifiedBy.FirstName &lt;&gt; &quot;API&quot; 
+=======
+        <errorConditionFormula>AND(
+ISBLANK(Account.Name),
+IF(
+NOT(ISPICKVAL(Business_Unit__c, &quot;Consumer Consumer&quot;)),True,False),
+LastModifiedBy.FirstName &lt;&gt; &quot;API&quot; 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 )</errorConditionFormula>
         <errorMessage>Account Name is a Required Field unless Business Unit = Consumer Consumer</errorMessage>
     </validationRules>

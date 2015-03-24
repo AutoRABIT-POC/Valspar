@@ -1547,10 +1547,17 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
+<<<<<<< HEAD
         <inlineHelpText>Unqualified = Entity not yet investigated
 Qualified = Investigated &amp; sale possibility exists, waiting on &quot;Convert&quot;
 Closed = Investigated and no possibility
 Nurture = Qualified - future contact required
+=======
+        <inlineHelpText>Unqualified = Entity not yet investigated
+Qualified = Investigated &amp; sale possibility exists, waiting on &quot;Convert&quot;
+Closed = Investigated and no possibility
+Nurture = Qualified - future contact required
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 Closed - Transferred = Sent to External Source</inlineHelpText>
         <picklist>
             <picklistValues>

@@ -7,6 +7,7 @@
     <name>[Send using Workflow] Valspar Customer Service Phone Experience</name>
     <style>formalLetter</style>
     <subject>Please complete this survey: Valspar Customer Service Phone Experience</subject>
+<<<<<<< HEAD
     <textOnly>Dear {!Contact.FirstName}, 
 
 At Valspar, we value our reputation for high quality products, services, and support to our customers. Whether you have a product question or issue, we work to provide you with the correct information to make sure your current and future projects are successful. 
@@ -17,6 +18,18 @@ Sincerely,
 
 The Valspar Team 
 
+=======
+    <textOnly>Dear {!Contact.FirstName}, 
+
+At Valspar, we value our reputation for high quality products, services, and support to our customers. Whether you have a product question or issue, we work to provide you with the correct information to make sure your current and future projects are successful. 
+
+Please take this brief survey to help us better serve your needs in the future. You demand and deserve not only the best products to protect and beautify your home, but also the best in service. Valspar’s tagline states, “If it matters, we’re on it.®” In Customer Service, we believe that you matter. 
+
+Sincerely, 
+
+The Valspar Team 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 Please complete this survey at:&lt;br/&gt;{!IF(Contact.Id != null,IF(Case.Id != null,&apos;http://valspar.force.com/timbasurveys__survey?id=a1QE0000000ABxOMAW&amp;cId=&apos;+Contact.Id+&apos;&amp;case_id=&apos;+Case.Id+&apos;&amp;wf=yes&apos;,&apos;http://valspar.force.com/timbasurveys__survey?id=a1QE0000000ABxOMAW&amp;cId=&apos;+Contact.Id+&apos;&amp;wf=yes&apos;),&apos;&apos;)}</textOnly>
     <type>html</type>
 </EmailTemplate>

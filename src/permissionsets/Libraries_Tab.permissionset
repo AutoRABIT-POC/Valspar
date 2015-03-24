@@ -232,7 +232,11 @@
         <apexClass>updatAccountOwnerBLogic</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+<<<<<<< HEAD
     <description>Allows Access to libraries
+=======
+    <description>Allows Access to libraries
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 NOTE:  Users in this permission set must be added one by one to the specific libraries they need access to by the Library Administrator</description>
     <fieldPermissions>
         <editable>false</editable>

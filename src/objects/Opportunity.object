@@ -429,8 +429,13 @@ closed in the previous fiscal year.</inlineHelpText>
     </fields>
     <fields>
         <fullName>CloseDate</fullName>
+<<<<<<< HEAD
         <inlineHelpText>Enter the date on which the Opportunity is projected to be Closed/Won. 
 
+=======
+        <inlineHelpText>Enter the date on which the Opportunity is projected to be Closed/Won. 
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 This Opportunity Close Date is used to calculate Prior, Current and Next FY Revenue fields and define when the revenue associated to that Opportunity should be added to Pipeline.</inlineHelpText>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -456,10 +461,17 @@ Fiscal_Period__r.Fiscal_Year__r.Global_End_Date__c)
     <fields>
         <fullName>Close_Year_Revenue__c</fullName>
         <externalId>false</externalId>
+<<<<<<< HEAD
         <formula>Annual_Probability_Based_Revenue__c  * (
              if (TEXT(Global_Region__c) = &quot;North America&quot;,
                           Fiscal_Period__r.Fiscal_Year__r.North_America_End_Date__c,
                           Fiscal_Period__r.Fiscal_Year__r.Global_End_Date__c)
+=======
+        <formula>Annual_Probability_Based_Revenue__c  * (
+             if (TEXT(Global_Region__c) = &quot;North America&quot;,
+                          Fiscal_Period__r.Fiscal_Year__r.North_America_End_Date__c,
+                          Fiscal_Period__r.Fiscal_Year__r.Global_End_Date__c)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 - CloseDate) / 365</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Close Year Revenue</label>
@@ -473,9 +485,15 @@ Fiscal_Period__r.Fiscal_Year__r.Global_End_Date__c)
     <fields>
         <fullName>Closed_In_Current_FY__c</fullName>
         <externalId>false</externalId>
+<<<<<<< HEAD
         <formula>if (TEXT(Global_Region__c)  = &quot;North America&quot;,
                 if (Fiscal_Period__r.Fiscal_Year__r.North_America_Start_Date__c &lt;=  TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.North_America_End_Date__c, 1, 0),
                 if (Fiscal_Period__r.Fiscal_Year__r.Global_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Global_End_Date__c, 1, 0)
+=======
+        <formula>if (TEXT(Global_Region__c)  = &quot;North America&quot;,
+                if (Fiscal_Period__r.Fiscal_Year__r.North_America_Start_Date__c &lt;=  TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.North_America_End_Date__c, 1, 0),
+                if (Fiscal_Period__r.Fiscal_Year__r.Global_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Global_End_Date__c, 1, 0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Closed In Current FY</label>
@@ -490,9 +508,15 @@ Fiscal_Period__r.Fiscal_Year__r.Global_End_Date__c)
     <fields>
         <fullName>Closed_In_Next_FY__c</fullName>
         <externalId>false</externalId>
+<<<<<<< HEAD
         <formula>if (TEXT(Global_Region__c)  = &quot;North America&quot;,
                 if (Fiscal_Period__r.Fiscal_Year__r.Prior_Fiscal_Year__r.North_America_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Prior_Fiscal_Year__r.North_America_End_Date__c, 1, 0),
                 if (Fiscal_Period__r.Fiscal_Year__r.Prior_Fiscal_Year__r.Global_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Prior_Fiscal_Year__r.Global_End_Date__c, 1, 0)
+=======
+        <formula>if (TEXT(Global_Region__c)  = &quot;North America&quot;,
+                if (Fiscal_Period__r.Fiscal_Year__r.Prior_Fiscal_Year__r.North_America_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Prior_Fiscal_Year__r.North_America_End_Date__c, 1, 0),
+                if (Fiscal_Period__r.Fiscal_Year__r.Prior_Fiscal_Year__r.Global_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Prior_Fiscal_Year__r.Global_End_Date__c, 1, 0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Closed In Next FY</label>
@@ -507,9 +531,15 @@ Fiscal_Period__r.Fiscal_Year__r.Global_End_Date__c)
     <fields>
         <fullName>Closed_In_Prior_FY__c</fullName>
         <externalId>false</externalId>
+<<<<<<< HEAD
         <formula>if (TEXT(Global_Region__c)  = &quot;North America&quot;,
                 if (Fiscal_Period__r.Fiscal_Year__r.Next_Fiscal_Year__r.North_America_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Next_Fiscal_Year__r.North_America_End_Date__c, 1, 0),
                 if (Fiscal_Period__r.Fiscal_Year__r.Next_Fiscal_Year__r.Global_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Next_Fiscal_Year__r.Global_End_Date__c, 1, 0)
+=======
+        <formula>if (TEXT(Global_Region__c)  = &quot;North America&quot;,
+                if (Fiscal_Period__r.Fiscal_Year__r.Next_Fiscal_Year__r.North_America_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Next_Fiscal_Year__r.North_America_End_Date__c, 1, 0),
+                if (Fiscal_Period__r.Fiscal_Year__r.Next_Fiscal_Year__r.Global_Start_Date__c &lt;= TODAY() &amp;&amp; TODAY() &lt;= Fiscal_Period__r.Fiscal_Year__r.Next_Fiscal_Year__r.Global_End_Date__c, 1, 0)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Closed In Prior FY</label>
@@ -2355,12 +2385,21 @@ the prior fiscal year, then 0.</inlineHelpText>
     </fields>
     <fields>
         <fullName>Probability</fullName>
+<<<<<<< HEAD
         <inlineHelpText>Select Stage to define Probability
 Qualified 10%
 Develop 30% 
 Validate 50%
 Business Proposal 70%
 Closed/Won 100%
+=======
+        <inlineHelpText>Select Stage to define Probability
+Qualified 10%
+Develop 30% 
+Validate 50%
+Business Proposal 70%
+Closed/Won 100%
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 Closed/Lost 0%</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3108,12 +3147,21 @@ Closed/Lost 0%</inlineHelpText>
     </fields>
     <fields>
         <fullName>StageName</fullName>
+<<<<<<< HEAD
         <inlineHelpText>Select Stage:
 Qualified - lead qualified/assigned 
 Develop - establish product, including submission of LWR
 Validate - secure approval 
 Business Proposal - establish quote
 Closed/Won - Proposal accepted/won 
+=======
+        <inlineHelpText>Select Stage:
+Qualified - lead qualified/assigned 
+Develop - establish product, including submission of LWR
+Validate - secure approval 
+Business Proposal - establish quote
+Closed/Won - Proposal accepted/won 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 Closed/Lost - Proposal rejected</inlineHelpText>
         <picklist>
             <picklistValues>
@@ -6616,10 +6664,17 @@ End Date – Close Date) / 365 * Probability.</inlineHelpText>
         <fullName>Opportunity_Develop_Stage</fullName>
         <active>true</active>
         <description>The approved by field must be populated before the user can move the opportunity to the Develop sales stage.</description>
+<<<<<<< HEAD
         <errorConditionFormula>AND (
 ISPICKVAL(StageName, &quot;Develop&quot;),
 ISBLANK(Approved_By__c),
 (ISPICKVAL( Business_Unit__c , &quot;Packaging&quot;) || ISPICKVAL( Business_Unit__c , &quot;General Industrial&quot;) || ISPICKVAL( Business_Unit__c , &quot;Wood&quot;))
+=======
+        <errorConditionFormula>AND (
+ISPICKVAL(StageName, &quot;Develop&quot;),
+ISBLANK(Approved_By__c),
+(ISPICKVAL( Business_Unit__c , &quot;Packaging&quot;) || ISPICKVAL( Business_Unit__c , &quot;General Industrial&quot;) || ISPICKVAL( Business_Unit__c , &quot;Wood&quot;))
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 )</errorConditionFormula>
         <errorMessage>The Develop sales stage requires the Approved By field to be populated.</errorMessage>
     </validationRules>
@@ -6627,9 +6682,15 @@ ISBLANK(Approved_By__c),
         <fullName>Reason_Won_Lost_Required</fullName>
         <active>true</active>
         <description>The Reason Won/Lost field is required if the Stage = Closed Won or Closed Lost</description>
+<<<<<<< HEAD
         <errorConditionFormula>AND( ISPICKVAL(StageName, &quot;Closed/Won&quot;), 
 OR (ISPICKVAL(StageName, &quot;Closed/Lost&quot;),
 ISPICKVAL(Reason_Won_Lost__c, &quot;True&quot;)
+=======
+        <errorConditionFormula>AND( ISPICKVAL(StageName, &quot;Closed/Won&quot;), 
+OR (ISPICKVAL(StageName, &quot;Closed/Lost&quot;),
+ISPICKVAL(Reason_Won_Lost__c, &quot;True&quot;)
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 ))</errorConditionFormula>
         <errorMessage>The Reason Won Lost Field is Required when Stage = Closed/Won or Closed/Lost</errorMessage>
     </validationRules>

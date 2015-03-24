@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 {!Contact.OwnerFullName}
 
 The following Opportunity Owner:{!Opportunity.OwnerFullName}
 has an opportunity that requires your review.
 
 Access the Opportunity by clicking here: 
+=======
+{!Contact.OwnerFullName}
+
+The following Opportunity Owner:{!Opportunity.OwnerFullName}
+has an opportunity that requires your review.
+
+Access the Opportunity by clicking here: 
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 {!Opportunity.Link}

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 {!User.FirstName} {!User.LastName} has an opportunity that requires approval. Please click the following link to view and approve:
 
+=======
+{!User.FirstName} {!User.LastName} has an opportunity that requires approval. Please click the following link to view and approve:
+
+>>>>>>> 1af445f943ffac1ac665dc9a25b420c4aa0d53a2
 {!Opportunity.Link}
