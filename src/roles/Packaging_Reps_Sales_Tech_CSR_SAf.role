@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Role xmlns="http://soap.sforce.com/2006/04/metadata">
-    <caseAccessLevel>None</caseAccessLevel>
-    <contactAccessLevel>Edit</contactAccessLevel>
-    <mayForecastManagerShare>false</mayForecastManagerShare>
-    <name>Packaging Reps: Sales/Tech/CSR_SAf</name>
-    <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>Packaging_Executives_and_Managers_SAf</parentRole>
-</Role>

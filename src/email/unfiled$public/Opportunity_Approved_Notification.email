@@ -1,3 +1,0 @@
-Your Approval request {!Opportunity.Name} has been Accepted. Please access the opportunity to update it at the following URL:<br/><br/>
-
-{!Opportunity.Link}

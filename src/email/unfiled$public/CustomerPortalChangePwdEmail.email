@@ -1,6 +1,0 @@
-Dear {!Contact.FirstName},
-
-Your new temporary password can be found below. Please contact your event support staff with any further questions.
-
-Thank you,
-{!Organization.Name} Event Support Staff

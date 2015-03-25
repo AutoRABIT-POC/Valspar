@@ -1,7 +1,0 @@
-{!Contact.OwnerFullName}
-
-The following Opportunity Owner:{!Opportunity.OwnerFullName}
-has an opportunity that requires your review.
-
-Access the Opportunity by clicking here: 
-{!Opportunity.Link}
