@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Action_Taken__c</fullName>
+        <description>The action that was taken to communicate the release feature to the users, to enable the pilot, etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The action that was taken to communicate the release feature to the users, to enable the pilot, etc.</inlineHelpText>
+        <label>Action Taken</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>SFDC_Major_Release__c</columns>
+        <columns>Application__c</columns>
+        <columns>Area__c</columns>
+        <columns>Sub_Area__c</columns>
+        <columns>NAME</columns>
+        <columns>Release_Feature_Name__c</columns>
+        <columns>Release_Feature_URL__c</columns>
+        <columns>Auto_Visible_All_Admins_No_Setup__c</columns>
+        <columns>Auto_Visible_All_Users_No_Setup__c</columns>
+        <columns>Contact_SFDC_to_Enable__c</columns>
+        <columns>Auto_Visible__c</columns>
+        <columns>Reviewed__c</columns>
+        <columns>Reviewed_By_Name__c</columns>
+        <columns>Reviewed_Date__c</columns>
+        <columns>Action_Taken__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+</CustomObject>
