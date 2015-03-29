@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>SFDC_Release</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -18,6 +23,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SF_Major_Release__c.NA09_Production_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Major_Release__c.NA10_Production_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SF_Major_Release__c.Release_Notes__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -26,12 +41,85 @@
         <field>SF_Release_Feature__c.Action_Taken__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Application__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Auto_Visible_All_Admins_No_Setup__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Auto_Visible_All_Users_No_Setup__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Auto_Visible__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Contact_SFDC_to_Enable__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Release_Feature_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Reviewed_By_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Reviewed_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Reviewed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SF_Release_Feature__c.Sub_Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>SF_Major_Release__c-SFDC Feature Release Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SF_Release_Feature__c-SFDC Feature Release Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>SF_Major_Release__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>SF_Release_Feature__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

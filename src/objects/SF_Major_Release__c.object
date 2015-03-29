@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Includes feature release details for the Salesforce scheduled releases.  Begins with the Summer &apos;14 release.  Created 3/28/2015 NARMIN</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>Certification_Available_Date__c</fullName>
         <description>The date that the release certification test is available.</description>
@@ -31,6 +85,26 @@
         <type>Url</type>
     </fields>
     <fields>
+        <fullName>NA09_Production_Date__c</fullName>
+        <description>Date that the release was scheduled to go live in the Valspar North American org.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date that the release was scheduled to go live in the Valspar North American org.</inlineHelpText>
+        <label>NA09 Production Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>NA10_Production_Date__c</fullName>
+        <description>Date that the release was scheduled to go live in the Valspar Guardsman org.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date that the release was scheduled to go live in the Valspar Guardsman org.</inlineHelpText>
+        <label>NA10 Production Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Release_Notes__c</fullName>
         <description>Location of the release notes for the specific Salesforce release.</description>
         <externalId>false</externalId>
@@ -40,4 +114,12 @@
         <trackTrending>false</trackTrending>
         <type>Url</type>
     </fields>
+    <label>SF Major Release</label>
+    <nameField>
+        <label>Major Release Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>SF Major Releases</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
