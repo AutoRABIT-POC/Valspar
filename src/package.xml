@@ -1,41 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>SFDC_Release</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>SF_Major_Release__c.Certification_Available_Date__c</members>
-        <members>SF_Major_Release__c.Certification_Deadline_Date__c</members>
-        <members>SF_Major_Release__c.Certification_Training__c</members>
-        <members>SF_Major_Release__c.NA09_Production_Date__c</members>
-        <members>SF_Major_Release__c.NA10_Production_Date__c</members>
-        <members>SF_Major_Release__c.Release_Notes__c</members>
-        <members>SF_Release_Feature__c.Action_Taken__c</members>
-        <members>SF_Release_Feature__c.Application__c</members>
-        <members>SF_Release_Feature__c.Area__c</members>
-        <members>SF_Release_Feature__c.Auto_Visible_All_Admins_No_Setup__c</members>
-        <members>SF_Release_Feature__c.Auto_Visible_All_Users_No_Setup__c</members>
-        <members>SF_Release_Feature__c.Auto_Visible__c</members>
-        <members>SF_Release_Feature__c.Contact_SFDC_to_Enable__c</members>
-        <members>SF_Release_Feature__c.Release_Feature_Name__c</members>
-        <members>SF_Release_Feature__c.Release_Feature_URL__c</members>
-        <members>SF_Release_Feature__c.Reviewed_By_Name__c</members>
-        <members>SF_Release_Feature__c.Reviewed_Date__c</members>
-        <members>SF_Release_Feature__c.Reviewed__c</members>
-        <members>SF_Release_Feature__c.SFDC_Major_Release__c</members>
-        <members>SF_Release_Feature__c.Sub_Area__c</members>
+        <members>SF_Major_Release__c.Source_SF_Major_Release_Id__c</members>
+        <members>SF_Release_Feature__c.Source_SF_Release_Feature_Id__c</members>
         <name>CustomField</name>
-    </types>
-    <types>
-        <members>SF_Major_Release__c</members>
-        <members>SF_Release_Feature__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>SF_Major_Release__c</members>
-        <members>SF_Release_Feature__c</members>
-        <name>CustomTab</name>
     </types>
     <types>
         <members>SF_Major_Release__c-SFDC Feature Release Layout</members>
@@ -43,75 +11,8 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>SF_Release_Feature__c.All</members>
-        <name>ListView</name>
-    </types>
-    <types>
         <members>API USER</members>
         <members>Admin</members>
-        <members>Authenticated Website</members>
-        <members>Auto Sales Managers and Marketing Team</members>
-        <members>Auto Sales Rep</members>
-        <members>Chatter Only User</members>
-        <members>Coil Asia Sales Managers and Marketing Team</members>
-        <members>Coil Asia Sales Rep</members>
-        <members>Coil Sales Managers and Marketing Team</members>
-        <members>Coil Sales Rep</members>
-        <members>Coil Technical Sales Rep</members>
-        <members>Construction Points Sys Admin</members>
-        <members>Consumer Ace Sales Managers and Marketing</members>
-        <members>Consumer Ace Sales Rep</members>
-        <members>Consumer Aerosol Sales Managers and Marketing Team</members>
-        <members>Consumer Aerosol Sales Rep</members>
-        <members>Consumer B%26Q Sales Managers and Marketing</members>
-        <members>Consumer B%26Q Sales Rep</members>
-        <members>Consumer Brands Sales Managers and Marketing Team</members>
-        <members>Consumer Brands Sales Rep</members>
-        <members>Consumer Contact Center Agent</members>
-        <members>Consumer Contact Center Agent EU</members>
-        <members>Consumer Contact Center Manager</members>
-        <members>Consumer Contact Center Manager EU</members>
-        <members>Consumer Contact Center Stakeholder</members>
-        <members>Consumer Lowes PSR</members>
-        <members>Consumer Lowes Sales Managers and Marketing</members>
-        <members>Consumer Lowes TM</members>
-        <members>Consumer Masters Sales Managers and Marketing</members>
-        <members>Consumer Masters Sales Rep</members>
-        <members>Consumer Paint Drop Sales Managers and Marketing Team</members>
-        <members>Consumer Paint Drop Sales Rep</members>
-        <members>Consumer Quality Team</members>
-        <members>Consumer Wattyl AUS Sales Managers and Marketing Team</members>
-        <members>Consumer Wattyl AUS Sales Rep</members>
-        <members>Consumer Wattyl NZ Sales Managers and Marketing Team</members>
-        <members>Consumer Wattyl NZ Sales Rep</members>
-        <members>ContractManager</members>
-        <members>Corporate Executive</members>
-        <members>Corporate IT Team</members>
-        <members>EPS Sales Managers and Marketing Team</members>
-        <members>EPS Sales Rep</members>
-        <members>Eventforce Attendee - Authenticated Sites</members>
-        <members>External Knowledge Viewer</members>
-        <members>GI Customer Service</members>
-        <members>GI Read Only</members>
-        <members>GI Regional Managers</members>
-        <members>GI Sales Managers and Marketing Team</members>
-        <members>GI Sales Rep</members>
-        <members>GI Shipping</members>
-        <members>GI Technical Sales Rep</members>
-        <members>GI%2FWood Executives</members>
-        <members>Gold Partner User</members>
-        <members>MarketingProfile</members>
-        <members>Packaging Sales Managers and Marketing Team</members>
-        <members>Packaging Sales Rep</members>
-        <members>Packaging Sales Rep - Restricted</members>
-        <members>Packaging Tech Sales Rep</members>
-        <members>ReadOnly</members>
-        <members>SolutionManager</members>
-        <members>Standard</members>
-        <members>StandardAul</members>
-        <members>Wood Sales Managers and Marketing Team</members>
-        <members>Wood Sales Rep</members>
-        <members>Wood Technical Sales Rep</members>
         <name>Profile</name>
     </types>
     <version>32.0</version>

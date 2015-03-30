@@ -41,6 +41,10 @@
                 <behavior>Edit</behavior>
                 <field>Action_Taken__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Source_SF_Release_Feature_Id__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
