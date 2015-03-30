@@ -56,7 +56,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>Action_Taken__c</fullName>
-        <description>The action that was taken to communicate the release feature to the users, to enable the pilot, etc.</description>
+        <description>The action that was taken to communicate the release feature to the users, to enable the pilot, etc.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>The action that was taken to communicate the release feature to the users, to enable the pilot, etc.</inlineHelpText>
         <label>Action Taken</label>
@@ -68,7 +68,7 @@
     </fields>
     <fields>
         <fullName>Application__c</fullName>
-        <description>LEVEL1:  Application the release feature resides in.</description>
+        <description>LEVEL1:  Application the release feature resides in.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>LEVEL1:  Application the release feature resides in.</inlineHelpText>
         <label>Application</label>
@@ -133,7 +133,7 @@
                 <fullName>Work.com</fullName>
                 <default>false</default>
             </picklistValues>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
         </picklist>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -141,7 +141,7 @@
     </fields>
     <fields>
         <fullName>Area__c</fullName>
-        <description>Sub Level 1:  Area within the application that the release feature resides in.</description>
+        <description>Sub Level 1:  Area within the application that the release feature resides in.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Sub Level 1:  Area within the application that the release feature resides in.</inlineHelpText>
         <label>Area</label>
@@ -638,7 +638,7 @@
                 <fullName>Work.com</fullName>
                 <default>false</default>
             </picklistValues>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
         </picklist>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -646,7 +646,7 @@
     </fields>
     <fields>
         <fullName>Auto_Visible_All_Admins_No_Setup__c</fullName>
-        <description>If the release feature is &quot;Automatically visible to all administrators.  No setup required.&quot;, then this is Yes, otherwise it is No.</description>
+        <description>If the release feature is &quot;Automatically visible to all administrators.  No setup required.&quot;, then this is Yes, otherwise it is No.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>If the release feature is &quot;Automatically visible to all administrators.  No setup required.&quot;, then this is Yes, otherwise it is No.</inlineHelpText>
         <label>Auto Visible All Admins-No Setup</label>
@@ -667,7 +667,7 @@
     </fields>
     <fields>
         <fullName>Auto_Visible_All_Users_No_Setup__c</fullName>
-        <description>If the release feature is &quot;Automatically visible to all users.  No setup required.&quot;, then this is Yes, otherwise it is No.</description>
+        <description>If the release feature is &quot;Automatically visible to all users.  No setup required.&quot;, then this is Yes, otherwise it is No.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>If the release feature is &quot;Automatically visible to all users.  No setup required.&quot;, then this is Yes, otherwise it is No.</inlineHelpText>
         <label>Auto Visible All Users-No Setup</label>
@@ -688,7 +688,7 @@
     </fields>
     <fields>
         <fullName>Auto_Visible__c</fullName>
-        <description>If the release feature is &quot;Not automatically visible.  Feature is available but requires some setup.&quot;, then this is Yes, otherwise it is No.</description>
+        <description>If the release feature is &quot;Not automatically visible.  Feature is available but requires some setup.&quot;, then this is Yes, otherwise it is No.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>If the release feature is &quot;Not automatically visible.  Feature is available but requires some setup.&quot;, then this is Yes, otherwise it is No.</inlineHelpText>
         <label>Not Auto Visible-Avail-Needs Setup</label>
@@ -705,7 +705,7 @@
     </fields>
     <fields>
         <fullName>Contact_SFDC_to_Enable__c</fullName>
-        <description>If the release feature is &quot;Contact salesforce.com to enable this feature.&quot;, then this is Yes, otherwise it is No.</description>
+        <description>If the release feature is &quot;Contact salesforce.com to enable this feature.&quot;, then this is Yes, otherwise it is No.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>If the release feature is &quot;Contact salesforce.com to enable this feature.&quot;, then this is Yes, otherwise it is No.</inlineHelpText>
         <label>Contact SFDC to Enable</label>
@@ -726,7 +726,7 @@
     </fields>
     <fields>
         <fullName>Release_Feature_Name__c</fullName>
-        <description>The release feature that is included in the SFDC major release.</description>
+        <description>The release feature that is included in the SFDC major release.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>The release feature that is included in the SFDC major release.</inlineHelpText>
         <label>Release Feature Name</label>
@@ -739,7 +739,7 @@
     </fields>
     <fields>
         <fullName>Release_Feature_URL__c</fullName>
-        <description>The hyperlink to more information regarding the Release Feature.</description>
+        <description>The hyperlink to more information regarding the Release Feature.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>The hyperlink to more information regarding the Release Feature.</inlineHelpText>
         <label>Release Feature URL</label>
@@ -750,7 +750,7 @@
     </fields>
     <fields>
         <fullName>Reviewed_By_Name__c</fullName>
-        <description>Name of the person who reviewed the release feature.</description>
+        <description>Name of the person who reviewed the release feature.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Name of the person who reviewed the release feature.</inlineHelpText>
         <label>Reviewed By Name</label>
@@ -807,7 +807,7 @@
                 <fullName>Zijian You</fullName>
                 <default>false</default>
             </picklistValues>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
         </picklist>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -815,7 +815,7 @@
     </fields>
     <fields>
         <fullName>Reviewed_Date__c</fullName>
-        <description>Date the release feature was reviewed.</description>
+        <description>Date the release feature was reviewed.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Date the release feature was reviewed.</inlineHelpText>
         <label>Reviewed Date</label>
@@ -826,7 +826,7 @@
     </fields>
     <fields>
         <fullName>Reviewed__c</fullName>
-        <description>Has the release feature been reviewed?</description>
+        <description>Has the release feature been reviewed?  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Has the release feature been reviewed?</inlineHelpText>
         <label>Reviewed?</label>
@@ -847,11 +847,12 @@
     </fields>
     <fields>
         <fullName>SFDC_Major_Release__c</fullName>
-        <description>Identifies the Major Releases that are pushed out to customers three times per year by Salesforce.</description>
+        <description>Identifies the Major Releases that are pushed out to customers three times per year by Salesforce.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Identifies the Major Releases that are pushed out to customers three times per year by Salesforce.</inlineHelpText>
         <label>SFDC Major Release</label>
         <referenceTo>SF_Major_Release__c</referenceTo>
+        <relationshipLabel>SF Release Features</relationshipLabel>
         <relationshipName>SFDC_Feature_Releases</relationshipName>
         <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
@@ -862,7 +863,7 @@
     </fields>
     <fields>
         <fullName>Sub_Area__c</fullName>
-        <description>Sub Level 2:  Sub area of the area and application that the release feature resides in.</description>
+        <description>Sub Level 2:  Sub area of the area and application that the release feature resides in.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Sub Level 2:  Sub area of the area and application that the release feature resides in.</inlineHelpText>
         <label>Sub Area</label>
@@ -1427,7 +1428,7 @@
                 <fullName>Workflow</fullName>
                 <default>false</default>
             </picklistValues>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
         </picklist>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -1462,6 +1463,50 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>SF Release Features</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>SFDC_Major_Release__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Application__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Area__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Sub_Area__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Release_Feature_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Release_Feature_URL__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Reviewed__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Reviewed_By_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Reviewed_Date__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>SFDC_Major_Release__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Application__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Area__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Sub_Area__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Release_Feature_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Release_Feature_URL__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Reviewed__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Reviewed_By_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Reviewed_Date__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SFDC_Major_Release__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Application__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Area__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Sub_Area__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Release_Feature_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Release_Feature_URL__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Reviewed__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Reviewed_By_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Reviewed_Date__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>SFDC_Major_Release__c</searchFilterFields>
+        <searchFilterFields>Application__c</searchFilterFields>
+        <searchFilterFields>Area__c</searchFilterFields>
+        <searchFilterFields>Sub_Area__c</searchFilterFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Release_Feature_Name__c</searchFilterFields>
+        <searchFilterFields>Release_Feature_URL__c</searchFilterFields>
+        <searchResultsAdditionalFields>SFDC_Major_Release__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Application__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Area__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sub_Area__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Release_Feature_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Release_Feature_URL__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Reviewed__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Reviewed_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Reviewed_By_Name__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

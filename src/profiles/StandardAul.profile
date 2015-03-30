@@ -102,6 +102,14 @@
     <layoutAssignments>
         <layout>SF_Release_Feature__c-SFDC Feature Release Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>SF_Major_Release__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SF_Release_Feature__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce Platform</userLicense>
     <userPermissions>
         <enabled>true</enabled>

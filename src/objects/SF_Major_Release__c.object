@@ -58,7 +58,7 @@
         <fullName>Certification_Available_Date__c</fullName>
         <description>The date that the release certification test is available.</description>
         <externalId>false</externalId>
-        <inlineHelpText>The date that the release certification test is available.</inlineHelpText>
+        <inlineHelpText>The date that the release certification test is available. 03302015</inlineHelpText>
         <label>Certification Available Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -66,7 +66,7 @@
     </fields>
     <fields>
         <fullName>Certification_Deadline_Date__c</fullName>
-        <description>The date that the release certification test must be completed by.</description>
+        <description>The date that the release certification test must be completed by.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>The date that the release certification test must be completed by.</inlineHelpText>
         <label>Certification Deadline Date</label>
@@ -76,7 +76,7 @@
     </fields>
     <fields>
         <fullName>Certification_Training__c</fullName>
-        <description>The certification training link for the specific Salesforce release.</description>
+        <description>The certification training link for the specific Salesforce release.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>The certification training link for the specific Salesforce release.</inlineHelpText>
         <label>Certification Training</label>
@@ -86,7 +86,7 @@
     </fields>
     <fields>
         <fullName>NA09_Production_Date__c</fullName>
-        <description>Date that the release was scheduled to go live in the Valspar North American org.</description>
+        <description>Date that the release was scheduled to go live in the Valspar North American org.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Date that the release was scheduled to go live in the Valspar North American org.</inlineHelpText>
         <label>NA09 Production Date</label>
@@ -96,7 +96,7 @@
     </fields>
     <fields>
         <fullName>NA10_Production_Date__c</fullName>
-        <description>Date that the release was scheduled to go live in the Valspar Guardsman org.</description>
+        <description>Date that the release was scheduled to go live in the Valspar Guardsman org.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Date that the release was scheduled to go live in the Valspar Guardsman org.</inlineHelpText>
         <label>NA10 Production Date</label>
@@ -106,7 +106,7 @@
     </fields>
     <fields>
         <fullName>Release_Notes__c</fullName>
-        <description>Location of the release notes for the specific Salesforce release.</description>
+        <description>Location of the release notes for the specific Salesforce release.  03302015</description>
         <externalId>false</externalId>
         <inlineHelpText>Location of the release notes for the specific Salesforce release.</inlineHelpText>
         <label>Release Notes</label>
@@ -120,6 +120,29 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>SF Major Releases</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>NA09_Production_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NA10_Production_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Certification_Training__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Certification_Available_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Certification_Deadline_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LAST_UPDATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>UPDATEDBY_USER.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NA09_Production_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NA10_Production_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Certification_Training__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Certification_Available_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Certification_Deadline_Date__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>UPDATEDBY_USER.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchResultsAdditionalFields>NA09_Production_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>NA10_Production_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Certification_Training__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Certification_Available_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Certification_Deadline_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UPDATEDBY_USER.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
